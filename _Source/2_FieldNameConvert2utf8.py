@@ -23,14 +23,14 @@ with open('language.json', 'r', encoding="utf-8") as f:
     except Exception as e:
         print(e)
     f.close()
-# -- 依據  中文(FieldName)，查詢其 越南文 (language.json from TABLE LANGUAGE)
-def Get_NameVietnam(chinese_string):
+# -- 依據中文 FieldName，查詢其英文欄位名稱 (language.json from TABLE LANGUAGE)
+def Get_NameEnglish(chinese_string):
     s = str(chinese_string).strip()
 
     for item in _LANG_JSON:
         if item.get('CHT') == s:
-            if (item.get('VIET') != None):
-                return item.get('VIET')
+            if (item.get('ENG') != None):
+                return item.get('ENG')
     return s
 
 # -- 因爲這些 Table Name 的 欄位名稱和 Description 都是亂碼
@@ -53,11 +53,11 @@ for item in _TableStructure:
 
             _TableStructure[i]['FieldName'] = _FieldName_utf8
             _TableStructure[i]['Description'] = _Description_utf8
-            _TableStructure[i]['NameVietnam'] = Get_NameVietnam(_FieldName_utf8)
+            _TableStructure[i]['NameEnglish'] = Get_NameEnglish(_FieldName_utf8)
             
-            # -- 如果找到的 NameVietnam 等於 FieldName (都是中文)，NameVietnam = ''
-            if _TableStructure[i]['NameVietnam'] == _TableStructure[i]['FieldName']:
-                _TableStructure[i]['NameVietnam'] = ''
+            # -- 如果找到的 NameEnglish 等於 FieldName (都是中文)，NameEnglish = ''
+            if _TableStructure[i]['NameEnglish'] == _TableStructure[i]['FieldName']:
+                _TableStructure[i]['NameEnglish'] = ''
 
             break
 

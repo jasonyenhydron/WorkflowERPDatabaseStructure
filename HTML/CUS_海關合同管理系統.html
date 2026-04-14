@@ -14,7 +14,7 @@
    <summary><samp>CUSMA</samp> : 合同品號類別資料檔</summary>
    <content>
 
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>IndexName</th>
@@ -30,12 +30,12 @@
     </tr>
   </tbody>
 </table>
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>ID</th>
       <th>FieldName</th>
-      <th>NameVietnam</th>
+      <th>NameEnglish</th>
       <th>Type</th>
       <th>Length</th>
       <th>Description</th>
@@ -45,7 +45,7 @@
     <tr>
       <td>MA001</td>
       <td>合同品號類別代號</td>
-      <td>MS loại MSVP hợp đồng</td>
+      <td>合同品號類別代號</td>
       <td>C</td>
       <td>6.0</td>
       <td></td>
@@ -53,7 +53,7 @@
     <tr>
       <td>MA002</td>
       <td>合同品號類別名稱</td>
-      <td>Tên loại MSVP hợp đồng</td>
+      <td>合同品號類別名稱</td>
       <td>V</td>
       <td>40.0</td>
       <td></td>
@@ -61,7 +61,7 @@
     <tr>
       <td>MA003</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -69,7 +69,7 @@
     <tr>
       <td>MA004</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>15.6</td>
       <td></td>
@@ -77,7 +77,7 @@
     <tr>
       <td>MA005</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -85,7 +85,7 @@
     <tr>
       <td>MA006</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>30.0</td>
       <td></td>
@@ -93,7 +93,7 @@
     <tr>
       <td>MA007</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>60.0</td>
       <td></td>
@@ -108,7 +108,7 @@
    <summary><samp>CUSMB</samp> : 合同品號資訊檔</summary>
    <content>
 
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>IndexName</th>
@@ -129,12 +129,12 @@
     </tr>
   </tbody>
 </table>
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>ID</th>
       <th>FieldName</th>
-      <th>NameVietnam</th>
+      <th>NameEnglish</th>
       <th>Type</th>
       <th>Length</th>
       <th>Description</th>
@@ -144,7 +144,7 @@
     <tr>
       <td>MB001</td>
       <td>合同品號</td>
-      <td></td>
+      <td>合同品號</td>
       <td>C</td>
       <td>40.0</td>
       <td></td>
@@ -152,7 +152,7 @@
     <tr>
       <td>MB002</td>
       <td>品名</td>
-      <td>Tên SP</td>
+      <td>品名</td>
       <td>V</td>
       <td>120.0</td>
       <td></td>
@@ -160,7 +160,7 @@
     <tr>
       <td>MB003</td>
       <td>規格</td>
-      <td>Quy cách</td>
+      <td>規格</td>
       <td>V</td>
       <td>120.0</td>
       <td></td>
@@ -168,7 +168,7 @@
     <tr>
       <td>MB004</td>
       <td>單位</td>
-      <td>ĐV</td>
+      <td>單位</td>
       <td>V</td>
       <td>6.0</td>
       <td>庫存單位</td>
@@ -176,7 +176,7 @@
     <tr>
       <td>MB005</td>
       <td>品號屬性</td>
-      <td>TTính SP</td>
+      <td>品號屬性</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>P</samp>:採購件,<samp>M</samp>:自製件,<samp>S</samp>:託外加工件</td>
@@ -184,7 +184,7 @@
     <tr>
       <td>MB006</td>
       <td>原產地</td>
-      <td>Nơi sản xuất cũ</td>
+      <td>原產地</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -192,7 +192,7 @@
     <tr>
       <td>MB007</td>
       <td>HS編碼</td>
-      <td></td>
+      <td>HS編碼</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -200,15 +200,15 @@
     <tr>
       <td>MB008</td>
       <td>關稅率</td>
-      <td>T.suất hải quan</td>
+      <td>關稅率</td>
       <td>N</td>
       <td>8.5</td>
-      <td>關稅率<samp>9</samp>.9999<small>(即99<samp>9</samp>.99%)</small></td>
+      <td>關稅率9.9999<small>(即999.99%)</small></td>
     </tr>
     <tr>
       <td>MB009</td>
       <td>幣別</td>
-      <td>Loại tiền tệ</td>
+      <td>幣別</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -216,7 +216,7 @@
     <tr>
       <td>MB010</td>
       <td>合同單價</td>
-      <td></td>
+      <td>合同單價</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -224,7 +224,7 @@
     <tr>
       <td>MB011</td>
       <td>備註</td>
-      <td>Ghi chú</td>
+      <td>備註</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -232,15 +232,15 @@
     <tr>
       <td>MB012</td>
       <td>資料來源</td>
-      <td>Nguồn dữ liệu</td>
+      <td>資料來源</td>
       <td>V</td>
       <td>1.0</td>
-      <td><samp>1</samp>.系統轉入<samp>2</samp>.自行輸入<samp>3</samp>.轉入後修改</td>
+      <td><samp>1</samp>:系統轉入<samp>2</samp>:自行輸入<samp>3</samp>:轉入後修改</td>
     </tr>
     <tr>
       <td>MB013</td>
       <td>合同品號類別代號</td>
-      <td>MS loại MSVP hợp đồng</td>
+      <td>合同品號類別代號</td>
       <td>V</td>
       <td>6.0</td>
       <td></td>
@@ -248,7 +248,7 @@
     <tr>
       <td>MB014</td>
       <td>保稅品</td>
-      <td>Bảo thuế</td>
+      <td>保稅品</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y/N</td>
@@ -256,7 +256,7 @@
     <tr>
       <td>MB015</td>
       <td>別名</td>
-      <td>Alias</td>
+      <td>別名</td>
       <td>V</td>
       <td>60.0</td>
       <td></td>
@@ -264,7 +264,7 @@
     <tr>
       <td>MB016</td>
       <td>重量單位</td>
-      <td>ĐV trọng lượng</td>
+      <td>重量單位</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -272,7 +272,7 @@
     <tr>
       <td>MB017</td>
       <td>單位淨重</td>
-      <td>ĐV trọng lượng tịnh</td>
+      <td>單位淨重</td>
       <td>N</td>
       <td>16.6</td>
       <td></td>
@@ -280,7 +280,7 @@
     <tr>
       <td>MB018</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -288,7 +288,7 @@
     <tr>
       <td>MB019</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>15.6</td>
       <td></td>
@@ -296,7 +296,7 @@
     <tr>
       <td>MB020</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -304,7 +304,7 @@
     <tr>
       <td>MB021</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>30.0</td>
       <td></td>
@@ -312,7 +312,7 @@
     <tr>
       <td>MB022</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>60.0</td>
       <td></td>
@@ -327,7 +327,7 @@
    <summary><samp>CUSMC</samp> : 合同品號對照檔</summary>
    <content>
 
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>IndexName</th>
@@ -348,12 +348,12 @@
     </tr>
   </tbody>
 </table>
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>ID</th>
       <th>FieldName</th>
-      <th>NameVietnam</th>
+      <th>NameEnglish</th>
       <th>Type</th>
       <th>Length</th>
       <th>Description</th>
@@ -363,7 +363,7 @@
     <tr>
       <td>MC001</td>
       <td>合同品號</td>
-      <td></td>
+      <td>合同品號</td>
       <td>C</td>
       <td>40.0</td>
       <td></td>
@@ -371,7 +371,7 @@
     <tr>
       <td>MC002</td>
       <td>品號</td>
-      <td>Mã SP</td>
+      <td>Item No.</td>
       <td>C</td>
       <td>40.0</td>
       <td>ERP品號</td>
@@ -379,15 +379,15 @@
     <tr>
       <td>MC003</td>
       <td>主要來源</td>
-      <td>Nguồn chính</td>
+      <td>主要來源</td>
       <td>V</td>
       <td>1.0</td>
-      <td><small>(Y/N)</small></td>
+      <td>主要來源<small>(Y/N)</small></td>
     </tr>
     <tr>
       <td>MC004</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -395,7 +395,7 @@
     <tr>
       <td>MC005</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>15.6</td>
       <td></td>
@@ -403,7 +403,7 @@
     <tr>
       <td>MC006</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -411,7 +411,7 @@
     <tr>
       <td>MC007</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>30.0</td>
       <td></td>
@@ -419,7 +419,7 @@
     <tr>
       <td>MC008</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>60.0</td>
       <td></td>
@@ -434,7 +434,7 @@
    <summary><samp>CUSMD</samp> : 合同材料用量單頭檔</summary>
    <content>
 
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>IndexName</th>
@@ -450,12 +450,12 @@
     </tr>
   </tbody>
 </table>
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>ID</th>
       <th>FieldName</th>
-      <th>NameVietnam</th>
+      <th>NameEnglish</th>
       <th>Type</th>
       <th>Length</th>
       <th>Description</th>
@@ -465,7 +465,7 @@
     <tr>
       <td>MD001</td>
       <td>主件品號</td>
-      <td>Mã NVL chính</td>
+      <td>主件品號</td>
       <td>C</td>
       <td>40.0</td>
       <td></td>
@@ -473,7 +473,7 @@
     <tr>
       <td>MD002</td>
       <td>標準批量</td>
-      <td>Số đợt định mức</td>
+      <td>標準批量</td>
       <td>N</td>
       <td>11.3</td>
       <td></td>
@@ -481,7 +481,7 @@
     <tr>
       <td>MD003</td>
       <td>備註</td>
-      <td>Ghi chú</td>
+      <td>備註</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -489,15 +489,15 @@
     <tr>
       <td>MD004</td>
       <td>資料來源</td>
-      <td>Nguồn dữ liệu</td>
+      <td>資料來源</td>
       <td>V</td>
       <td>1.0</td>
-      <td><samp>1</samp>.系統轉入 <samp>2</samp>.自行輸入 <samp>3</samp>.轉入後修改</td>
+      <td>1/系統轉入2/自行輸入3/轉入後修改</td>
     </tr>
     <tr>
       <td>MD005</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -505,7 +505,7 @@
     <tr>
       <td>MD006</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>15.6</td>
       <td></td>
@@ -513,7 +513,7 @@
     <tr>
       <td>MD007</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -521,7 +521,7 @@
     <tr>
       <td>MD008</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>30.0</td>
       <td></td>
@@ -529,7 +529,7 @@
     <tr>
       <td>MD009</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>60.0</td>
       <td></td>
@@ -544,7 +544,7 @@
    <summary><samp>CUSME</samp> : 合同材料用量單身檔</summary>
    <content>
 
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>IndexName</th>
@@ -560,12 +560,12 @@
     </tr>
   </tbody>
 </table>
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>ID</th>
       <th>FieldName</th>
-      <th>NameVietnam</th>
+      <th>NameEnglish</th>
       <th>Type</th>
       <th>Length</th>
       <th>Description</th>
@@ -575,7 +575,7 @@
     <tr>
       <td>ME001</td>
       <td>主件品號</td>
-      <td>Mã NVL chính</td>
+      <td>主件品號</td>
       <td>C</td>
       <td>40.0</td>
       <td></td>
@@ -583,7 +583,7 @@
     <tr>
       <td>ME002</td>
       <td>元件品號</td>
-      <td>Mã NVL</td>
+      <td>元件品號</td>
       <td>C</td>
       <td>40.0</td>
       <td></td>
@@ -591,7 +591,7 @@
     <tr>
       <td>ME003</td>
       <td>單耗</td>
-      <td></td>
+      <td>單耗</td>
       <td>N</td>
       <td>15.6</td>
       <td></td>
@@ -599,7 +599,7 @@
     <tr>
       <td>ME004</td>
       <td>損耗率%</td>
-      <td>Tỷ lệ khấu hao %</td>
+      <td>損耗率%</td>
       <td>N</td>
       <td>5.4</td>
       <td></td>
@@ -607,7 +607,7 @@
     <tr>
       <td>ME005</td>
       <td>底數</td>
-      <td>Mẫu số</td>
+      <td>底數</td>
       <td>N</td>
       <td>4.0</td>
       <td></td>
@@ -615,7 +615,7 @@
     <tr>
       <td>ME006</td>
       <td>備註</td>
-      <td>Ghi chú</td>
+      <td>備註</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -623,7 +623,7 @@
     <tr>
       <td>ME007</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -631,7 +631,7 @@
     <tr>
       <td>ME008</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>15.6</td>
       <td></td>
@@ -639,7 +639,7 @@
     <tr>
       <td>ME009</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -647,7 +647,7 @@
     <tr>
       <td>ME010</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>30.0</td>
       <td></td>
@@ -655,7 +655,7 @@
     <tr>
       <td>ME011</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>60.0</td>
       <td></td>
@@ -670,7 +670,7 @@
    <summary><samp>CUSMF</samp> : 保稅交易代碼單頭檔</summary>
    <content>
 
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>IndexName</th>
@@ -686,12 +686,12 @@
     </tr>
   </tbody>
 </table>
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>ID</th>
       <th>FieldName</th>
-      <th>NameVietnam</th>
+      <th>NameEnglish</th>
       <th>Type</th>
       <th>Length</th>
       <th>Description</th>
@@ -701,15 +701,15 @@
     <tr>
       <td>MF001</td>
       <td>交易代碼</td>
-      <td>MS GD</td>
+      <td>交易代碼</td>
       <td>C</td>
       <td>2.0</td>
-      <td>1<samp>0</samp>.保稅進口、2<samp>0</samp>.保稅出口、3<samp>0</samp>.核准報廢、4<samp>0</samp>.轉廠<small>(入)</small>、4<samp>1</samp>.轉廠<small>(出)</small> 5<samp>0</samp>.內銷</td>
+      <td>10.保稅進口、20.保稅出口、30.核准報廢、40.轉廠<small>(入)</small>、41.轉廠<small>(出)</small> 50.內銷</td>
     </tr>
     <tr>
       <td>MF002</td>
       <td>備註</td>
-      <td>Ghi chú</td>
+      <td>備註</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -717,7 +717,7 @@
     <tr>
       <td>MF003</td>
       <td>交易單別</td>
-      <td>CT giao dịch</td>
+      <td>交易單別</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -725,7 +725,7 @@
     <tr>
       <td>MF004</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -733,7 +733,7 @@
     <tr>
       <td>MF005</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>15.6</td>
       <td></td>
@@ -741,7 +741,7 @@
     <tr>
       <td>MF006</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -749,7 +749,7 @@
     <tr>
       <td>MF007</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>30.0</td>
       <td></td>
@@ -757,7 +757,7 @@
     <tr>
       <td>MF008</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>60.0</td>
       <td></td>
@@ -772,7 +772,7 @@
    <summary><samp>CUSMG</samp> : 保稅交易代碼單身檔</summary>
    <content>
 
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>IndexName</th>
@@ -788,12 +788,12 @@
     </tr>
   </tbody>
 </table>
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>ID</th>
       <th>FieldName</th>
-      <th>NameVietnam</th>
+      <th>NameEnglish</th>
       <th>Type</th>
       <th>Length</th>
       <th>Description</th>
@@ -803,7 +803,7 @@
     <tr>
       <td>MG001</td>
       <td>交易代碼</td>
-      <td>MS GD</td>
+      <td>交易代碼</td>
       <td>C</td>
       <td>2.0</td>
       <td></td>
@@ -811,7 +811,7 @@
     <tr>
       <td>MG002</td>
       <td>單別</td>
-      <td>Loại đơn</td>
+      <td>單別</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -819,7 +819,7 @@
     <tr>
       <td>MG003</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -827,7 +827,7 @@
     <tr>
       <td>MG004</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>15.6</td>
       <td></td>
@@ -835,7 +835,7 @@
     <tr>
       <td>MG005</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -843,7 +843,7 @@
     <tr>
       <td>MG006</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>30.0</td>
       <td></td>
@@ -851,7 +851,7 @@
     <tr>
       <td>MG007</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>60.0</td>
       <td></td>
@@ -866,7 +866,7 @@
    <summary><samp>CUSMH</samp> : 征免性質基本資訊檔</summary>
    <content>
 
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>IndexName</th>
@@ -882,12 +882,12 @@
     </tr>
   </tbody>
 </table>
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>ID</th>
       <th>FieldName</th>
-      <th>NameVietnam</th>
+      <th>NameEnglish</th>
       <th>Type</th>
       <th>Length</th>
       <th>Description</th>
@@ -897,7 +897,7 @@
     <tr>
       <td>MH001</td>
       <td>征免性質代碼</td>
-      <td>MS tính chất miễn thuế</td>
+      <td>征免性質代碼</td>
       <td>C</td>
       <td>3.0</td>
       <td></td>
@@ -905,7 +905,7 @@
     <tr>
       <td>MH002</td>
       <td>征免性質名稱</td>
-      <td>Tên tính chất miễn thuế</td>
+      <td>征免性質名稱</td>
       <td>V</td>
       <td>40.0</td>
       <td></td>
@@ -913,7 +913,7 @@
     <tr>
       <td>MH003</td>
       <td>備註</td>
-      <td>Ghi chú</td>
+      <td>備註</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -921,7 +921,7 @@
     <tr>
       <td>MH004</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -929,7 +929,7 @@
     <tr>
       <td>MH005</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>15.6</td>
       <td></td>
@@ -937,7 +937,7 @@
     <tr>
       <td>MH006</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -945,7 +945,7 @@
     <tr>
       <td>MH007</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>30.0</td>
       <td></td>
@@ -953,7 +953,7 @@
     <tr>
       <td>MH008</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>60.0</td>
       <td></td>
@@ -968,7 +968,7 @@
    <summary><samp>CUSTA</samp> : 合同資料單頭檔</summary>
    <content>
 
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>IndexName</th>
@@ -989,12 +989,12 @@
     </tr>
   </tbody>
 </table>
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>ID</th>
       <th>FieldName</th>
-      <th>NameVietnam</th>
+      <th>NameEnglish</th>
       <th>Type</th>
       <th>Length</th>
       <th>Description</th>
@@ -1004,7 +1004,7 @@
     <tr>
       <td>TA001</td>
       <td>合同代號</td>
-      <td></td>
+      <td>合同代號</td>
       <td>C</td>
       <td>20.0</td>
       <td></td>
@@ -1012,15 +1012,15 @@
     <tr>
       <td>TA002</td>
       <td>合同日期</td>
-      <td>Ngày hợp đồng</td>
+      <td>合同日期</td>
       <td>V</td>
       <td>8.0</td>
-      <td><samp>[Formate:YMD]</samp></td>
+      <td>合同日期<samp>[FORMATE:YMD]</samp></td>
     </tr>
     <tr>
       <td>TA003</td>
       <td>批文號</td>
-      <td>Số giấy</td>
+      <td>批文號</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -1028,7 +1028,7 @@
     <tr>
       <td>TA004</td>
       <td>手冊編號</td>
-      <td>MS sổ tay</td>
+      <td>手冊編號</td>
       <td>V</td>
       <td>15.0</td>
       <td></td>
@@ -1036,7 +1036,7 @@
     <tr>
       <td>TA005</td>
       <td>口岸</td>
-      <td>Cửa khẩu</td>
+      <td>口岸</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -1044,23 +1044,23 @@
     <tr>
       <td>TA006</td>
       <td>生效日</td>
-      <td>Ngày có hiệu lực</td>
+      <td>生效日</td>
       <td>V</td>
       <td>8.0</td>
-      <td><samp>[Formate:YMD]</samp></td>
+      <td>生效日<samp>[FORMATE:YMD]</samp></td>
     </tr>
     <tr>
       <td>TA007</td>
       <td>失效日</td>
-      <td>Ngày hết hiệu lực</td>
+      <td>失效日</td>
       <td>V</td>
       <td>8.0</td>
-      <td><samp>[Formate:YMD]</samp></td>
+      <td>失效日<samp>[FORMATE:YMD]</samp></td>
     </tr>
     <tr>
       <td>TA008</td>
       <td>備註</td>
-      <td>Ghi chú</td>
+      <td>備註</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -1068,23 +1068,23 @@
     <tr>
       <td>TA009</td>
       <td>合同狀態</td>
-      <td>Trạng thái hợp động</td>
+      <td>合同狀態</td>
       <td>V</td>
       <td>1.0</td>
-      <td><samp>1</samp>.未核准 <samp>2</samp>.已核准 <samp>3</samp>.已交易 <samp>9</samp>.已結案</td>
+      <td><samp>1</samp>:未核准 <samp>2</samp>:已核准 <samp>3</samp>:已交易 <samp>9</samp>:已結案</td>
     </tr>
     <tr>
       <td>TA010</td>
       <td>核銷日</td>
-      <td></td>
+      <td>核銷日</td>
       <td>V</td>
       <td>8.0</td>
-      <td><samp>[Formate:YMD]</samp></td>
+      <td>核銷日<samp>[FORMATE:YMD]</samp></td>
     </tr>
     <tr>
       <td>TA011</td>
       <td>核銷號</td>
-      <td></td>
+      <td>核銷號</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -1092,7 +1092,7 @@
     <tr>
       <td>TA012</td>
       <td>確認者</td>
-      <td>Xác nhận</td>
+      <td>確認者</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -1100,15 +1100,15 @@
     <tr>
       <td>TA013</td>
       <td>確認日期</td>
-      <td>Ngày xác nhận</td>
+      <td>確認日期</td>
       <td>V</td>
       <td>8.0</td>
-      <td><samp>[Formate:YMD]</samp></td>
+      <td>確認日期<samp>[FORMATE:YMD]</samp></td>
     </tr>
     <tr>
       <td>TA014</td>
       <td>核銷者</td>
-      <td></td>
+      <td>核銷者</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -1116,7 +1116,7 @@
     <tr>
       <td>TA015</td>
       <td>征免性質代碼</td>
-      <td>MS tính chất miễn thuế</td>
+      <td>征免性質代碼</td>
       <td>V</td>
       <td>3.0</td>
       <td></td>
@@ -1124,15 +1124,15 @@
     <tr>
       <td>TA016</td>
       <td>傳送次數</td>
-      <td>Số lần gửi</td>
+      <td>傳送次數</td>
       <td>N</td>
       <td>1.0</td>
-      <td><samp>[DE<samp>F</samp>:0]</samp></td>
+      <td>傳送次數<samp>[DEF:0]</samp></td>
     </tr>
     <tr>
       <td>TA017</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -1140,7 +1140,7 @@
     <tr>
       <td>TA018</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>15.6</td>
       <td></td>
@@ -1148,7 +1148,7 @@
     <tr>
       <td>TA019</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -1156,7 +1156,7 @@
     <tr>
       <td>TA020</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>30.0</td>
       <td></td>
@@ -1164,7 +1164,7 @@
     <tr>
       <td>TA021</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>60.0</td>
       <td></td>
@@ -1179,7 +1179,7 @@
    <summary><samp>CUSTB</samp> : 合同成品資料單身檔</summary>
    <content>
 
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>IndexName</th>
@@ -1200,12 +1200,12 @@
     </tr>
   </tbody>
 </table>
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>ID</th>
       <th>FieldName</th>
-      <th>NameVietnam</th>
+      <th>NameEnglish</th>
       <th>Type</th>
       <th>Length</th>
       <th>Description</th>
@@ -1215,7 +1215,7 @@
     <tr>
       <td>TB001</td>
       <td>合同代號</td>
-      <td></td>
+      <td>合同代號</td>
       <td>C</td>
       <td>20.0</td>
       <td></td>
@@ -1223,7 +1223,7 @@
     <tr>
       <td>TB002</td>
       <td>序號</td>
-      <td>Số thứ tự</td>
+      <td>序號</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -1231,7 +1231,7 @@
     <tr>
       <td>TB003</td>
       <td>品號</td>
-      <td>Mã SP</td>
+      <td>Item No.</td>
       <td>V</td>
       <td>40.0</td>
       <td></td>
@@ -1239,7 +1239,7 @@
     <tr>
       <td>TB004</td>
       <td>品名</td>
-      <td>Tên SP</td>
+      <td>品名</td>
       <td>V</td>
       <td>120.0</td>
       <td></td>
@@ -1247,7 +1247,7 @@
     <tr>
       <td>TB005</td>
       <td>規格</td>
-      <td>Quy cách</td>
+      <td>規格</td>
       <td>V</td>
       <td>120.0</td>
       <td></td>
@@ -1255,7 +1255,7 @@
     <tr>
       <td>TB006</td>
       <td>單位</td>
-      <td>ĐV</td>
+      <td>單位</td>
       <td>V</td>
       <td>6.0</td>
       <td></td>
@@ -1263,7 +1263,7 @@
     <tr>
       <td>TB007</td>
       <td>申請數量</td>
-      <td>SL xin</td>
+      <td>申請數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -1271,7 +1271,7 @@
     <tr>
       <td>TB008</td>
       <td>加簽數量</td>
-      <td>SL chấp nhận</td>
+      <td>加簽數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -1279,7 +1279,7 @@
     <tr>
       <td>TB009</td>
       <td>幣別</td>
-      <td>Loại tiền tệ</td>
+      <td>幣別</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -1287,7 +1287,7 @@
     <tr>
       <td>TB010</td>
       <td>匯率</td>
-      <td>Tỷ giá</td>
+      <td>匯率</td>
       <td>N</td>
       <td>20.9</td>
       <td></td>
@@ -1295,7 +1295,7 @@
     <tr>
       <td>TB011</td>
       <td>單價</td>
-      <td>ĐG</td>
+      <td>單價</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -1303,7 +1303,7 @@
     <tr>
       <td>TB012</td>
       <td>金額</td>
-      <td>Số tiền</td>
+      <td>金額</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -1311,7 +1311,7 @@
     <tr>
       <td>TB013</td>
       <td>消費國</td>
-      <td></td>
+      <td>消費國</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -1319,7 +1319,7 @@
     <tr>
       <td>TB014</td>
       <td>備註</td>
-      <td>Ghi chú</td>
+      <td>備註</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -1327,7 +1327,7 @@
     <tr>
       <td>TB015</td>
       <td>銷貨數量</td>
-      <td>SL bán</td>
+      <td>銷貨數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -1335,7 +1335,7 @@
     <tr>
       <td>TB016</td>
       <td>出口餘量</td>
-      <td>Số dư XK</td>
+      <td>出口餘量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -1343,7 +1343,7 @@
     <tr>
       <td>TB017</td>
       <td>報廢數量</td>
-      <td>SL báo phế</td>
+      <td>報廢數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -1351,7 +1351,7 @@
     <tr>
       <td>TB018</td>
       <td>結轉出數量</td>
-      <td></td>
+      <td>結轉出數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -1359,7 +1359,7 @@
     <tr>
       <td>TB019</td>
       <td>目的海關手冊號</td>
-      <td></td>
+      <td>目的海關手冊號</td>
       <td>V</td>
       <td>15.0</td>
       <td></td>
@@ -1367,7 +1367,7 @@
     <tr>
       <td>TB020</td>
       <td>結轉入數量</td>
-      <td></td>
+      <td>結轉入數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -1375,7 +1375,7 @@
     <tr>
       <td>TB021</td>
       <td>來源海關手冊號</td>
-      <td></td>
+      <td>來源海關手冊號</td>
       <td>V</td>
       <td>15.0</td>
       <td></td>
@@ -1383,7 +1383,7 @@
     <tr>
       <td>TB022</td>
       <td>轉廠出數量</td>
-      <td></td>
+      <td>轉廠出數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -1391,7 +1391,7 @@
     <tr>
       <td>TB023</td>
       <td>轉廠入數量</td>
-      <td></td>
+      <td>轉廠入數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -1399,7 +1399,7 @@
     <tr>
       <td>TB024</td>
       <td>內銷數量</td>
-      <td>SL bán nội địa</td>
+      <td>內銷數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -1407,7 +1407,7 @@
     <tr>
       <td>TB025</td>
       <td>征免性質代碼</td>
-      <td>MS tính chất miễn thuế</td>
+      <td>征免性質代碼</td>
       <td>V</td>
       <td>3.0</td>
       <td></td>
@@ -1415,7 +1415,7 @@
     <tr>
       <td>TB026</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -1423,7 +1423,7 @@
     <tr>
       <td>TB027</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>15.6</td>
       <td></td>
@@ -1431,7 +1431,7 @@
     <tr>
       <td>TB028</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -1439,7 +1439,7 @@
     <tr>
       <td>TB029</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>30.0</td>
       <td></td>
@@ -1447,7 +1447,7 @@
     <tr>
       <td>TB030</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>60.0</td>
       <td></td>
@@ -1455,7 +1455,7 @@
     <tr>
       <td>TB031</td>
       <td>成品存倉數量</td>
-      <td>SL thành phẩm tồn khô</td>
+      <td>成品存倉數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -1463,7 +1463,7 @@
     <tr>
       <td>TB032</td>
       <td>成品出倉數量</td>
-      <td>SL xuất kho thành phẩm</td>
+      <td>成品出倉數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -1471,7 +1471,7 @@
     <tr>
       <td>TB033</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -1479,7 +1479,7 @@
     <tr>
       <td>TB034</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -1494,7 +1494,7 @@
    <summary><samp>CUSTC</samp> : 合同材料資料單身檔</summary>
    <content>
 
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>IndexName</th>
@@ -1515,12 +1515,12 @@
     </tr>
   </tbody>
 </table>
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>ID</th>
       <th>FieldName</th>
-      <th>NameVietnam</th>
+      <th>NameEnglish</th>
       <th>Type</th>
       <th>Length</th>
       <th>Description</th>
@@ -1530,7 +1530,7 @@
     <tr>
       <td>TC001</td>
       <td>合同編號</td>
-      <td>MS hợp đồng</td>
+      <td>合同編號</td>
       <td>C</td>
       <td>20.0</td>
       <td></td>
@@ -1538,7 +1538,7 @@
     <tr>
       <td>TC002</td>
       <td>序號</td>
-      <td>Số thứ tự</td>
+      <td>序號</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -1546,7 +1546,7 @@
     <tr>
       <td>TC003</td>
       <td>品號</td>
-      <td>Mã SP</td>
+      <td>Item No.</td>
       <td>V</td>
       <td>40.0</td>
       <td></td>
@@ -1554,7 +1554,7 @@
     <tr>
       <td>TC004</td>
       <td>品名</td>
-      <td>Tên SP</td>
+      <td>品名</td>
       <td>V</td>
       <td>120.0</td>
       <td></td>
@@ -1562,7 +1562,7 @@
     <tr>
       <td>TC005</td>
       <td>規格</td>
-      <td>Quy cách</td>
+      <td>規格</td>
       <td>V</td>
       <td>120.0</td>
       <td></td>
@@ -1570,7 +1570,7 @@
     <tr>
       <td>TC006</td>
       <td>單位</td>
-      <td>ĐV</td>
+      <td>單位</td>
       <td>V</td>
       <td>6.0</td>
       <td></td>
@@ -1578,7 +1578,7 @@
     <tr>
       <td>TC007</td>
       <td>申請數量</td>
-      <td>SL xin</td>
+      <td>申請數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -1586,7 +1586,7 @@
     <tr>
       <td>TC008</td>
       <td>加簽數量</td>
-      <td>SL chấp nhận</td>
+      <td>加簽數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -1594,7 +1594,7 @@
     <tr>
       <td>TC009</td>
       <td>幣別</td>
-      <td>Loại tiền tệ</td>
+      <td>幣別</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -1602,7 +1602,7 @@
     <tr>
       <td>TC010</td>
       <td>匯率</td>
-      <td>Tỷ giá</td>
+      <td>匯率</td>
       <td>N</td>
       <td>20.9</td>
       <td></td>
@@ -1610,7 +1610,7 @@
     <tr>
       <td>TC011</td>
       <td>單價</td>
-      <td>ĐG</td>
+      <td>單價</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -1618,7 +1618,7 @@
     <tr>
       <td>TC012</td>
       <td>金額</td>
-      <td>Số tiền</td>
+      <td>金額</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -1626,7 +1626,7 @@
     <tr>
       <td>TC013</td>
       <td>原產國</td>
-      <td></td>
+      <td>原產國</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -1634,7 +1634,7 @@
     <tr>
       <td>TC014</td>
       <td>供應商</td>
-      <td>NCC</td>
+      <td>供應商</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -1642,7 +1642,7 @@
     <tr>
       <td>TC015</td>
       <td>備註</td>
-      <td>Ghi chú</td>
+      <td>備註</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -1650,7 +1650,7 @@
     <tr>
       <td>TC016</td>
       <td>收料數量</td>
-      <td>SL VL thu</td>
+      <td>收料數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -1658,7 +1658,7 @@
     <tr>
       <td>TC017</td>
       <td>發票數量</td>
-      <td></td>
+      <td>發票數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -1666,7 +1666,7 @@
     <tr>
       <td>TC018</td>
       <td>進口餘量</td>
-      <td>Số dư NK</td>
+      <td>進口餘量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -1674,7 +1674,7 @@
     <tr>
       <td>TC019</td>
       <td>已消耗數量</td>
-      <td></td>
+      <td>已消耗數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -1682,7 +1682,7 @@
     <tr>
       <td>TC020</td>
       <td>報廢數量</td>
-      <td>SL báo phế</td>
+      <td>報廢數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -1690,7 +1690,7 @@
     <tr>
       <td>TC021</td>
       <td>剩餘數量</td>
-      <td>Số dư</td>
+      <td>剩餘數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -1698,7 +1698,7 @@
     <tr>
       <td>TC022</td>
       <td>結轉出數量</td>
-      <td></td>
+      <td>結轉出數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -1706,7 +1706,7 @@
     <tr>
       <td>TC023</td>
       <td>目的海關手冊號</td>
-      <td></td>
+      <td>目的海關手冊號</td>
       <td>V</td>
       <td>15.0</td>
       <td></td>
@@ -1714,7 +1714,7 @@
     <tr>
       <td>TC024</td>
       <td>結轉入數量</td>
-      <td></td>
+      <td>結轉入數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -1722,7 +1722,7 @@
     <tr>
       <td>TC025</td>
       <td>來源海關手冊號</td>
-      <td></td>
+      <td>來源海關手冊號</td>
       <td>V</td>
       <td>15.0</td>
       <td></td>
@@ -1730,7 +1730,7 @@
     <tr>
       <td>TC026</td>
       <td>調撥出數量</td>
-      <td></td>
+      <td>調撥出數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -1738,7 +1738,7 @@
     <tr>
       <td>TC027</td>
       <td>調撥入數量</td>
-      <td></td>
+      <td>調撥入數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -1746,7 +1746,7 @@
     <tr>
       <td>TC028</td>
       <td>內銷已消耗數量</td>
-      <td></td>
+      <td>內銷已消耗數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -1754,7 +1754,7 @@
     <tr>
       <td>TC029</td>
       <td>征免性質代碼</td>
-      <td>MS tính chất miễn thuế</td>
+      <td>征免性質代碼</td>
       <td>V</td>
       <td>3.0</td>
       <td></td>
@@ -1762,7 +1762,7 @@
     <tr>
       <td>TC030</td>
       <td>轉廠出已消耗數量</td>
-      <td></td>
+      <td>轉廠出已消耗數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -1770,7 +1770,7 @@
     <tr>
       <td>TC031</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -1778,7 +1778,7 @@
     <tr>
       <td>TC032</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>15.6</td>
       <td></td>
@@ -1786,7 +1786,7 @@
     <tr>
       <td>TC033</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -1794,7 +1794,7 @@
     <tr>
       <td>TC034</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>30.0</td>
       <td></td>
@@ -1802,7 +1802,7 @@
     <tr>
       <td>TC035</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>60.0</td>
       <td></td>
@@ -1810,7 +1810,7 @@
     <tr>
       <td>TC036</td>
       <td>廠內領料數量</td>
-      <td>SL VL lấy trong xưởg</td>
+      <td>廠內領料數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -1818,7 +1818,7 @@
     <tr>
       <td>TC037</td>
       <td>託外領料數量</td>
-      <td>SL VL lấy nhờ ngoại</td>
+      <td>託外領料數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -1826,7 +1826,7 @@
     <tr>
       <td>TC038</td>
       <td>其它領料數量</td>
-      <td>SL vật liệu khác lấy được</td>
+      <td>其它領料數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -1834,7 +1834,7 @@
     <tr>
       <td>TC039</td>
       <td>生產退料數量</td>
-      <td>SL VL trả trong SX</td>
+      <td>生產退料數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -1842,7 +1842,7 @@
     <tr>
       <td>TC040</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -1850,7 +1850,7 @@
     <tr>
       <td>TC041</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -1858,7 +1858,7 @@
     <tr>
       <td>TC042</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -1873,7 +1873,7 @@
    <summary><samp>CUSTD</samp> : 合同資訊變更單頭檔</summary>
    <content>
 
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>IndexName</th>
@@ -1889,12 +1889,12 @@
     </tr>
   </tbody>
 </table>
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>ID</th>
       <th>FieldName</th>
-      <th>NameVietnam</th>
+      <th>NameEnglish</th>
       <th>Type</th>
       <th>Length</th>
       <th>Description</th>
@@ -1904,7 +1904,7 @@
     <tr>
       <td>TD001</td>
       <td>變更單別</td>
-      <td>Loại phiếu đổi</td>
+      <td>變更單別</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -1912,7 +1912,7 @@
     <tr>
       <td>TD002</td>
       <td>變更單號</td>
-      <td>Mã phiếu đổi</td>
+      <td>變更單號</td>
       <td>C</td>
       <td>11.0</td>
       <td></td>
@@ -1920,7 +1920,7 @@
     <tr>
       <td>TD003</td>
       <td>變更原因</td>
-      <td>Nguyên nhân</td>
+      <td>變更原因</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -1928,7 +1928,7 @@
     <tr>
       <td>TD004</td>
       <td>合同編號</td>
-      <td>MS hợp đồng</td>
+      <td>合同編號</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -1936,7 +1936,7 @@
     <tr>
       <td>TD005</td>
       <td>手冊編號</td>
-      <td>MS sổ tay</td>
+      <td>手冊編號</td>
       <td>V</td>
       <td>15.0</td>
       <td></td>
@@ -1944,31 +1944,31 @@
     <tr>
       <td>TD006</td>
       <td>生效日</td>
-      <td>Ngày có hiệu lực</td>
+      <td>生效日</td>
       <td>V</td>
       <td>8.0</td>
-      <td><samp>[Formate:YMD]</samp></td>
+      <td>生效日<samp>[FORMATE:YMD]</samp></td>
     </tr>
     <tr>
       <td>TD007</td>
       <td>失效日</td>
-      <td>Ngày hết hiệu lực</td>
+      <td>失效日</td>
       <td>V</td>
       <td>8.0</td>
-      <td><samp>[Formate:YMD]</samp></td>
+      <td>失效日<samp>[FORMATE:YMD]</samp></td>
     </tr>
     <tr>
       <td>TD008</td>
       <td>延期日</td>
-      <td></td>
+      <td>延期日</td>
       <td>V</td>
       <td>8.0</td>
-      <td><samp>[Formate:YMD]</samp></td>
+      <td>延期日<samp>[FORMATE:YMD]</samp></td>
     </tr>
     <tr>
       <td>TD009</td>
       <td>確認者</td>
-      <td>Xác nhận</td>
+      <td>確認者</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -1983,7 +1983,7 @@
    <summary><samp>CUSTE</samp> : 合同成品資訊變更單身檔</summary>
    <content>
 
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>IndexName</th>
@@ -1999,12 +1999,12 @@
     </tr>
   </tbody>
 </table>
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>ID</th>
       <th>FieldName</th>
-      <th>NameVietnam</th>
+      <th>NameEnglish</th>
       <th>Type</th>
       <th>Length</th>
       <th>Description</th>
@@ -2014,7 +2014,7 @@
     <tr>
       <td>TE001</td>
       <td>變更單別</td>
-      <td>Loại phiếu đổi</td>
+      <td>變更單別</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -2022,7 +2022,7 @@
     <tr>
       <td>TE002</td>
       <td>變更單號</td>
-      <td>Mã phiếu đổi</td>
+      <td>變更單號</td>
       <td>C</td>
       <td>11.0</td>
       <td></td>
@@ -2030,7 +2030,7 @@
     <tr>
       <td>TE003</td>
       <td>序號</td>
-      <td>Số thứ tự</td>
+      <td>序號</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -2038,7 +2038,7 @@
     <tr>
       <td>TE004</td>
       <td>品號</td>
-      <td>Mã SP</td>
+      <td>Item No.</td>
       <td>V</td>
       <td>40.0</td>
       <td></td>
@@ -2046,7 +2046,7 @@
     <tr>
       <td>TE005</td>
       <td>品名</td>
-      <td>Tên SP</td>
+      <td>品名</td>
       <td>V</td>
       <td>120.0</td>
       <td></td>
@@ -2054,7 +2054,7 @@
     <tr>
       <td>TE006</td>
       <td>規格</td>
-      <td>Quy cách</td>
+      <td>規格</td>
       <td>V</td>
       <td>120.0</td>
       <td></td>
@@ -2062,7 +2062,7 @@
     <tr>
       <td>TE007</td>
       <td>單位</td>
-      <td>ĐV</td>
+      <td>單位</td>
       <td>V</td>
       <td>6.0</td>
       <td></td>
@@ -2070,7 +2070,7 @@
     <tr>
       <td>TE008</td>
       <td>已申請數量</td>
-      <td></td>
+      <td>已申請數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -2078,7 +2078,7 @@
     <tr>
       <td>TE009</td>
       <td>加簽數量</td>
-      <td>SL chấp nhận</td>
+      <td>加簽數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -2086,7 +2086,7 @@
     <tr>
       <td>TE010</td>
       <td>確認碼</td>
-      <td>Mã xác nhận</td>
+      <td>確認碼</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y、N、V</td>
@@ -2094,7 +2094,7 @@
     <tr>
       <td>TE103</td>
       <td>原序號</td>
-      <td>STT ban đầu</td>
+      <td>原序號</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -2102,7 +2102,7 @@
     <tr>
       <td>TE104</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -2110,7 +2110,7 @@
     <tr>
       <td>TE105</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>15.6</td>
       <td></td>
@@ -2118,7 +2118,7 @@
     <tr>
       <td>TE106</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -2126,7 +2126,7 @@
     <tr>
       <td>TE107</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>30.0</td>
       <td></td>
@@ -2134,7 +2134,7 @@
     <tr>
       <td>TE108</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>60.0</td>
       <td></td>
@@ -2149,7 +2149,7 @@
    <summary><samp>CUSTF</samp> : 合同材料資訊變更單身檔</summary>
    <content>
 
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>IndexName</th>
@@ -2165,12 +2165,12 @@
     </tr>
   </tbody>
 </table>
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>ID</th>
       <th>FieldName</th>
-      <th>NameVietnam</th>
+      <th>NameEnglish</th>
       <th>Type</th>
       <th>Length</th>
       <th>Description</th>
@@ -2180,7 +2180,7 @@
     <tr>
       <td>TF001</td>
       <td>變更單別</td>
-      <td>Loại phiếu đổi</td>
+      <td>變更單別</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -2188,7 +2188,7 @@
     <tr>
       <td>TF002</td>
       <td>變更單號</td>
-      <td>Mã phiếu đổi</td>
+      <td>變更單號</td>
       <td>C</td>
       <td>11.0</td>
       <td></td>
@@ -2196,7 +2196,7 @@
     <tr>
       <td>TF003</td>
       <td>序號</td>
-      <td>Số thứ tự</td>
+      <td>序號</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -2204,7 +2204,7 @@
     <tr>
       <td>TF004</td>
       <td>品號</td>
-      <td>Mã SP</td>
+      <td>Item No.</td>
       <td>V</td>
       <td>40.0</td>
       <td></td>
@@ -2212,7 +2212,7 @@
     <tr>
       <td>TF005</td>
       <td>品名</td>
-      <td>Tên SP</td>
+      <td>品名</td>
       <td>V</td>
       <td>120.0</td>
       <td></td>
@@ -2220,7 +2220,7 @@
     <tr>
       <td>TF006</td>
       <td>規格</td>
-      <td>Quy cách</td>
+      <td>規格</td>
       <td>V</td>
       <td>120.0</td>
       <td></td>
@@ -2228,7 +2228,7 @@
     <tr>
       <td>TF007</td>
       <td>單位</td>
-      <td>ĐV</td>
+      <td>單位</td>
       <td>V</td>
       <td>6.0</td>
       <td></td>
@@ -2236,7 +2236,7 @@
     <tr>
       <td>TF008</td>
       <td>已申請數量</td>
-      <td></td>
+      <td>已申請數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -2244,7 +2244,7 @@
     <tr>
       <td>TF009</td>
       <td>加簽數量</td>
-      <td>SL chấp nhận</td>
+      <td>加簽數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -2252,7 +2252,7 @@
     <tr>
       <td>TF010</td>
       <td>確認碼</td>
-      <td>Mã xác nhận</td>
+      <td>確認碼</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y、N、V</td>
@@ -2260,7 +2260,7 @@
     <tr>
       <td>TF103</td>
       <td>原序號</td>
-      <td>STT ban đầu</td>
+      <td>原序號</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -2268,7 +2268,7 @@
     <tr>
       <td>TF104</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -2276,7 +2276,7 @@
     <tr>
       <td>TF105</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>15.6</td>
       <td></td>
@@ -2284,7 +2284,7 @@
     <tr>
       <td>TF106</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -2292,7 +2292,7 @@
     <tr>
       <td>TF107</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>30.0</td>
       <td></td>
@@ -2300,7 +2300,7 @@
     <tr>
       <td>TF108</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>60.0</td>
       <td></td>
@@ -2315,7 +2315,7 @@
    <summary><samp>CUSTG</samp> : 合同資訊結轉單頭檔</summary>
    <content>
 
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>IndexName</th>
@@ -2331,12 +2331,12 @@
     </tr>
   </tbody>
 </table>
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>ID</th>
       <th>FieldName</th>
-      <th>NameVietnam</th>
+      <th>NameEnglish</th>
       <th>Type</th>
       <th>Length</th>
       <th>Description</th>
@@ -2346,7 +2346,7 @@
     <tr>
       <td>TG001</td>
       <td>結轉單別</td>
-      <td>CT kết chuyển</td>
+      <td>結轉單別</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -2354,7 +2354,7 @@
     <tr>
       <td>TG002</td>
       <td>結轉單號</td>
-      <td></td>
+      <td>結轉單號</td>
       <td>C</td>
       <td>11.0</td>
       <td></td>
@@ -2362,7 +2362,7 @@
     <tr>
       <td>TG003</td>
       <td>結轉原因</td>
-      <td></td>
+      <td>結轉原因</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -2370,7 +2370,7 @@
     <tr>
       <td>TG004</td>
       <td>合同編號</td>
-      <td>MS hợp đồng</td>
+      <td>合同編號</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -2378,7 +2378,7 @@
     <tr>
       <td>TG005</td>
       <td>手冊編號</td>
-      <td>MS sổ tay</td>
+      <td>手冊編號</td>
       <td>V</td>
       <td>15.0</td>
       <td></td>
@@ -2386,23 +2386,23 @@
     <tr>
       <td>TG006</td>
       <td>生效日</td>
-      <td>Ngày có hiệu lực</td>
+      <td>生效日</td>
       <td>V</td>
       <td>8.0</td>
-      <td><samp>[FORMAT<samp>H</samp>:YMD]</samp></td>
+      <td>生效日<samp>[FORMATH:YMD]</samp></td>
     </tr>
     <tr>
       <td>TG007</td>
       <td>失效日</td>
-      <td>Ngày hết hiệu lực</td>
+      <td>失效日</td>
       <td>V</td>
       <td>8.0</td>
-      <td><samp>[FORMAT<samp>H</samp>:YMD]</samp></td>
+      <td>失效日<samp>[FORMATH:YMD]</samp></td>
     </tr>
     <tr>
       <td>TG008</td>
       <td>確認者</td>
-      <td>Xác nhận</td>
+      <td>確認者</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -2410,7 +2410,7 @@
     <tr>
       <td>TG009</td>
       <td>確認碼</td>
-      <td>Mã xác nhận</td>
+      <td>確認碼</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y、N、V</td>
@@ -2418,23 +2418,23 @@
     <tr>
       <td>TG010</td>
       <td>單據日期</td>
-      <td>Ngày CT</td>
+      <td>單據日期</td>
       <td>V</td>
       <td>8.0</td>
-      <td><samp>[FORMAT<samp>H</samp>:YMD]</samp></td>
+      <td>單據日期<samp>[FORMATH:YMD]</samp></td>
     </tr>
     <tr>
       <td>TG011</td>
       <td>結轉日期</td>
-      <td></td>
+      <td>結轉日期</td>
       <td>V</td>
       <td>8.0</td>
-      <td><samp>[FORMAT<samp>H</samp>:YMD]</samp></td>
+      <td>結轉日期<samp>[FORMATH:YMD]</samp></td>
     </tr>
     <tr>
       <td>TG012</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -2442,7 +2442,7 @@
     <tr>
       <td>TG013</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>15.6</td>
       <td></td>
@@ -2450,7 +2450,7 @@
     <tr>
       <td>TG014</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -2458,7 +2458,7 @@
     <tr>
       <td>TG015</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>30.0</td>
       <td></td>
@@ -2466,7 +2466,7 @@
     <tr>
       <td>TG016</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>60.0</td>
       <td></td>
@@ -2481,7 +2481,7 @@
    <summary><samp>CUSTH</samp> : 合同成品資訊結轉單身檔</summary>
    <content>
 
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>IndexName</th>
@@ -2497,12 +2497,12 @@
     </tr>
   </tbody>
 </table>
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>ID</th>
       <th>FieldName</th>
-      <th>NameVietnam</th>
+      <th>NameEnglish</th>
       <th>Type</th>
       <th>Length</th>
       <th>Description</th>
@@ -2512,7 +2512,7 @@
     <tr>
       <td>TH001</td>
       <td>結轉單別</td>
-      <td>CT kết chuyển</td>
+      <td>結轉單別</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -2520,7 +2520,7 @@
     <tr>
       <td>TH002</td>
       <td>結轉單號</td>
-      <td></td>
+      <td>結轉單號</td>
       <td>C</td>
       <td>11.0</td>
       <td></td>
@@ -2528,7 +2528,7 @@
     <tr>
       <td>TH003</td>
       <td>序號</td>
-      <td>Số thứ tự</td>
+      <td>序號</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -2536,7 +2536,7 @@
     <tr>
       <td>TH004</td>
       <td>品號</td>
-      <td>Mã SP</td>
+      <td>Item No.</td>
       <td>V</td>
       <td>40.0</td>
       <td></td>
@@ -2544,7 +2544,7 @@
     <tr>
       <td>TH005</td>
       <td>品名</td>
-      <td>Tên SP</td>
+      <td>品名</td>
       <td>V</td>
       <td>120.0</td>
       <td></td>
@@ -2552,7 +2552,7 @@
     <tr>
       <td>TH006</td>
       <td>規格</td>
-      <td>Quy cách</td>
+      <td>規格</td>
       <td>V</td>
       <td>120.0</td>
       <td></td>
@@ -2560,7 +2560,7 @@
     <tr>
       <td>TH007</td>
       <td>單位</td>
-      <td>ĐV</td>
+      <td>單位</td>
       <td>V</td>
       <td>6.0</td>
       <td></td>
@@ -2568,7 +2568,7 @@
     <tr>
       <td>TH008</td>
       <td>已申請數量</td>
-      <td></td>
+      <td>已申請數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -2576,7 +2576,7 @@
     <tr>
       <td>TH009</td>
       <td>出口餘量</td>
-      <td>Số dư XK</td>
+      <td>出口餘量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -2584,7 +2584,7 @@
     <tr>
       <td>TH010</td>
       <td>結轉出數量</td>
-      <td></td>
+      <td>結轉出數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -2592,7 +2592,7 @@
     <tr>
       <td>TH011</td>
       <td>目的海關手冊號</td>
-      <td></td>
+      <td>目的海關手冊號</td>
       <td>V</td>
       <td>15.0</td>
       <td></td>
@@ -2600,7 +2600,7 @@
     <tr>
       <td>TH012</td>
       <td>確認碼</td>
-      <td>Mã xác nhận</td>
+      <td>確認碼</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y、N、V</td>
@@ -2608,7 +2608,7 @@
     <tr>
       <td>TH013</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -2616,7 +2616,7 @@
     <tr>
       <td>TH014</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>15.6</td>
       <td></td>
@@ -2624,7 +2624,7 @@
     <tr>
       <td>TH015</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -2632,7 +2632,7 @@
     <tr>
       <td>TH016</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>30.0</td>
       <td></td>
@@ -2640,7 +2640,7 @@
     <tr>
       <td>TH017</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>60.0</td>
       <td></td>
@@ -2655,7 +2655,7 @@
    <summary><samp>CUSTI</samp> : 合同材料資訊結轉單身檔</summary>
    <content>
 
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>IndexName</th>
@@ -2671,12 +2671,12 @@
     </tr>
   </tbody>
 </table>
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>ID</th>
       <th>FieldName</th>
-      <th>NameVietnam</th>
+      <th>NameEnglish</th>
       <th>Type</th>
       <th>Length</th>
       <th>Description</th>
@@ -2686,7 +2686,7 @@
     <tr>
       <td>TI001</td>
       <td>結轉單別</td>
-      <td>CT kết chuyển</td>
+      <td>結轉單別</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -2694,7 +2694,7 @@
     <tr>
       <td>TI002</td>
       <td>結轉單號</td>
-      <td></td>
+      <td>結轉單號</td>
       <td>C</td>
       <td>11.0</td>
       <td></td>
@@ -2702,7 +2702,7 @@
     <tr>
       <td>TI003</td>
       <td>序號</td>
-      <td>Số thứ tự</td>
+      <td>序號</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -2710,7 +2710,7 @@
     <tr>
       <td>TI004</td>
       <td>品號</td>
-      <td>Mã SP</td>
+      <td>Item No.</td>
       <td>V</td>
       <td>40.0</td>
       <td></td>
@@ -2718,7 +2718,7 @@
     <tr>
       <td>TI005</td>
       <td>品名</td>
-      <td>Tên SP</td>
+      <td>品名</td>
       <td>V</td>
       <td>120.0</td>
       <td></td>
@@ -2726,7 +2726,7 @@
     <tr>
       <td>TI006</td>
       <td>規格</td>
-      <td>Quy cách</td>
+      <td>規格</td>
       <td>V</td>
       <td>120.0</td>
       <td></td>
@@ -2734,7 +2734,7 @@
     <tr>
       <td>TI007</td>
       <td>單位</td>
-      <td>ĐV</td>
+      <td>單位</td>
       <td>V</td>
       <td>6.0</td>
       <td></td>
@@ -2742,7 +2742,7 @@
     <tr>
       <td>TI008</td>
       <td>已申請數量</td>
-      <td></td>
+      <td>已申請數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -2750,7 +2750,7 @@
     <tr>
       <td>TI009</td>
       <td>進口餘量</td>
-      <td>Số dư NK</td>
+      <td>進口餘量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -2758,7 +2758,7 @@
     <tr>
       <td>TI010</td>
       <td>剩餘數量</td>
-      <td>Số dư</td>
+      <td>剩餘數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -2766,7 +2766,7 @@
     <tr>
       <td>TI011</td>
       <td>結轉出數量</td>
-      <td></td>
+      <td>結轉出數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -2774,7 +2774,7 @@
     <tr>
       <td>TI012</td>
       <td>目的海關手冊號</td>
-      <td></td>
+      <td>目的海關手冊號</td>
       <td>V</td>
       <td>15.0</td>
       <td></td>
@@ -2782,7 +2782,7 @@
     <tr>
       <td>TI013</td>
       <td>確認碼</td>
-      <td>Mã xác nhận</td>
+      <td>確認碼</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y、N、V</td>
@@ -2790,7 +2790,7 @@
     <tr>
       <td>TI014</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -2798,7 +2798,7 @@
     <tr>
       <td>TI015</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>15.6</td>
       <td></td>
@@ -2806,7 +2806,7 @@
     <tr>
       <td>TI016</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -2814,7 +2814,7 @@
     <tr>
       <td>TI017</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>30.0</td>
       <td></td>
@@ -2822,7 +2822,7 @@
     <tr>
       <td>TI018</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>60.0</td>
       <td></td>
@@ -2837,7 +2837,7 @@
    <summary><samp>CUSTJ</samp> : 分手冊單頭檔</summary>
    <content>
 
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>IndexName</th>
@@ -2858,12 +2858,12 @@
     </tr>
   </tbody>
 </table>
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>ID</th>
       <th>FieldName</th>
-      <th>NameVietnam</th>
+      <th>NameEnglish</th>
       <th>Type</th>
       <th>Length</th>
       <th>Description</th>
@@ -2873,7 +2873,7 @@
     <tr>
       <td>TJ001</td>
       <td>分手冊編號</td>
-      <td>Mã số sổ tay con.</td>
+      <td>分手冊編號</td>
       <td>C</td>
       <td>15.0</td>
       <td></td>
@@ -2881,15 +2881,15 @@
     <tr>
       <td>TJ002</td>
       <td>申請日期</td>
-      <td>Ngày yêu cầu</td>
+      <td>申請日期</td>
       <td>V</td>
       <td>8.0</td>
-      <td><samp>[Formate:YMD]</samp></td>
+      <td>申請日期<samp>[FORMATE:YMD]</samp></td>
     </tr>
     <tr>
       <td>TJ003</td>
       <td>批文號</td>
-      <td>Số giấy</td>
+      <td>批文號</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -2897,7 +2897,7 @@
     <tr>
       <td>TJ004</td>
       <td>手冊編號</td>
-      <td>MS sổ tay</td>
+      <td>手冊編號</td>
       <td>V</td>
       <td>15.0</td>
       <td></td>
@@ -2905,7 +2905,7 @@
     <tr>
       <td>TJ005</td>
       <td>口岸</td>
-      <td>Cửa khẩu</td>
+      <td>口岸</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -2913,7 +2913,7 @@
     <tr>
       <td>TJ006</td>
       <td>備註</td>
-      <td>Ghi chú</td>
+      <td>備註</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -2921,7 +2921,7 @@
     <tr>
       <td>TJ007</td>
       <td>合同編號</td>
-      <td>MS hợp đồng</td>
+      <td>合同編號</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -2929,7 +2929,7 @@
     <tr>
       <td>TJ008</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -2937,7 +2937,7 @@
     <tr>
       <td>TJ009</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>15.6</td>
       <td></td>
@@ -2945,7 +2945,7 @@
     <tr>
       <td>TJ010</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -2953,7 +2953,7 @@
     <tr>
       <td>TJ011</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>30.0</td>
       <td></td>
@@ -2961,7 +2961,7 @@
     <tr>
       <td>TJ012</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>60.0</td>
       <td></td>
@@ -2976,7 +2976,7 @@
    <summary><samp>CUSTK</samp> : 分手冊成品單身檔</summary>
    <content>
 
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>IndexName</th>
@@ -2997,12 +2997,12 @@
     </tr>
   </tbody>
 </table>
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>ID</th>
       <th>FieldName</th>
-      <th>NameVietnam</th>
+      <th>NameEnglish</th>
       <th>Type</th>
       <th>Length</th>
       <th>Description</th>
@@ -3012,7 +3012,7 @@
     <tr>
       <td>TK001</td>
       <td>分手冊編號</td>
-      <td>Mã số sổ tay con.</td>
+      <td>分手冊編號</td>
       <td>C</td>
       <td>15.0</td>
       <td></td>
@@ -3020,7 +3020,7 @@
     <tr>
       <td>TK002</td>
       <td>序號</td>
-      <td>Số thứ tự</td>
+      <td>序號</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -3028,7 +3028,7 @@
     <tr>
       <td>TK003</td>
       <td>品號</td>
-      <td>Mã SP</td>
+      <td>Item No.</td>
       <td>V</td>
       <td>40.0</td>
       <td></td>
@@ -3036,7 +3036,7 @@
     <tr>
       <td>TK004</td>
       <td>品名</td>
-      <td>Tên SP</td>
+      <td>品名</td>
       <td>V</td>
       <td>120.0</td>
       <td></td>
@@ -3044,7 +3044,7 @@
     <tr>
       <td>TK005</td>
       <td>規格</td>
-      <td>Quy cách</td>
+      <td>規格</td>
       <td>V</td>
       <td>120.0</td>
       <td></td>
@@ -3052,7 +3052,7 @@
     <tr>
       <td>TK006</td>
       <td>單位</td>
-      <td>ĐV</td>
+      <td>單位</td>
       <td>V</td>
       <td>6.0</td>
       <td></td>
@@ -3060,7 +3060,7 @@
     <tr>
       <td>TK007</td>
       <td>申請數量</td>
-      <td>SL xin</td>
+      <td>申請數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -3068,7 +3068,7 @@
     <tr>
       <td>TK008</td>
       <td>加簽數量</td>
-      <td>SL chấp nhận</td>
+      <td>加簽數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -3076,7 +3076,7 @@
     <tr>
       <td>TK009</td>
       <td>幣種</td>
-      <td></td>
+      <td>幣種</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -3084,7 +3084,7 @@
     <tr>
       <td>TK010</td>
       <td>匯率</td>
-      <td>Tỷ giá</td>
+      <td>匯率</td>
       <td>N</td>
       <td>20.9</td>
       <td></td>
@@ -3092,7 +3092,7 @@
     <tr>
       <td>TK011</td>
       <td>單價</td>
-      <td>ĐG</td>
+      <td>單價</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -3100,7 +3100,7 @@
     <tr>
       <td>TK012</td>
       <td>金額</td>
-      <td>Số tiền</td>
+      <td>金額</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -3108,7 +3108,7 @@
     <tr>
       <td>TK013</td>
       <td>消費國</td>
-      <td></td>
+      <td>消費國</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -3116,7 +3116,7 @@
     <tr>
       <td>TK014</td>
       <td>備註</td>
-      <td>Ghi chú</td>
+      <td>備註</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -3124,7 +3124,7 @@
     <tr>
       <td>TK015</td>
       <td>銷貨數量</td>
-      <td>SL bán</td>
+      <td>銷貨數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -3132,7 +3132,7 @@
     <tr>
       <td>TK016</td>
       <td>出口餘量</td>
-      <td>Số dư XK</td>
+      <td>出口餘量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -3140,7 +3140,7 @@
     <tr>
       <td>TK017</td>
       <td>報廢數量</td>
-      <td>SL báo phế</td>
+      <td>報廢數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -3148,7 +3148,7 @@
     <tr>
       <td>TK018</td>
       <td>結轉出數量</td>
-      <td></td>
+      <td>結轉出數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -3156,7 +3156,7 @@
     <tr>
       <td>TK019</td>
       <td>目的海關手冊號</td>
-      <td></td>
+      <td>目的海關手冊號</td>
       <td>V</td>
       <td>15.0</td>
       <td></td>
@@ -3164,7 +3164,7 @@
     <tr>
       <td>TK020</td>
       <td>結轉入數量</td>
-      <td></td>
+      <td>結轉入數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -3172,7 +3172,7 @@
     <tr>
       <td>TK021</td>
       <td>來源海關手冊號</td>
-      <td></td>
+      <td>來源海關手冊號</td>
       <td>V</td>
       <td>15.0</td>
       <td></td>
@@ -3180,7 +3180,7 @@
     <tr>
       <td>TK022</td>
       <td>轉廠出數量</td>
-      <td></td>
+      <td>轉廠出數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -3188,7 +3188,7 @@
     <tr>
       <td>TK023</td>
       <td>轉廠入數量</td>
-      <td></td>
+      <td>轉廠入數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -3196,7 +3196,7 @@
     <tr>
       <td>TK024</td>
       <td>內銷數量</td>
-      <td>SL bán nội địa</td>
+      <td>內銷數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -3204,7 +3204,7 @@
     <tr>
       <td>TK025</td>
       <td>征免性質代碼</td>
-      <td>MS tính chất miễn thuế</td>
+      <td>征免性質代碼</td>
       <td>V</td>
       <td>3.0</td>
       <td></td>
@@ -3212,7 +3212,7 @@
     <tr>
       <td>TK026</td>
       <td>合同編號</td>
-      <td>MS hợp đồng</td>
+      <td>合同編號</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -3220,7 +3220,7 @@
     <tr>
       <td>TK027</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -3228,7 +3228,7 @@
     <tr>
       <td>TK028</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>15.6</td>
       <td></td>
@@ -3236,7 +3236,7 @@
     <tr>
       <td>TK029</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -3244,7 +3244,7 @@
     <tr>
       <td>TK030</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>30.0</td>
       <td></td>
@@ -3252,7 +3252,7 @@
     <tr>
       <td>TK031</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>60.0</td>
       <td></td>
@@ -3260,7 +3260,7 @@
     <tr>
       <td>TK032</td>
       <td>成品存倉數量</td>
-      <td>SL thành phẩm tồn khô</td>
+      <td>成品存倉數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -3268,7 +3268,7 @@
     <tr>
       <td>TK033</td>
       <td>成品出倉數量</td>
-      <td>SL xuất kho thành phẩm</td>
+      <td>成品出倉數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -3276,7 +3276,7 @@
     <tr>
       <td>TK034</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -3284,7 +3284,7 @@
     <tr>
       <td>TK035</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -3299,7 +3299,7 @@
    <summary><samp>CUSTL</samp> : 分手冊材料單身檔</summary>
    <content>
 
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>IndexName</th>
@@ -3320,12 +3320,12 @@
     </tr>
   </tbody>
 </table>
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>ID</th>
       <th>FieldName</th>
-      <th>NameVietnam</th>
+      <th>NameEnglish</th>
       <th>Type</th>
       <th>Length</th>
       <th>Description</th>
@@ -3335,7 +3335,7 @@
     <tr>
       <td>TL001</td>
       <td>分手冊編號</td>
-      <td>Mã số sổ tay con.</td>
+      <td>分手冊編號</td>
       <td>C</td>
       <td>15.0</td>
       <td></td>
@@ -3343,7 +3343,7 @@
     <tr>
       <td>TL002</td>
       <td>序號</td>
-      <td>Số thứ tự</td>
+      <td>序號</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -3351,7 +3351,7 @@
     <tr>
       <td>TL003</td>
       <td>品號</td>
-      <td>Mã SP</td>
+      <td>Item No.</td>
       <td>V</td>
       <td>40.0</td>
       <td></td>
@@ -3359,7 +3359,7 @@
     <tr>
       <td>TL004</td>
       <td>品名</td>
-      <td>Tên SP</td>
+      <td>品名</td>
       <td>V</td>
       <td>120.0</td>
       <td></td>
@@ -3367,7 +3367,7 @@
     <tr>
       <td>TL005</td>
       <td>規格</td>
-      <td>Quy cách</td>
+      <td>規格</td>
       <td>V</td>
       <td>120.0</td>
       <td></td>
@@ -3375,7 +3375,7 @@
     <tr>
       <td>TL006</td>
       <td>單位</td>
-      <td>ĐV</td>
+      <td>單位</td>
       <td>V</td>
       <td>6.0</td>
       <td></td>
@@ -3383,7 +3383,7 @@
     <tr>
       <td>TL007</td>
       <td>申請數量</td>
-      <td>SL xin</td>
+      <td>申請數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -3391,7 +3391,7 @@
     <tr>
       <td>TL008</td>
       <td>加簽數量</td>
-      <td>SL chấp nhận</td>
+      <td>加簽數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -3399,7 +3399,7 @@
     <tr>
       <td>TL009</td>
       <td>幣種</td>
-      <td></td>
+      <td>幣種</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -3407,7 +3407,7 @@
     <tr>
       <td>TL010</td>
       <td>匯率</td>
-      <td>Tỷ giá</td>
+      <td>匯率</td>
       <td>N</td>
       <td>20.9</td>
       <td></td>
@@ -3415,7 +3415,7 @@
     <tr>
       <td>TL011</td>
       <td>單價</td>
-      <td>ĐG</td>
+      <td>單價</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -3423,7 +3423,7 @@
     <tr>
       <td>TL012</td>
       <td>金額</td>
-      <td>Số tiền</td>
+      <td>金額</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -3431,7 +3431,7 @@
     <tr>
       <td>TL013</td>
       <td>原產國</td>
-      <td></td>
+      <td>原產國</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -3439,7 +3439,7 @@
     <tr>
       <td>TL014</td>
       <td>供應商</td>
-      <td>NCC</td>
+      <td>供應商</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -3447,7 +3447,7 @@
     <tr>
       <td>TL015</td>
       <td>備註</td>
-      <td>Ghi chú</td>
+      <td>備註</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -3455,7 +3455,7 @@
     <tr>
       <td>TL016</td>
       <td>收料數量</td>
-      <td>SL VL thu</td>
+      <td>收料數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -3463,7 +3463,7 @@
     <tr>
       <td>TL017</td>
       <td>發票數量</td>
-      <td></td>
+      <td>發票數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -3471,7 +3471,7 @@
     <tr>
       <td>TL018</td>
       <td>進口餘量</td>
-      <td>Số dư NK</td>
+      <td>進口餘量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -3479,7 +3479,7 @@
     <tr>
       <td>TL019</td>
       <td>已消耗數量</td>
-      <td></td>
+      <td>已消耗數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -3487,7 +3487,7 @@
     <tr>
       <td>TL020</td>
       <td>報廢數量</td>
-      <td>SL báo phế</td>
+      <td>報廢數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -3495,7 +3495,7 @@
     <tr>
       <td>TL021</td>
       <td>剩餘數量</td>
-      <td>Số dư</td>
+      <td>剩餘數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -3503,7 +3503,7 @@
     <tr>
       <td>TL022</td>
       <td>結轉出數量</td>
-      <td></td>
+      <td>結轉出數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -3511,7 +3511,7 @@
     <tr>
       <td>TL023</td>
       <td>目的海關手冊號</td>
-      <td></td>
+      <td>目的海關手冊號</td>
       <td>V</td>
       <td>15.0</td>
       <td></td>
@@ -3519,7 +3519,7 @@
     <tr>
       <td>TL024</td>
       <td>結轉入數量</td>
-      <td></td>
+      <td>結轉入數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -3527,7 +3527,7 @@
     <tr>
       <td>TL025</td>
       <td>來源海關手冊號</td>
-      <td></td>
+      <td>來源海關手冊號</td>
       <td>V</td>
       <td>15.0</td>
       <td></td>
@@ -3535,7 +3535,7 @@
     <tr>
       <td>TL026</td>
       <td>調撥出數量</td>
-      <td></td>
+      <td>調撥出數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -3543,7 +3543,7 @@
     <tr>
       <td>TL027</td>
       <td>調撥入數量</td>
-      <td></td>
+      <td>調撥入數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -3551,7 +3551,7 @@
     <tr>
       <td>TL028</td>
       <td>內銷已消耗數量</td>
-      <td></td>
+      <td>內銷已消耗數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -3559,7 +3559,7 @@
     <tr>
       <td>TL029</td>
       <td>征免性質代碼</td>
-      <td>MS tính chất miễn thuế</td>
+      <td>征免性質代碼</td>
       <td>V</td>
       <td>3.0</td>
       <td></td>
@@ -3567,7 +3567,7 @@
     <tr>
       <td>TL030</td>
       <td>合同編號</td>
-      <td>MS hợp đồng</td>
+      <td>合同編號</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -3575,7 +3575,7 @@
     <tr>
       <td>TL031</td>
       <td>轉廠出已消耗數量</td>
-      <td></td>
+      <td>轉廠出已消耗數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -3583,7 +3583,7 @@
     <tr>
       <td>TL032</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -3591,7 +3591,7 @@
     <tr>
       <td>TL033</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>15.6</td>
       <td></td>
@@ -3599,7 +3599,7 @@
     <tr>
       <td>TL034</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -3607,7 +3607,7 @@
     <tr>
       <td>TL035</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>30.0</td>
       <td></td>
@@ -3615,7 +3615,7 @@
     <tr>
       <td>TL036</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>60.0</td>
       <td></td>
@@ -3623,7 +3623,7 @@
     <tr>
       <td>TL037</td>
       <td>廠內領料數量</td>
-      <td>SL VL lấy trong xưởg</td>
+      <td>廠內領料數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -3631,7 +3631,7 @@
     <tr>
       <td>TL038</td>
       <td>託外領料數量</td>
-      <td>SL VL lấy nhờ ngoại</td>
+      <td>託外領料數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -3639,7 +3639,7 @@
     <tr>
       <td>TL039</td>
       <td>其它領料數量</td>
-      <td>SL vật liệu khác lấy được</td>
+      <td>其它領料數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -3647,7 +3647,7 @@
     <tr>
       <td>TL040</td>
       <td>生產退料數量</td>
-      <td>SL VL trả trong SX</td>
+      <td>生產退料數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -3655,7 +3655,7 @@
     <tr>
       <td>TL041</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -3663,7 +3663,7 @@
     <tr>
       <td>TL042</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -3671,7 +3671,7 @@
     <tr>
       <td>TL043</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -3686,7 +3686,7 @@
    <summary><samp>CUSTM</samp> : 交易單據單頭檔</summary>
    <content>
 
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>IndexName</th>
@@ -3702,12 +3702,12 @@
     </tr>
   </tbody>
 </table>
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>ID</th>
       <th>FieldName</th>
-      <th>NameVietnam</th>
+      <th>NameEnglish</th>
       <th>Type</th>
       <th>Length</th>
       <th>Description</th>
@@ -3717,7 +3717,7 @@
     <tr>
       <td>TM001</td>
       <td>單別</td>
-      <td>Loại đơn</td>
+      <td>單別</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -3725,7 +3725,7 @@
     <tr>
       <td>TM002</td>
       <td>單號</td>
-      <td>Mã CT</td>
+      <td>單號</td>
       <td>C</td>
       <td>11.0</td>
       <td></td>
@@ -3733,15 +3733,15 @@
     <tr>
       <td>TM003</td>
       <td>單據日期</td>
-      <td>Ngày CT</td>
+      <td>單據日期</td>
       <td>V</td>
       <td>8.0</td>
-      <td><samp>[Formate:YMD]</samp></td>
+      <td>單據日期<samp>[FORMATE:YMD]</samp></td>
     </tr>
     <tr>
       <td>TM004</td>
       <td>來源單別</td>
-      <td>Loại CT nguồn</td>
+      <td>來源單別</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -3749,7 +3749,7 @@
     <tr>
       <td>TM005</td>
       <td>來源單號</td>
-      <td>Mã CT nguồn</td>
+      <td>來源單號</td>
       <td>V</td>
       <td>11.0</td>
       <td></td>
@@ -3757,23 +3757,23 @@
     <tr>
       <td>TM006</td>
       <td>交易代碼</td>
-      <td>MS GD</td>
+      <td>交易代碼</td>
       <td>V</td>
       <td>2.0</td>
-      <td>1<samp>0</samp>.保稅進口、2<samp>0</samp>.保稅出口、3<samp>0</samp>.核准報廢、4<samp>0</samp>.轉廠<small>(入)</small>、4<samp>1</samp>.轉廠<small>(出)</small> 5<samp>0</samp>.內銷</td>
+      <td>10.保稅進口、20.保稅出口、30.核准報廢、40.轉廠<small>(入)</small>、41.轉廠<small>(出)</small> 50.內銷</td>
     </tr>
     <tr>
       <td>TM007</td>
       <td>入出別</td>
-      <td>Loại nhập/ xuất</td>
+      <td>入出別</td>
       <td>V</td>
       <td>1.0</td>
-      <td><samp>1</samp>.增、<samp>2</samp>.減</td>
+      <td><samp>1</samp>:增、<samp>2</samp>:減</td>
     </tr>
     <tr>
       <td>TM008</td>
       <td>海關手冊</td>
-      <td>Sổ tay hải quan</td>
+      <td>海關手冊</td>
       <td>V</td>
       <td>15.0</td>
       <td></td>
@@ -3781,7 +3781,7 @@
     <tr>
       <td>TM009</td>
       <td>交易物件</td>
-      <td></td>
+      <td>交易物件</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -3789,7 +3789,7 @@
     <tr>
       <td>TM010</td>
       <td>備註</td>
-      <td>Ghi chú</td>
+      <td>備註</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -3797,7 +3797,7 @@
     <tr>
       <td>TM011</td>
       <td>資訊來源</td>
-      <td></td>
+      <td>資訊來源</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>1</samp>:系統轉入 <samp>2</samp>:自行輸入 <samp>3</samp>:轉入後修改</td>
@@ -3805,7 +3805,7 @@
     <tr>
       <td>TM012</td>
       <td>確認者</td>
-      <td>Xác nhận</td>
+      <td>確認者</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -3813,7 +3813,7 @@
     <tr>
       <td>TM013</td>
       <td>確認日期</td>
-      <td>Ngày xác nhận</td>
+      <td>確認日期</td>
       <td>V</td>
       <td>8.0</td>
       <td></td>
@@ -3821,7 +3821,7 @@
     <tr>
       <td>TM014</td>
       <td>確認碼</td>
-      <td>Mã xác nhận</td>
+      <td>確認碼</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y/N/V</td>
@@ -3829,7 +3829,7 @@
     <tr>
       <td>TM015</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -3837,7 +3837,7 @@
     <tr>
       <td>TM016</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>15.6</td>
       <td></td>
@@ -3845,7 +3845,7 @@
     <tr>
       <td>TM017</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -3853,7 +3853,7 @@
     <tr>
       <td>TM018</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>30.0</td>
       <td></td>
@@ -3861,7 +3861,7 @@
     <tr>
       <td>TM019</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>60.0</td>
       <td></td>
@@ -3876,7 +3876,7 @@
    <summary><samp>CUSTN</samp> : 交易單據單身檔</summary>
    <content>
 
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>IndexName</th>
@@ -3892,12 +3892,12 @@
     </tr>
   </tbody>
 </table>
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>ID</th>
       <th>FieldName</th>
-      <th>NameVietnam</th>
+      <th>NameEnglish</th>
       <th>Type</th>
       <th>Length</th>
       <th>Description</th>
@@ -3907,7 +3907,7 @@
     <tr>
       <td>TN001</td>
       <td>單別</td>
-      <td>Loại đơn</td>
+      <td>單別</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -3915,7 +3915,7 @@
     <tr>
       <td>TN002</td>
       <td>單號</td>
-      <td>Mã CT</td>
+      <td>單號</td>
       <td>C</td>
       <td>11.0</td>
       <td></td>
@@ -3923,7 +3923,7 @@
     <tr>
       <td>TN003</td>
       <td>序號</td>
-      <td>Số thứ tự</td>
+      <td>序號</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -3931,7 +3931,7 @@
     <tr>
       <td>TN004</td>
       <td>品號</td>
-      <td>Mã SP</td>
+      <td>Item No.</td>
       <td>V</td>
       <td>40.0</td>
       <td></td>
@@ -3939,7 +3939,7 @@
     <tr>
       <td>TN005</td>
       <td>品名</td>
-      <td>Tên SP</td>
+      <td>品名</td>
       <td>V</td>
       <td>120.0</td>
       <td></td>
@@ -3947,7 +3947,7 @@
     <tr>
       <td>TN006</td>
       <td>規格</td>
-      <td>Quy cách</td>
+      <td>規格</td>
       <td>V</td>
       <td>120.0</td>
       <td></td>
@@ -3955,7 +3955,7 @@
     <tr>
       <td>TN007</td>
       <td>庫別</td>
-      <td>Kho</td>
+      <td>庫別</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -3963,7 +3963,7 @@
     <tr>
       <td>TN008</td>
       <td>數量</td>
-      <td>SL</td>
+      <td>數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -3971,7 +3971,7 @@
     <tr>
       <td>TN009</td>
       <td>數量二</td>
-      <td></td>
+      <td>數量二</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -3979,7 +3979,7 @@
     <tr>
       <td>TN010</td>
       <td>單位</td>
-      <td>ĐV</td>
+      <td>單位</td>
       <td>V</td>
       <td>6.0</td>
       <td></td>
@@ -3987,7 +3987,7 @@
     <tr>
       <td>TN011</td>
       <td>備註</td>
-      <td>Ghi chú</td>
+      <td>備註</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -3995,7 +3995,7 @@
     <tr>
       <td>TN012</td>
       <td>確認碼</td>
-      <td>Mã xác nhận</td>
+      <td>確認碼</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y/N/V</td>
@@ -4003,7 +4003,7 @@
     <tr>
       <td>TN013</td>
       <td>庫位</td>
-      <td></td>
+      <td>庫位</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -4011,7 +4011,7 @@
     <tr>
       <td>TN014</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -4019,7 +4019,7 @@
     <tr>
       <td>TN015</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>15.6</td>
       <td></td>
@@ -4027,7 +4027,7 @@
     <tr>
       <td>TN016</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -4035,7 +4035,7 @@
     <tr>
       <td>TN017</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>30.0</td>
       <td></td>
@@ -4043,7 +4043,7 @@
     <tr>
       <td>TN018</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>60.0</td>
       <td></td>
@@ -4058,7 +4058,7 @@
    <summary><samp>CUSTO</samp> : 轉廠申請單頭檔</summary>
    <content>
 
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>IndexName</th>
@@ -4079,12 +4079,12 @@
     </tr>
   </tbody>
 </table>
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>ID</th>
       <th>FieldName</th>
-      <th>NameVietnam</th>
+      <th>NameEnglish</th>
       <th>Type</th>
       <th>Length</th>
       <th>Description</th>
@@ -4094,7 +4094,7 @@
     <tr>
       <td>TO001</td>
       <td>轉廠申請單別</td>
-      <td></td>
+      <td>轉廠申請單別</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -4102,7 +4102,7 @@
     <tr>
       <td>TO002</td>
       <td>轉廠申請單號</td>
-      <td></td>
+      <td>轉廠申請單號</td>
       <td>C</td>
       <td>11.0</td>
       <td></td>
@@ -4110,7 +4110,7 @@
     <tr>
       <td>TO003</td>
       <td>轉廠申請編號</td>
-      <td></td>
+      <td>轉廠申請編號</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -4118,15 +4118,15 @@
     <tr>
       <td>TO004</td>
       <td>轉廠類型</td>
-      <td></td>
+      <td>轉廠類型</td>
       <td>V</td>
       <td>1.0</td>
-      <td><samp>1</samp>.轉廠進口 <samp>2</samp>.轉廠出口 <samp>3</samp>.全部</td>
+      <td><samp>1</samp>:轉廠進口 <samp>2</samp>:轉廠出口 <samp>3</samp>:全部</td>
     </tr>
     <tr>
       <td>TO005</td>
       <td>申請日期</td>
-      <td>Ngày yêu cầu</td>
+      <td>申請日期</td>
       <td>V</td>
       <td>8.0</td>
       <td></td>
@@ -4134,7 +4134,7 @@
     <tr>
       <td>TO006</td>
       <td>單據日期</td>
-      <td>Ngày CT</td>
+      <td>單據日期</td>
       <td>V</td>
       <td>8.0</td>
       <td></td>
@@ -4142,7 +4142,7 @@
     <tr>
       <td>TO007</td>
       <td>申請人員</td>
-      <td></td>
+      <td>申請人員</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -4150,7 +4150,7 @@
     <tr>
       <td>TO008</td>
       <td>購銷合同編號</td>
-      <td></td>
+      <td>購銷合同編號</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -4158,7 +4158,7 @@
     <tr>
       <td>TO009</td>
       <td>幣種</td>
-      <td></td>
+      <td>幣種</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -4166,7 +4166,7 @@
     <tr>
       <td>TO010</td>
       <td>轉出方編號</td>
-      <td></td>
+      <td>轉出方編號</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -4174,7 +4174,7 @@
     <tr>
       <td>TO011</td>
       <td>手冊編號</td>
-      <td>MS sổ tay</td>
+      <td>手冊編號</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -4182,7 +4182,7 @@
     <tr>
       <td>TO012</td>
       <td>手冊有效日期</td>
-      <td></td>
+      <td>手冊有效日期</td>
       <td>V</td>
       <td>8.0</td>
       <td></td>
@@ -4190,7 +4190,7 @@
     <tr>
       <td>TO013</td>
       <td>轉入方編號</td>
-      <td></td>
+      <td>轉入方編號</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -4198,7 +4198,7 @@
     <tr>
       <td>TO014</td>
       <td>手冊編號</td>
-      <td>MS sổ tay</td>
+      <td>手冊編號</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -4206,7 +4206,7 @@
     <tr>
       <td>TO015</td>
       <td>手冊有效日期</td>
-      <td></td>
+      <td>手冊有效日期</td>
       <td>V</td>
       <td>8.0</td>
       <td></td>
@@ -4214,7 +4214,7 @@
     <tr>
       <td>TO016</td>
       <td>備註</td>
-      <td>Ghi chú</td>
+      <td>備註</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -4222,7 +4222,7 @@
     <tr>
       <td>TO017</td>
       <td>列印次數</td>
-      <td>Số lần in</td>
+      <td>列印次數</td>
       <td>N</td>
       <td>1.0</td>
       <td></td>
@@ -4230,7 +4230,7 @@
     <tr>
       <td>TO018</td>
       <td>確認者</td>
-      <td>Xác nhận</td>
+      <td>確認者</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -4238,15 +4238,15 @@
     <tr>
       <td>TO019</td>
       <td>簽核狀態碼</td>
-      <td>T.Thái xét duyệt</td>
+      <td>簽核狀態碼</td>
       <td>V</td>
       <td>1.0</td>
-      <td><samp>0</samp>.待處理、<samp>1</samp>.簽核中、<samp>2</samp>.退件、<samp>3</samp>.已核准、<samp>4</samp>.取消確認中、<samp>5</samp>.作廢中、<samp>6</samp>.取消作廢中、<samp>N</samp>.不運行電子簽核<samp>[DE<samp>F</samp>:N]</samp></td>
+      <td><samp>0</samp>:待處理、<samp>1</samp>:簽核中、<samp>2</samp>:退件、<samp>3</samp>:已核准、<samp>4</samp>:取消確認中、<samp>5</samp>:作廢中、<samp>6</samp>:取消作廢中、<samp>N</samp>:不運行電子簽核<samp>[DE<samp>F</samp>:N]</samp></td>
     </tr>
     <tr>
       <td>TO020</td>
       <td>主登記手冊號</td>
-      <td></td>
+      <td>主登記手冊號</td>
       <td>V</td>
       <td>15.0</td>
       <td></td>
@@ -4254,7 +4254,7 @@
     <tr>
       <td>TO021</td>
       <td>主登記手冊號</td>
-      <td></td>
+      <td>主登記手冊號</td>
       <td>V</td>
       <td>15.0</td>
       <td></td>
@@ -4262,15 +4262,15 @@
     <tr>
       <td>TO022</td>
       <td>傳送次數</td>
-      <td>Số lần gửi</td>
+      <td>傳送次數</td>
       <td>N</td>
       <td>1.0</td>
-      <td><samp>[DE<samp>F</samp>:0]</samp></td>
+      <td>傳送次數<samp>[DEF:0]</samp></td>
     </tr>
     <tr>
       <td>TO023</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -4278,7 +4278,7 @@
     <tr>
       <td>TO024</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>15.6</td>
       <td></td>
@@ -4286,7 +4286,7 @@
     <tr>
       <td>TO025</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -4294,7 +4294,7 @@
     <tr>
       <td>TO026</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>30.0</td>
       <td></td>
@@ -4302,7 +4302,7 @@
     <tr>
       <td>TO027</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>60.0</td>
       <td></td>
@@ -4317,7 +4317,7 @@
    <summary><samp>CUSTP</samp> : 轉廠申請單身檔</summary>
    <content>
 
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>IndexName</th>
@@ -4333,12 +4333,12 @@
     </tr>
   </tbody>
 </table>
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>ID</th>
       <th>FieldName</th>
-      <th>NameVietnam</th>
+      <th>NameEnglish</th>
       <th>Type</th>
       <th>Length</th>
       <th>Description</th>
@@ -4348,7 +4348,7 @@
     <tr>
       <td>TP001</td>
       <td>轉廠申請單別</td>
-      <td></td>
+      <td>轉廠申請單別</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -4356,7 +4356,7 @@
     <tr>
       <td>TP002</td>
       <td>轉廠申請單號</td>
-      <td></td>
+      <td>轉廠申請單號</td>
       <td>C</td>
       <td>11.0</td>
       <td></td>
@@ -4364,7 +4364,7 @@
     <tr>
       <td>TP003</td>
       <td>序號</td>
-      <td>Số thứ tự</td>
+      <td>序號</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -4372,7 +4372,7 @@
     <tr>
       <td>TP004</td>
       <td>轉廠品號</td>
-      <td></td>
+      <td>轉廠品號</td>
       <td>V</td>
       <td>40.0</td>
       <td>申請轉廠品號</td>
@@ -4380,7 +4380,7 @@
     <tr>
       <td>TP005</td>
       <td>倉庫</td>
-      <td>Kho</td>
+      <td>倉庫</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -4388,15 +4388,15 @@
     <tr>
       <td>TP006</td>
       <td>存貨型態</td>
-      <td>Kiểu hàng tồn</td>
+      <td>存貨型態</td>
       <td>V</td>
       <td>1.0</td>
-      <td><samp>1</samp>:成品、<samp>2</samp>:半成品、<samp>3</samp>:在製品、<samp>4</samp>:原料<small>(註:M/S->成品,P->原料)</small></td>
+      <td><samp>1</samp>:成品、<samp>2</samp>:半成品、<samp>3</samp>:在製品、<samp>4</samp>:原料<small>(<samp>註</samp>:M/S->成品,P->原料)</small></td>
     </tr>
     <tr>
       <td>TP007</td>
       <td>申請數量</td>
-      <td>SL xin</td>
+      <td>申請數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -4404,7 +4404,7 @@
     <tr>
       <td>TP008</td>
       <td>已轉數量</td>
-      <td></td>
+      <td>已轉數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -4412,7 +4412,7 @@
     <tr>
       <td>TP009</td>
       <td>單位</td>
-      <td>ĐV</td>
+      <td>單位</td>
       <td>V</td>
       <td>6.0</td>
       <td></td>
@@ -4420,7 +4420,7 @@
     <tr>
       <td>TP010</td>
       <td>單價</td>
-      <td>ĐG</td>
+      <td>單價</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -4428,7 +4428,7 @@
     <tr>
       <td>TP011</td>
       <td>確認碼</td>
-      <td>Mã xác nhận</td>
+      <td>確認碼</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y/N/V</td>
@@ -4436,7 +4436,7 @@
     <tr>
       <td>TP012</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -4444,7 +4444,7 @@
     <tr>
       <td>TP013</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>15.6</td>
       <td></td>
@@ -4452,7 +4452,7 @@
     <tr>
       <td>TP014</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -4460,7 +4460,7 @@
     <tr>
       <td>TP015</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>30.0</td>
       <td></td>
@@ -4468,7 +4468,7 @@
     <tr>
       <td>TP016</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>60.0</td>
       <td></td>
@@ -4483,7 +4483,7 @@
    <summary><samp>CUSTR</samp> : 轉廠維護單頭檔</summary>
    <content>
 
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>IndexName</th>
@@ -4504,12 +4504,12 @@
     </tr>
   </tbody>
 </table>
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>ID</th>
       <th>FieldName</th>
-      <th>NameVietnam</th>
+      <th>NameEnglish</th>
       <th>Type</th>
       <th>Length</th>
       <th>Description</th>
@@ -4519,7 +4519,7 @@
     <tr>
       <td>TR001</td>
       <td>轉廠維護單別</td>
-      <td></td>
+      <td>轉廠維護單別</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -4527,7 +4527,7 @@
     <tr>
       <td>TR002</td>
       <td>轉廠維護單號</td>
-      <td></td>
+      <td>轉廠維護單號</td>
       <td>C</td>
       <td>11.0</td>
       <td></td>
@@ -4535,7 +4535,7 @@
     <tr>
       <td>TR003</td>
       <td>轉廠申請單別</td>
-      <td></td>
+      <td>轉廠申請單別</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -4543,7 +4543,7 @@
     <tr>
       <td>TR004</td>
       <td>轉廠申請單別</td>
-      <td></td>
+      <td>轉廠申請單別</td>
       <td>V</td>
       <td>11.0</td>
       <td></td>
@@ -4551,15 +4551,15 @@
     <tr>
       <td>TR005</td>
       <td>轉廠類型</td>
-      <td></td>
+      <td>轉廠類型</td>
       <td>V</td>
       <td>1.0</td>
-      <td><samp>1</samp>.轉廠進口 <samp>2</samp>.轉廠出口 <samp>3</samp>.全部</td>
+      <td><samp>1</samp>:轉廠進口 <samp>2</samp>:轉廠出口 <samp>3</samp>:全部</td>
     </tr>
     <tr>
       <td>TR006</td>
       <td>轉廠日期</td>
-      <td></td>
+      <td>轉廠日期</td>
       <td>V</td>
       <td>8.0</td>
       <td></td>
@@ -4567,7 +4567,7 @@
     <tr>
       <td>TR007</td>
       <td>轉廠申請日期</td>
-      <td></td>
+      <td>轉廠申請日期</td>
       <td>V</td>
       <td>8.0</td>
       <td></td>
@@ -4575,7 +4575,7 @@
     <tr>
       <td>TR008</td>
       <td>報關單號</td>
-      <td>Mã tờ khai hải quan</td>
+      <td>報關單號</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -4583,7 +4583,7 @@
     <tr>
       <td>TR009</td>
       <td>報關日期</td>
-      <td>Ngày khai báo</td>
+      <td>報關日期</td>
       <td>V</td>
       <td>8.0</td>
       <td></td>
@@ -4591,7 +4591,7 @@
     <tr>
       <td>TR010</td>
       <td>備註</td>
-      <td>Ghi chú</td>
+      <td>備註</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -4599,7 +4599,7 @@
     <tr>
       <td>TR011</td>
       <td>列印次數</td>
-      <td>Số lần in</td>
+      <td>列印次數</td>
       <td>N</td>
       <td>1.0</td>
       <td></td>
@@ -4607,7 +4607,7 @@
     <tr>
       <td>TR012</td>
       <td>確認者</td>
-      <td>Xác nhận</td>
+      <td>確認者</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -4615,23 +4615,23 @@
     <tr>
       <td>TR013</td>
       <td>簽核狀態碼</td>
-      <td>T.Thái xét duyệt</td>
+      <td>簽核狀態碼</td>
       <td>V</td>
       <td>1.0</td>
-      <td><samp>0</samp>.待處理、<samp>1</samp>.簽核中、<samp>2</samp>.退件、<samp>3</samp>.已核准、<samp>4</samp>.取消確認中、<samp>5</samp>.作廢中、<samp>6</samp>.取消作廢中、<samp>N</samp>.不運行電子簽核<samp>[DE<samp>F</samp>:N]</samp></td>
+      <td><samp>0</samp>:待處理、<samp>1</samp>:簽核中、<samp>2</samp>:退件、<samp>3</samp>:已核准、<samp>4</samp>:取消確認中、<samp>5</samp>:作廢中、<samp>6</samp>:取消作廢中、<samp>N</samp>:不運行電子簽核<samp>[DE<samp>F</samp>:N]</samp></td>
     </tr>
     <tr>
       <td>TR014</td>
       <td>傳送次數</td>
-      <td>Số lần gửi</td>
+      <td>傳送次數</td>
       <td>N</td>
       <td>1.0</td>
-      <td><samp>[DE<samp>F</samp>:0]</samp></td>
+      <td>傳送次數<samp>[DEF:0]</samp></td>
     </tr>
     <tr>
       <td>TR015</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -4639,7 +4639,7 @@
     <tr>
       <td>TR016</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>15.6</td>
       <td></td>
@@ -4647,7 +4647,7 @@
     <tr>
       <td>TR017</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -4655,7 +4655,7 @@
     <tr>
       <td>TR018</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>30.0</td>
       <td></td>
@@ -4663,7 +4663,7 @@
     <tr>
       <td>TR019</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>60.0</td>
       <td></td>
@@ -4678,7 +4678,7 @@
    <summary><samp>CUSTS</samp> : 轉廠維護單身檔</summary>
    <content>
 
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>IndexName</th>
@@ -4694,12 +4694,12 @@
     </tr>
   </tbody>
 </table>
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>ID</th>
       <th>FieldName</th>
-      <th>NameVietnam</th>
+      <th>NameEnglish</th>
       <th>Type</th>
       <th>Length</th>
       <th>Description</th>
@@ -4709,7 +4709,7 @@
     <tr>
       <td>TS001</td>
       <td>轉廠維護單別</td>
-      <td></td>
+      <td>轉廠維護單別</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -4717,7 +4717,7 @@
     <tr>
       <td>TS002</td>
       <td>轉廠維護單號</td>
-      <td></td>
+      <td>轉廠維護單號</td>
       <td>C</td>
       <td>11.0</td>
       <td></td>
@@ -4725,7 +4725,7 @@
     <tr>
       <td>TS003</td>
       <td>序號</td>
-      <td>Số thứ tự</td>
+      <td>序號</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -4733,7 +4733,7 @@
     <tr>
       <td>TS004</td>
       <td>轉廠品號</td>
-      <td></td>
+      <td>轉廠品號</td>
       <td>V</td>
       <td>40.0</td>
       <td></td>
@@ -4741,7 +4741,7 @@
     <tr>
       <td>TS005</td>
       <td>倉庫</td>
-      <td>Kho</td>
+      <td>倉庫</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -4749,15 +4749,15 @@
     <tr>
       <td>TS006</td>
       <td>存貨型態</td>
-      <td>Kiểu hàng tồn</td>
+      <td>存貨型態</td>
       <td>V</td>
       <td>1.0</td>
-      <td><samp>1</samp>:成品、<samp>2</samp>:半成品、<samp>3</samp>:在製品、<samp>4</samp>:原料<small>(註:M/S->成品</td>
+      <td><samp>1</samp>:成品、<samp>2</samp>:半成品、<samp>3</samp>:在製品、<samp>4</samp>:原料<small>(<samp>註</samp>:M/S->成品</td>
     </tr>
     <tr>
       <td>TS007</td>
       <td>轉廠數量</td>
-      <td></td>
+      <td>轉廠數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -4765,7 +4765,7 @@
     <tr>
       <td>TS009</td>
       <td>單位</td>
-      <td>ĐV</td>
+      <td>單位</td>
       <td>V</td>
       <td>6.0</td>
       <td></td>
@@ -4773,7 +4773,7 @@
     <tr>
       <td>TS010</td>
       <td>單價</td>
-      <td>ĐG</td>
+      <td>單價</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -4781,7 +4781,7 @@
     <tr>
       <td>TS011</td>
       <td>確認碼</td>
-      <td>Mã xác nhận</td>
+      <td>確認碼</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y/N/V</td>
@@ -4789,7 +4789,7 @@
     <tr>
       <td>TS012</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -4797,7 +4797,7 @@
     <tr>
       <td>TS013</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>15.6</td>
       <td></td>
@@ -4805,7 +4805,7 @@
     <tr>
       <td>TS014</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -4813,7 +4813,7 @@
     <tr>
       <td>TS015</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>30.0</td>
       <td></td>
@@ -4821,7 +4821,7 @@
     <tr>
       <td>TS016</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>60.0</td>
       <td></td>
@@ -4836,7 +4836,7 @@
    <summary><samp>CUSTU</samp> : 設備申請單頭檔</summary>
    <content>
 
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>IndexName</th>
@@ -4857,12 +4857,12 @@
     </tr>
   </tbody>
 </table>
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>ID</th>
       <th>FieldName</th>
-      <th>NameVietnam</th>
+      <th>NameEnglish</th>
       <th>Type</th>
       <th>Length</th>
       <th>Description</th>
@@ -4872,7 +4872,7 @@
     <tr>
       <td>TU001</td>
       <td>設備申請單別</td>
-      <td></td>
+      <td>設備申請單別</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -4880,7 +4880,7 @@
     <tr>
       <td>TU002</td>
       <td>設備申請單號</td>
-      <td></td>
+      <td>設備申請單號</td>
       <td>C</td>
       <td>11.0</td>
       <td></td>
@@ -4888,7 +4888,7 @@
     <tr>
       <td>TU003</td>
       <td>設備申請編號</td>
-      <td></td>
+      <td>設備申請編號</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -4896,7 +4896,7 @@
     <tr>
       <td>TU004</td>
       <td>申請日期</td>
-      <td>Ngày yêu cầu</td>
+      <td>申請日期</td>
       <td>V</td>
       <td>8.0</td>
       <td></td>
@@ -4904,7 +4904,7 @@
     <tr>
       <td>TU005</td>
       <td>單據日期</td>
-      <td>Ngày CT</td>
+      <td>單據日期</td>
       <td>V</td>
       <td>8.0</td>
       <td></td>
@@ -4912,7 +4912,7 @@
     <tr>
       <td>TU006</td>
       <td>收貨人</td>
-      <td></td>
+      <td>收貨人</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -4920,7 +4920,7 @@
     <tr>
       <td>TU007</td>
       <td>申請人員</td>
-      <td></td>
+      <td>申請人員</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -4928,7 +4928,7 @@
     <tr>
       <td>TU008</td>
       <td>電話</td>
-      <td>ĐT</td>
+      <td>電話</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -4936,7 +4936,7 @@
     <tr>
       <td>TU009</td>
       <td>預計進口日期</td>
-      <td></td>
+      <td>預計進口日期</td>
       <td>V</td>
       <td>8.0</td>
       <td></td>
@@ -4944,7 +4944,7 @@
     <tr>
       <td>TU010</td>
       <td>預計到港日期</td>
-      <td></td>
+      <td>預計到港日期</td>
       <td>V</td>
       <td>8.0</td>
       <td></td>
@@ -4952,7 +4952,7 @@
     <tr>
       <td>TU011</td>
       <td>免稅證明編號</td>
-      <td></td>
+      <td>免稅證明編號</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -4960,7 +4960,7 @@
     <tr>
       <td>TU012</td>
       <td>預報關單號</td>
-      <td></td>
+      <td>預報關單號</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -4968,7 +4968,7 @@
     <tr>
       <td>TU013</td>
       <td>有效期限</td>
-      <td></td>
+      <td>有效期限</td>
       <td>V</td>
       <td>8.0</td>
       <td></td>
@@ -4976,7 +4976,7 @@
     <tr>
       <td>TU014</td>
       <td>狀態</td>
-      <td>Trạng thái</td>
+      <td>狀態</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -4984,7 +4984,7 @@
     <tr>
       <td>TU015</td>
       <td>備註</td>
-      <td>Ghi chú</td>
+      <td>備註</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -4992,7 +4992,7 @@
     <tr>
       <td>TU016</td>
       <td>列印次數</td>
-      <td>Số lần in</td>
+      <td>列印次數</td>
       <td>N</td>
       <td>1.0</td>
       <td></td>
@@ -5000,7 +5000,7 @@
     <tr>
       <td>TU017</td>
       <td>確認者</td>
-      <td>Xác nhận</td>
+      <td>確認者</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -5008,23 +5008,23 @@
     <tr>
       <td>TU018</td>
       <td>簽核狀態碼</td>
-      <td>T.Thái xét duyệt</td>
+      <td>簽核狀態碼</td>
       <td>V</td>
       <td>1.0</td>
-      <td><samp>0</samp>.待處理、<samp>1</samp>.簽核中、<samp>2</samp>.退件、<samp>3</samp>.已核准、<samp>4</samp>.取消確認中、<samp>5</samp>.作廢中、<samp>6</samp>.取消作廢中、<samp>N</samp>.不運行電子簽核<samp>[DE<samp>F</samp>:N]</samp></td>
+      <td><samp>0</samp>:待處理、<samp>1</samp>:簽核中、<samp>2</samp>:退件、<samp>3</samp>:已核准、<samp>4</samp>:取消確認中、<samp>5</samp>:作廢中、<samp>6</samp>:取消作廢中、<samp>N</samp>:不運行電子簽核<samp>[DE<samp>F</samp>:N]</samp></td>
     </tr>
     <tr>
       <td>TU019</td>
       <td>傳送次數</td>
-      <td>Số lần gửi</td>
+      <td>傳送次數</td>
       <td>N</td>
       <td>1.0</td>
-      <td><samp>[DE<samp>F</samp>:0]</samp></td>
+      <td>傳送次數<samp>[DEF:0]</samp></td>
     </tr>
     <tr>
       <td>TU020</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -5032,7 +5032,7 @@
     <tr>
       <td>TU021</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>15.6</td>
       <td></td>
@@ -5040,7 +5040,7 @@
     <tr>
       <td>TU022</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -5048,7 +5048,7 @@
     <tr>
       <td>TU023</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>30.0</td>
       <td></td>
@@ -5056,7 +5056,7 @@
     <tr>
       <td>TU024</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>60.0</td>
       <td></td>
@@ -5071,7 +5071,7 @@
    <summary><samp>CUSTV</samp> : 設備申請單身檔</summary>
    <content>
 
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>IndexName</th>
@@ -5087,12 +5087,12 @@
     </tr>
   </tbody>
 </table>
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>ID</th>
       <th>FieldName</th>
-      <th>NameVietnam</th>
+      <th>NameEnglish</th>
       <th>Type</th>
       <th>Length</th>
       <th>Description</th>
@@ -5102,7 +5102,7 @@
     <tr>
       <td>TV001</td>
       <td>設備申請單別</td>
-      <td></td>
+      <td>設備申請單別</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -5110,7 +5110,7 @@
     <tr>
       <td>TV002</td>
       <td>設備申請單號</td>
-      <td></td>
+      <td>設備申請單號</td>
       <td>C</td>
       <td>11.0</td>
       <td></td>
@@ -5118,7 +5118,7 @@
     <tr>
       <td>TV003</td>
       <td>序號</td>
-      <td>Số thứ tự</td>
+      <td>序號</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -5126,7 +5126,7 @@
     <tr>
       <td>TV004</td>
       <td>申請名稱/規格型號</td>
-      <td></td>
+      <td>申請名稱/規格型號</td>
       <td>V</td>
       <td>60.0</td>
       <td></td>
@@ -5134,7 +5134,7 @@
     <tr>
       <td>TV005</td>
       <td>原產地</td>
-      <td>Nơi sản xuất cũ</td>
+      <td>原產地</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -5142,7 +5142,7 @@
     <tr>
       <td>TV006</td>
       <td>數量</td>
-      <td>SL</td>
+      <td>數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -5150,7 +5150,7 @@
     <tr>
       <td>TV007</td>
       <td>已進口數量</td>
-      <td></td>
+      <td>已進口數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -5158,7 +5158,7 @@
     <tr>
       <td>TV008</td>
       <td>單位</td>
-      <td>ĐV</td>
+      <td>單位</td>
       <td>V</td>
       <td>6.0</td>
       <td></td>
@@ -5166,7 +5166,7 @@
     <tr>
       <td>TV009</td>
       <td>單價</td>
-      <td>ĐG</td>
+      <td>單價</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -5174,7 +5174,7 @@
     <tr>
       <td>TV010</td>
       <td>新舊程度</td>
-      <td></td>
+      <td>新舊程度</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -5182,7 +5182,7 @@
     <tr>
       <td>TV011</td>
       <td>淨重</td>
-      <td>Trọng lượng tịnh</td>
+      <td>淨重</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -5190,7 +5190,7 @@
     <tr>
       <td>TV012</td>
       <td>毛重</td>
-      <td>Trọng lượng cả bì</td>
+      <td>毛重</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -5198,7 +5198,7 @@
     <tr>
       <td>TV013</td>
       <td>包裝材質</td>
-      <td></td>
+      <td>包裝材質</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -5206,7 +5206,7 @@
     <tr>
       <td>TV014</td>
       <td>箱數</td>
-      <td>SL thùng</td>
+      <td>箱數</td>
       <td>N</td>
       <td>13.3</td>
       <td></td>
@@ -5214,7 +5214,7 @@
     <tr>
       <td>TV015</td>
       <td>箱/棧板</td>
-      <td></td>
+      <td>箱/棧板</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -5222,7 +5222,7 @@
     <tr>
       <td>TV016</td>
       <td>體積</td>
-      <td></td>
+      <td>體積</td>
       <td>N</td>
       <td>13.3</td>
       <td></td>
@@ -5230,7 +5230,7 @@
     <tr>
       <td>TV017</td>
       <td>固定資產</td>
-      <td>TSCĐ</td>
+      <td>固定資產</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -5238,7 +5238,7 @@
     <tr>
       <td>TV018</td>
       <td>資產代碼</td>
-      <td></td>
+      <td>資產代碼</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -5246,7 +5246,7 @@
     <tr>
       <td>TV019</td>
       <td>附號</td>
-      <td></td>
+      <td>附號</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -5254,7 +5254,7 @@
     <tr>
       <td>TV020</td>
       <td>費用代碼</td>
-      <td></td>
+      <td>費用代碼</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -5262,7 +5262,7 @@
     <tr>
       <td>TV021</td>
       <td>使用部門</td>
-      <td></td>
+      <td>使用部門</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -5270,7 +5270,7 @@
     <tr>
       <td>TV022</td>
       <td>確認碼</td>
-      <td>Mã xác nhận</td>
+      <td>確認碼</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y/N/V</td>
@@ -5278,7 +5278,7 @@
     <tr>
       <td>TV023</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -5286,7 +5286,7 @@
     <tr>
       <td>TV024</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>15.6</td>
       <td></td>
@@ -5294,7 +5294,7 @@
     <tr>
       <td>TV025</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -5302,7 +5302,7 @@
     <tr>
       <td>TV026</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>30.0</td>
       <td></td>
@@ -5310,7 +5310,7 @@
     <tr>
       <td>TV027</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>60.0</td>
       <td></td>
@@ -5325,7 +5325,7 @@
    <summary><samp>CUSTW</samp> : 設備維護單頭檔</summary>
    <content>
 
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>IndexName</th>
@@ -5346,12 +5346,12 @@
     </tr>
   </tbody>
 </table>
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>ID</th>
       <th>FieldName</th>
-      <th>NameVietnam</th>
+      <th>NameEnglish</th>
       <th>Type</th>
       <th>Length</th>
       <th>Description</th>
@@ -5361,7 +5361,7 @@
     <tr>
       <td>TW001</td>
       <td>設備維護單別</td>
-      <td></td>
+      <td>設備維護單別</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -5369,7 +5369,7 @@
     <tr>
       <td>TW002</td>
       <td>設備維護單號</td>
-      <td></td>
+      <td>設備維護單號</td>
       <td>C</td>
       <td>11.0</td>
       <td></td>
@@ -5377,7 +5377,7 @@
     <tr>
       <td>TW003</td>
       <td>設備申請單別</td>
-      <td></td>
+      <td>設備申請單別</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -5385,7 +5385,7 @@
     <tr>
       <td>TW004</td>
       <td>設備申請單號</td>
-      <td></td>
+      <td>設備申請單號</td>
       <td>V</td>
       <td>11.0</td>
       <td></td>
@@ -5393,7 +5393,7 @@
     <tr>
       <td>TW005</td>
       <td>設備申請編號</td>
-      <td></td>
+      <td>設備申請編號</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -5401,7 +5401,7 @@
     <tr>
       <td>TW006</td>
       <td>申請日期</td>
-      <td>Ngày yêu cầu</td>
+      <td>申請日期</td>
       <td>V</td>
       <td>8.0</td>
       <td></td>
@@ -5409,7 +5409,7 @@
     <tr>
       <td>TW007</td>
       <td>單據日期</td>
-      <td>Ngày CT</td>
+      <td>單據日期</td>
       <td>V</td>
       <td>8.0</td>
       <td></td>
@@ -5417,7 +5417,7 @@
     <tr>
       <td>TW008</td>
       <td>進口日期</td>
-      <td></td>
+      <td>進口日期</td>
       <td>V</td>
       <td>8.0</td>
       <td></td>
@@ -5425,7 +5425,7 @@
     <tr>
       <td>TW009</td>
       <td>到港日期</td>
-      <td>Ngày đến cảng</td>
+      <td>到港日期</td>
       <td>V</td>
       <td>8.0</td>
       <td></td>
@@ -5433,7 +5433,7 @@
     <tr>
       <td>TW010</td>
       <td>報關單號</td>
-      <td>Mã tờ khai hải quan</td>
+      <td>報關單號</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -5441,7 +5441,7 @@
     <tr>
       <td>TW011</td>
       <td>備註</td>
-      <td>Ghi chú</td>
+      <td>備註</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -5449,7 +5449,7 @@
     <tr>
       <td>TW012</td>
       <td>列印次數</td>
-      <td>Số lần in</td>
+      <td>列印次數</td>
       <td>N</td>
       <td>1.0</td>
       <td></td>
@@ -5457,7 +5457,7 @@
     <tr>
       <td>TW013</td>
       <td>確認者</td>
-      <td>Xác nhận</td>
+      <td>確認者</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -5465,23 +5465,23 @@
     <tr>
       <td>TW014</td>
       <td>簽核狀態碼</td>
-      <td>T.Thái xét duyệt</td>
+      <td>簽核狀態碼</td>
       <td>V</td>
       <td>1.0</td>
-      <td><samp>0</samp>.待處理、<samp>1</samp>.簽核中、<samp>2</samp>.退件、<samp>3</samp>.已核准、<samp>4</samp>.取消確認中、<samp>5</samp>.作廢中、<samp>6</samp>.取消作廢中、<samp>N</samp>.不運行電子簽核<samp>[DE<samp>F</samp>:N]</samp></td>
+      <td><samp>0</samp>:待處理、<samp>1</samp>:簽核中、<samp>2</samp>:退件、<samp>3</samp>:已核准、<samp>4</samp>:取消確認中、<samp>5</samp>:作廢中、<samp>6</samp>:取消作廢中、<samp>N</samp>:不運行電子簽核<samp>[DE<samp>F</samp>:N]</samp></td>
     </tr>
     <tr>
       <td>TW015</td>
       <td>傳送次數</td>
-      <td>Số lần gửi</td>
+      <td>傳送次數</td>
       <td>N</td>
       <td>1.0</td>
-      <td><samp>[DE<samp>F</samp>:0]</samp></td>
+      <td>傳送次數<samp>[DEF:0]</samp></td>
     </tr>
     <tr>
       <td>TW016</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -5489,7 +5489,7 @@
     <tr>
       <td>TW017</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>15.6</td>
       <td></td>
@@ -5497,7 +5497,7 @@
     <tr>
       <td>TW018</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -5505,7 +5505,7 @@
     <tr>
       <td>TW019</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>30.0</td>
       <td></td>
@@ -5513,7 +5513,7 @@
     <tr>
       <td>TW020</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>60.0</td>
       <td></td>
@@ -5528,7 +5528,7 @@
    <summary><samp>CUSTX</samp> : 設備維護單身檔</summary>
    <content>
 
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>IndexName</th>
@@ -5544,12 +5544,12 @@
     </tr>
   </tbody>
 </table>
-      <table border="0" class="dataframe">
+      <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>ID</th>
       <th>FieldName</th>
-      <th>NameVietnam</th>
+      <th>NameEnglish</th>
       <th>Type</th>
       <th>Length</th>
       <th>Description</th>
@@ -5559,7 +5559,7 @@
     <tr>
       <td>TX001</td>
       <td>設備維護單別</td>
-      <td></td>
+      <td>設備維護單別</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -5567,7 +5567,7 @@
     <tr>
       <td>TX002</td>
       <td>設備維護單號</td>
-      <td></td>
+      <td>設備維護單號</td>
       <td>C</td>
       <td>11.0</td>
       <td></td>
@@ -5575,7 +5575,7 @@
     <tr>
       <td>TX003</td>
       <td>序號</td>
-      <td>Số thứ tự</td>
+      <td>序號</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -5583,7 +5583,7 @@
     <tr>
       <td>TX004</td>
       <td>申請名稱/規格型號</td>
-      <td></td>
+      <td>申請名稱/規格型號</td>
       <td>V</td>
       <td>60.0</td>
       <td></td>
@@ -5591,7 +5591,7 @@
     <tr>
       <td>TX005</td>
       <td>數量</td>
-      <td>SL</td>
+      <td>數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -5599,7 +5599,7 @@
     <tr>
       <td>TX006</td>
       <td>已進口數量</td>
-      <td></td>
+      <td>已進口數量</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -5607,7 +5607,7 @@
     <tr>
       <td>TX007</td>
       <td>淨重</td>
-      <td>Trọng lượng tịnh</td>
+      <td>淨重</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -5615,7 +5615,7 @@
     <tr>
       <td>TX008</td>
       <td>毛重</td>
-      <td>Trọng lượng cả bì</td>
+      <td>毛重</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -5623,7 +5623,7 @@
     <tr>
       <td>TX009</td>
       <td>包裝材質</td>
-      <td></td>
+      <td>包裝材質</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -5631,7 +5631,7 @@
     <tr>
       <td>TX010</td>
       <td>箱數</td>
-      <td>SL thùng</td>
+      <td>箱數</td>
       <td>N</td>
       <td>13.3</td>
       <td></td>
@@ -5639,7 +5639,7 @@
     <tr>
       <td>TX011</td>
       <td>箱/棧板</td>
-      <td></td>
+      <td>箱/棧板</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -5647,7 +5647,7 @@
     <tr>
       <td>TX012</td>
       <td>體積</td>
-      <td></td>
+      <td>體積</td>
       <td>N</td>
       <td>13.3</td>
       <td></td>
@@ -5655,7 +5655,7 @@
     <tr>
       <td>TX013</td>
       <td>附號</td>
-      <td></td>
+      <td>附號</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -5663,7 +5663,7 @@
     <tr>
       <td>TX014</td>
       <td>使用部門</td>
-      <td></td>
+      <td>使用部門</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -5671,7 +5671,7 @@
     <tr>
       <td>TX015</td>
       <td>確認碼</td>
-      <td>Mã xác nhận</td>
+      <td>確認碼</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y/N/V</td>
@@ -5679,7 +5679,7 @@
     <tr>
       <td>TX016</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -5687,7 +5687,7 @@
     <tr>
       <td>TX017</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>N</td>
       <td>15.6</td>
       <td></td>
@@ -5695,7 +5695,7 @@
     <tr>
       <td>TX018</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -5703,7 +5703,7 @@
     <tr>
       <td>TX019</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>30.0</td>
       <td></td>
@@ -5711,7 +5711,7 @@
     <tr>
       <td>TX020</td>
       <td>預留欄位</td>
-      <td>Cột đặt lại</td>
+      <td>Reserved Field</td>
       <td>V</td>
       <td>60.0</td>
       <td></td>

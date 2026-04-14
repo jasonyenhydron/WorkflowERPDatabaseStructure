@@ -12,9 +12,9 @@ PASSWORD = 'password'
 
 Get_MoudleNameSQL = '''SELECT ADMMA.MA001 as ModuleID, ADMMA.MA002 as ModuleName 
  ,case ADMMA.MA001 
-  when 'VTA' then 'Hệ thống quản lý thuế giá trị gia tăng' 
-  else case when LANGUAGE.VIET is NULL then '' else rtrim(ltrim(LANGUAGE.VIET)) end 
-  end as ModuleNameViet 
+  when 'VTA' then 'Value Added Tax Management System' 
+  else case when LANGUAGE.ENG is NULL then '' else rtrim(ltrim(LANGUAGE.ENG)) end 
+  end as ModuleNameEnglish 
  ,ADMMA.MA004 as ModuleType 
  ,CASE ADMMA.MA001
   WHEN 'ADM' THEN N'系統'  WHEN 'CMS' THEN N'系統'  WHEN 'EBO' THEN N'系統'  WHEN 'FTS' THEN N'系統' 
@@ -43,12 +43,12 @@ WHERE ADMMA.MA001 <> 'TES'
 ORDER BY ADMMA.MA001 
 '''
 Get_TableNameSQL = """select ADMMC.MC001 as TableID, ADMMC.MC002 as TableName, 
-    case when LANG1.VIET is NULL then '' else rtrim(ltrim(LANG1.VIET)) end as TableNameViet, 
+    case when LANG1.ENG is NULL then '' else rtrim(ltrim(LANG1.ENG)) end as TableNameEnglish, 
     ADMMC.MC004 as ModuleID, ADMMA.MA002 as ModuleName, 
     case ADMMC.MC004 
-    when 'VTA' then 'Hệ thống quản lý thuế giá trị gia tăng' 
-    else case when LANG2.VIET is NULL then '' else rtrim(ltrim(LANG2.VIET)) end 
-    end as ModuleNameViet, 
+    when 'VTA' then 'Value Added Tax Management System' 
+    else case when LANG2.ENG is NULL then '' else rtrim(ltrim(LANG2.ENG)) end 
+    end as ModuleNameEnglish, 
     ADMMA.MA004 as ModuleType 
     from ADMMC 
     left join ADMMA on ADMMA.MA001=ADMMC.MC004 
@@ -59,7 +59,7 @@ Get_TableNameSQL = """select ADMMC.MC001 as TableID, ADMMC.MC002 as TableName,
 
 Get_TableStructureSQL = """select ADMMC.MC001 as TableID, ADMMC.MC002 as TableName, ADMMC.MC004 as ModuleID, 
     ADMMD.MD002 as sID, ADMMD.MD003 as ID, ADMMD.MD004 as FieldName, 
-    case when LANGUAGE.VIET is NULL then '' else rtrim(ltrim(LANGUAGE.VIET)) end as NameVietnam, 
+    case when LANGUAGE.ENG is NULL then '' else rtrim(ltrim(LANGUAGE.ENG)) end as NameEnglish, 
     ADMMD.MD005 as Type, 
     ADMMD.MD006 as Length, ADMMD.MD007 as Description 
     from ADMMD 
@@ -68,9 +68,9 @@ Get_TableStructureSQL = """select ADMMC.MC001 as TableID, ADMMC.MC002 as TableNa
     WHERE ADMMC.MC004 <> 'PDA'
     ORDER BY ADMMD.MD001, ADMMD.MD003 
     """
-TableName_Columns = ['TableID', 'TableName', 'TableNameViet', 'ModuleID', 'ModuleName', 'ModuleNameViet', 'ModuleType']
-TableStructure_Columns=['TableID', 'TableName', 'ModuleID', 'sID', 'ID', 'FieldName', 'NameVietnam', 'Type', 'Length', 'Description']
-MoudleName_Columns = ['ModuleID', 'ModuleName', 'ModuleNameViet', 'ModuleType', 'ModuleClass']
+TableName_Columns = ['TableID', 'TableName', 'TableNameEnglish', 'ModuleID', 'ModuleName', 'ModuleNameEnglish', 'ModuleType']
+TableStructure_Columns=['TableID', 'TableName', 'ModuleID', 'sID', 'ID', 'FieldName', 'NameEnglish', 'Type', 'Length', 'Description']
+MoudleName_Columns = ['ModuleID', 'ModuleName', 'ModuleNameEnglish', 'ModuleType', 'ModuleClass']
 
 """ 
 TypeError: Object of type 'Decimal' is not JSON serializable 报错

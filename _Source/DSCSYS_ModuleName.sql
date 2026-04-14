@@ -1,8 +1,8 @@
 SELECT ADMMA.MA001 as ModuleID, ADMMA.MA002 as ModuleName 
  ,case ADMMA.MA001 
-  when 'VTA' then N'Hệ thống quản lý thuế giá trị gia tăng' 
-  else case when LANGUAGE.VIET is NULL then '' else rtrim(ltrim(LANGUAGE.VIET)) end 
-  end as ModuleNameViet 
+  when 'VTA' then N'Value Added Tax Management System' 
+  else case when LANGUAGE.ENG is NULL then '' else rtrim(ltrim(LANGUAGE.ENG)) end 
+  end as ModuleNameEnglish 
  ,ADMMA.MA004 as ModuleType 
  ,CASE ADMMA.MA001
   WHEN 'ADM' THEN N'系統'  WHEN 'CMS' THEN N'系統'  WHEN 'EBO' THEN N'系統'  WHEN 'FTS' THEN N'系統' 

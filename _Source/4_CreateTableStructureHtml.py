@@ -4,14 +4,42 @@
 import os
 import re
 import json
-from pandas.io.json import json_normalize
 def jsonToDataFrame(jsonStr):    
      return pd.json_normalize(jsonStr)
 
 import pandas as pd
 
-#TableName_Columns = ['TableID', 'TableName', 'TableNameViet', 'ModuleID', 'ModuleName', 'ModuleType']
-#TableStructure_Columns=['TableID', 'TableName', 'ModuleID', 'sID', 'ID', 'FieldName', 'NameVietnam', 'Type', 'Length', 'Description']
+# -- 手動英文對照：language.json 沒有英文時，使用此對照補值
+FIELD_NAME_ENGLISH_MAP = {
+    '類別代號': 'Category Code',
+    '類別名稱': 'Category Name',
+    '會計科目': 'Account Title',
+    '轉撥方式': 'Transfer Method',
+    '銀行代號': 'Bank Code',
+    '零用金餘額': 'Petty Cash Balance',
+    '備註': 'Remark',
+    '保管額度': 'Custody Limit',
+    '年月': 'Year/Month',
+    '月初餘額': 'Beginning Balance of the Month',
+    '專櫃代號': 'Counter Code',
+    '部門代號': 'Department Code',
+    '專櫃型態': 'Counter Type',
+    '品號': 'Item No.',
+    '日期': 'Date',
+    '折扣代號': 'Discount Code',
+    '抽成方式': 'Commission Method',
+    '分類方式一': 'Classification 1',
+    '分類方式二': 'Classification 2',
+    '分類方式三': 'Classification 3',
+    '分類方式四': 'Classification 4',
+    '零售總額': 'Total Retail Amount',
+    '銷售毛額': 'Gross Sales Amount',
+    '銷售總量': 'Total Sales Quantity',
+    '預留欄位': 'Reserved Field',
+}
+
+#TableName_Columns = ['TableID', 'TableName', 'TableNameEnglish', 'ModuleID', 'ModuleName', 'ModuleType']
+#TableStructure_Columns=['TableID', 'TableName', 'ModuleID', 'sID', 'ID', 'FieldName', 'NameEnglish', 'Type', 'Length', 'Description']
 #TableIndex_Columns = ['TableName', 'IndexName', 'IndexColumnName', 'isPrimaryKey']
 
 # -- HTML Strings for Table Structure
@@ -80,6 +108,19 @@ def Description_Convert_to_HTML_String(Description):
     """
 
     return s
+
+def Get_FieldName_English(field_name, english_name):
+    english = str(english_name).strip()
+    field = str(field_name).strip()
+
+    # -- 若 NameEnglish 已有有效英文，直接使用
+    if english != '' and english != field and all(ord(ch) < 128 for ch in english):
+        return english
+
+    # -- 若 NameEnglish 為空、仍是中文，或仍含越南文等非 ASCII，改用手動對照
+    if field in FIELD_NAME_ENGLISH_MAP:
+        return FIELD_NAME_ENGLISH_MAP[field]
+    return ''
 
 # -- Begin of Main
 
@@ -156,9 +197,9 @@ for x in _TableName_df.index:
 
     _TableID =  str(_TableName_df.loc[x]['TableID']).strip()
     TableName = '<samp>'+_TableID +'</samp> : ' +_TableName_df.loc[x]['TableName'].strip().replace('/','')
-    _TableNameViet = str(_TableName_df.loc[x]['TableNameViet']).strip()
-    if  _TableNameViet != '':
-        TableName = TableName+'    <small>('+_TableNameViet+')</small>'
+    _TableNameEnglish = str(_TableName_df.loc[x].get('TableNameEnglish', '')).strip()
+    if  _TableNameEnglish != '':
+        TableName = TableName+'    <small>('+_TableNameEnglish+')</small>'
 
     # ----------------------------------------------------------------------------------------------------------------------
     # -- 只需要 TableName_df.loc[x]['TableID'] 的資料
@@ -187,8 +228,12 @@ for x in _TableName_df.index:
         TableHtml = ''
     else:
         # -- 設定需要顯示的 TableStructure 欄位
-        # -- ['TableID', 'TableName', 'ModuleID', 'sID', 'ID', 'FieldName', 'NameVietnam', 'Type', 'Length', 'Description']
-        _TableStructure_df1 = _TableStructure_df1.loc[:,'ID':'Description']
+        # -- ['TableID', 'TableName', 'ModuleID', 'sID', 'ID', 'FieldName', 'NameEnglish', 'Type', 'Length', 'Description']
+        _TableStructure_df1 = _TableStructure_df1.loc[:, ['ID', 'FieldName', 'NameEnglish', 'Type', 'Length', 'Description']]
+        _TableStructure_df1.loc[:, 'NameEnglish'] = _TableStructure_df1.apply(
+            lambda row: Get_FieldName_English(row['FieldName'], row['NameEnglish']),
+            axis=1
+        )
 
         # -- 設定 Field 欄位格式 (HTML> TABLE> TD)
         TableHtml = _TableStructure_df1.to_html(
