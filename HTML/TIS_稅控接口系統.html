@@ -11,7 +11,7 @@
   <div class="TableAccordion">
 
    <details>
-   <summary><samp>TISMA</samp> : 稅控介面參數檔</summary>
+   <summary><samp>TISMA</samp> : 稅控介面參數檔    <small>(Parameters of Tax Control Interface)</small></summary>
    <content>
 
       
@@ -30,7 +30,7 @@
     <tr>
       <td>MA001</td>
       <td>發票資料產生方式</td>
-      <td>發票資料產生方式</td>
+      <td>Generate Invoice by</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>1</samp>:發票底稿、<samp>2</samp>:發票底稿及文字檔案<samp>[DE<samp>F</samp>:1]</samp></td>
@@ -38,7 +38,7 @@
     <tr>
       <td>MA002</td>
       <td>啟用稅控介面管理系統</td>
-      <td>啟用稅控介面管理系統</td>
+      <td>Activate Tax Interface Management System</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y/N<samp>[DEF:N]</samp></td>
@@ -90,7 +90,7 @@
 
 
    <details>
-   <summary><samp>TISTA</samp> : 銷項發票底稿單頭檔</summary>
+   <summary><samp>TISTA</samp> : 銷項發票底稿單頭檔    <small>(Sales Invoice Draft-Header)</small></summary>
    <content>
 
       <table class="dataframe">
@@ -124,7 +124,7 @@
     <tr>
       <td>TA001</td>
       <td>來源單號</td>
-      <td>來源單號</td>
+      <td>Source Doc. No.</td>
       <td>C</td>
       <td>20.0</td>
       <td>來源單號<small>(單別<small>(C4)</small>+'-'+單號<small>(C11)</small>)</small></td>
@@ -132,7 +132,7 @@
     <tr>
       <td>TA002</td>
       <td>來源日期</td>
-      <td>來源日期</td>
+      <td>Source Date</td>
       <td>V</td>
       <td>8.0</td>
       <td>來源日期<samp>[FORMATE:YMD]</samp></td>
@@ -140,7 +140,7 @@
     <tr>
       <td>TA003</td>
       <td>來源方式</td>
-      <td>來源方式</td>
+      <td>source method</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>1</samp>:現銷 <samp>2</samp>:結帳單 <samp>3</samp>:人工</td>
@@ -148,7 +148,7 @@
     <tr>
       <td>TA004</td>
       <td>商品行數</td>
-      <td>商品行數</td>
+      <td>Lines of goods</td>
       <td>V</td>
       <td>4.0</td>
       <td>商品明細行數</td>
@@ -156,7 +156,7 @@
     <tr>
       <td>TA005</td>
       <td>買方編號</td>
-      <td>買方編號</td>
+      <td>Buyer No.</td>
       <td>V</td>
       <td>10.0</td>
       <td>客戶編號</td>
@@ -164,7 +164,7 @@
     <tr>
       <td>TA006</td>
       <td>買方名稱</td>
-      <td>買方名稱</td>
+      <td>Buyer's name</td>
       <td>V</td>
       <td>100.0</td>
       <td>客戶全名</td>
@@ -172,7 +172,7 @@
     <tr>
       <td>TA007</td>
       <td>買方稅號</td>
-      <td>買方稅號</td>
+      <td>Buyer's tax no.</td>
       <td>V</td>
       <td>20.0</td>
       <td>稅號</td>
@@ -180,7 +180,7 @@
     <tr>
       <td>TA008</td>
       <td>買方地址電話</td>
-      <td>買方地址電話</td>
+      <td>Buyer's Addr./Tel</td>
       <td>V</td>
       <td>80.0</td>
       <td>發票地址+電話</td>
@@ -188,7 +188,7 @@
     <tr>
       <td>TA009</td>
       <td>買方銀行帳號</td>
-      <td>買方銀行帳號</td>
+      <td>Buyer's bank a/c No.</td>
       <td>V</td>
       <td>80.0</td>
       <td>開戶銀行+帳號</td>
@@ -196,7 +196,7 @@
     <tr>
       <td>TA010</td>
       <td>稅率</td>
-      <td>稅率</td>
+      <td>Tax Rate</td>
       <td>N</td>
       <td>4.2</td>
       <td>稅率<small>(%)</small></td>
@@ -204,7 +204,7 @@
     <tr>
       <td>TA011</td>
       <td>備註</td>
-      <td>備註</td>
+      <td>Remark</td>
       <td>V</td>
       <td>160.0</td>
       <td></td>
@@ -212,7 +212,7 @@
     <tr>
       <td>TA012</td>
       <td>復核人</td>
-      <td>復核人</td>
+      <td>2nd approved by</td>
       <td>V</td>
       <td>8.0</td>
       <td></td>
@@ -220,7 +220,7 @@
     <tr>
       <td>TA013</td>
       <td>收款人</td>
-      <td>收款人</td>
+      <td>Payee</td>
       <td>V</td>
       <td>8.0</td>
       <td>收款業務人員</td>
@@ -228,7 +228,7 @@
     <tr>
       <td>TA014</td>
       <td>狀態碼</td>
-      <td>狀態碼</td>
+      <td>Status Code</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>0</samp>:未異動 <samp>1</samp>:匯出未開票 <samp>2</samp>:已開發票 <samp>V</samp>:發票作廢<samp>[DE<samp>F</samp>:0]</samp></td>
@@ -236,7 +236,7 @@
     <tr>
       <td>TA015</td>
       <td>新商品行數</td>
-      <td>新商品行數</td>
+      <td>Line(s) for new item</td>
       <td>V</td>
       <td>4.0</td>
       <td>新商品明細行數</td>
@@ -244,7 +244,7 @@
     <tr>
       <td>TA016</td>
       <td>新買方名稱</td>
-      <td>新買方名稱</td>
+      <td>New buyer</td>
       <td>V</td>
       <td>50.0</td>
       <td>新客戶全稱</td>
@@ -252,7 +252,7 @@
     <tr>
       <td>TA017</td>
       <td>新買方稅號</td>
-      <td>新買方稅號</td>
+      <td>New buyer tax code</td>
       <td>V</td>
       <td>20.0</td>
       <td>新稅號</td>
@@ -260,7 +260,7 @@
     <tr>
       <td>TA018</td>
       <td>新買方地址電話</td>
-      <td>新買方地址電話</td>
+      <td>New buyer address</td>
       <td>V</td>
       <td>50.0</td>
       <td>新發票地址及電話</td>
@@ -268,7 +268,7 @@
     <tr>
       <td>TA019</td>
       <td>新買方銀行帳號</td>
-      <td>新買方銀行帳號</td>
+      <td>New buyer bank acct</td>
       <td>V</td>
       <td>50.0</td>
       <td>新開戶銀行及帳號</td>
@@ -276,7 +276,7 @@
     <tr>
       <td>TA020</td>
       <td>新備註</td>
-      <td>新備註</td>
+      <td>New Remark</td>
       <td>V</td>
       <td>70.0</td>
       <td></td>
@@ -284,7 +284,7 @@
     <tr>
       <td>TA021</td>
       <td>新復核人</td>
-      <td>新復核人</td>
+      <td>2nd approved by (New)</td>
       <td>V</td>
       <td>8.0</td>
       <td></td>
@@ -292,7 +292,7 @@
     <tr>
       <td>TA022</td>
       <td>新收款人</td>
-      <td>新收款人</td>
+      <td>New payee</td>
       <td>V</td>
       <td>8.0</td>
       <td>新收款業務人員</td>
@@ -300,7 +300,7 @@
     <tr>
       <td>TA023</td>
       <td>新發票代碼</td>
-      <td>新發票代碼</td>
+      <td>New Invoice Code</td>
       <td>V</td>
       <td>12.0</td>
       <td></td>
@@ -308,7 +308,7 @@
     <tr>
       <td>TA024</td>
       <td>新發票號碼</td>
-      <td>新發票號碼</td>
+      <td>New Invoice No.</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -316,7 +316,7 @@
     <tr>
       <td>TA025</td>
       <td>新開立日期</td>
-      <td>新開立日期</td>
+      <td>New issue date</td>
       <td>V</td>
       <td>8.0</td>
       <td>新開立日期<samp>[FORMATE:YMD]</samp></td>
@@ -324,7 +324,7 @@
     <tr>
       <td>TA026</td>
       <td>新不含稅金額</td>
-      <td>新不含稅金額</td>
+      <td>New amt excl. tax</td>
       <td>N</td>
       <td>14.2</td>
       <td></td>
@@ -332,7 +332,7 @@
     <tr>
       <td>TA027</td>
       <td>新稅率</td>
-      <td>新稅率</td>
+      <td>New tax rate</td>
       <td>N</td>
       <td>4.2</td>
       <td>新稅率<small>(%)</small></td>
@@ -340,7 +340,7 @@
     <tr>
       <td>TA028</td>
       <td>新賣方地址</td>
-      <td>新賣方地址</td>
+      <td>New seller address</td>
       <td>V</td>
       <td>50.0</td>
       <td></td>
@@ -348,7 +348,7 @@
     <tr>
       <td>TA029</td>
       <td>新賣方銀行帳號</td>
-      <td>新賣方銀行帳號</td>
+      <td>New seller bank acct</td>
       <td>V</td>
       <td>50.0</td>
       <td>新賣方開戶銀行及帳號</td>
@@ -356,7 +356,7 @@
     <tr>
       <td>TA030</td>
       <td>新開票人</td>
-      <td>新開票人</td>
+      <td>Invoiced by (new)</td>
       <td>V</td>
       <td>8.0</td>
       <td></td>
@@ -364,7 +364,7 @@
     <tr>
       <td>TA031</td>
       <td>新發票種類</td>
-      <td>新發票種類</td>
+      <td>New Invoice Category</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>0</samp>:專用發票 <samp>1</samp>:普通發票</td>
@@ -372,7 +372,7 @@
     <tr>
       <td>TA032</td>
       <td>新稅額</td>
-      <td>新稅額</td>
+      <td>New tax amt</td>
       <td>N</td>
       <td>14.2</td>
       <td></td>
@@ -420,7 +420,7 @@
     <tr>
       <td>TA038</td>
       <td>新註記號</td>
-      <td>新註記號</td>
+      <td>New Remark No.</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -428,7 +428,7 @@
     <tr>
       <td>TA039</td>
       <td>發票種類</td>
-      <td>發票種類</td>
+      <td>Invoice Category</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>A</samp>:增值稅專用發票、<samp>B</samp>:增值稅普通發票<samp>[DE<samp>F</samp>:'A']</samp></td>
@@ -440,7 +440,7 @@
 
 
    <details>
-   <summary><samp>TISTB</samp> : 銷項發票底稿單身檔</summary>
+   <summary><samp>TISTB</samp> : 銷項發票底稿單身檔    <small>(Sales Invoice Draft-Detail)</small></summary>
    <content>
 
       <table class="dataframe">
@@ -474,7 +474,7 @@
     <tr>
       <td>TB001</td>
       <td>來源單號</td>
-      <td>來源單號</td>
+      <td>Source Doc. No.</td>
       <td>C</td>
       <td>20.0</td>
       <td>來源單號<small>(單別<small>(C4)</small>+'-'+單號<small>(C11)</small>)</small></td>
@@ -482,7 +482,7 @@
     <tr>
       <td>TB002</td>
       <td>序號</td>
-      <td>序號</td>
+      <td>Serial No.</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -490,7 +490,7 @@
     <tr>
       <td>TB003</td>
       <td>品名來源</td>
-      <td>品名來源</td>
+      <td>Item Source</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>1</samp>:公司品名 <samp>2</samp>:客戶品名<samp>[DE<samp>F</samp>:1]</samp></td>
@@ -506,7 +506,7 @@
     <tr>
       <td>TB005</td>
       <td>品名</td>
-      <td>品名</td>
+      <td>Item Name</td>
       <td>V</td>
       <td>120.0</td>
       <td>公司品名</td>
@@ -514,7 +514,7 @@
     <tr>
       <td>TB006</td>
       <td>規格</td>
-      <td>規格</td>
+      <td>Spec.</td>
       <td>V</td>
       <td>120.0</td>
       <td>公司規格</td>
@@ -522,7 +522,7 @@
     <tr>
       <td>TB007</td>
       <td>客戶品號</td>
-      <td>客戶品號</td>
+      <td>Customer Item No.</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -530,7 +530,7 @@
     <tr>
       <td>TB008</td>
       <td>客戶品名</td>
-      <td>客戶品名</td>
+      <td>Customer Item Name</td>
       <td>V</td>
       <td>120.0</td>
       <td></td>
@@ -538,7 +538,7 @@
     <tr>
       <td>TB009</td>
       <td>客戶規格</td>
-      <td>客戶規格</td>
+      <td>Customer Spec.</td>
       <td>V</td>
       <td>120.0</td>
       <td></td>
@@ -546,7 +546,7 @@
     <tr>
       <td>TB010</td>
       <td>單位</td>
-      <td>單位</td>
+      <td>Unit</td>
       <td>V</td>
       <td>16.0</td>
       <td></td>
@@ -554,7 +554,7 @@
     <tr>
       <td>TB011</td>
       <td>數量</td>
-      <td>數量</td>
+      <td>Quantity</td>
       <td>N</td>
       <td>16.6</td>
       <td></td>
@@ -562,7 +562,7 @@
     <tr>
       <td>TB012</td>
       <td>本幣金額</td>
-      <td>本幣金額</td>
+      <td>Amt (Local Curr.)</td>
       <td>N</td>
       <td>14.2</td>
       <td></td>
@@ -570,7 +570,7 @@
     <tr>
       <td>TB013</td>
       <td>商品類別</td>
-      <td>商品類別</td>
+      <td>Product Category</td>
       <td>V</td>
       <td>4.0</td>
       <td>商品類別<samp>[DEF:99-]</samp></td>
@@ -578,7 +578,7 @@
     <tr>
       <td>TB014</td>
       <td>折扣金額</td>
-      <td>折扣金額</td>
+      <td>Discount Amount</td>
       <td>N</td>
       <td>14.2</td>
       <td>本幣折扣金額</td>
@@ -586,7 +586,7 @@
     <tr>
       <td>TB015</td>
       <td>本幣稅額</td>
-      <td>本幣稅額</td>
+      <td>Tax (Local Curr.)</td>
       <td>N</td>
       <td>14.2</td>
       <td></td>
@@ -594,7 +594,7 @@
     <tr>
       <td>TB016</td>
       <td>折扣稅額</td>
-      <td>折扣稅額</td>
+      <td>Withholding Tax</td>
       <td>N</td>
       <td>14.2</td>
       <td>本幣折扣稅額</td>
@@ -602,7 +602,7 @@
     <tr>
       <td>TB017</td>
       <td>折扣率</td>
-      <td>折扣率</td>
+      <td>Discount Rate</td>
       <td>N</td>
       <td>6.3</td>
       <td></td>
@@ -610,7 +610,7 @@
     <tr>
       <td>TB018</td>
       <td>新品名</td>
-      <td>新品名</td>
+      <td>New Item Desc.</td>
       <td>V</td>
       <td>120.0</td>
       <td></td>
@@ -618,7 +618,7 @@
     <tr>
       <td>TB019</td>
       <td>新規格</td>
-      <td>新規格</td>
+      <td>New Spec.</td>
       <td>V</td>
       <td>120.0</td>
       <td></td>
@@ -626,7 +626,7 @@
     <tr>
       <td>TB020</td>
       <td>新單位</td>
-      <td>新單位</td>
+      <td>New Unit</td>
       <td>V</td>
       <td>6.0</td>
       <td></td>
@@ -634,7 +634,7 @@
     <tr>
       <td>TB021</td>
       <td>新數量</td>
-      <td>新數量</td>
+      <td>New Qty</td>
       <td>N</td>
       <td>16.6</td>
       <td></td>
@@ -642,7 +642,7 @@
     <tr>
       <td>TB022</td>
       <td>新本幣金額</td>
-      <td>新本幣金額</td>
+      <td>New amt (Local)</td>
       <td>N</td>
       <td>14.2</td>
       <td></td>
@@ -650,7 +650,7 @@
     <tr>
       <td>TB023</td>
       <td>新商品類別</td>
-      <td>新商品類別</td>
+      <td>New item category</td>
       <td>V</td>
       <td>5.0</td>
       <td></td>
@@ -658,7 +658,7 @@
     <tr>
       <td>TB024</td>
       <td>單價</td>
-      <td>單價</td>
+      <td>Unit Price</td>
       <td>N</td>
       <td>16.6</td>
       <td></td>
@@ -666,7 +666,7 @@
     <tr>
       <td>TB025</td>
       <td>價格方式</td>
-      <td>價格方式</td>
+      <td>Pricing method</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>0</samp>:不含稅單價和金額 <samp>1</samp>:含稅單價和金額</td>
@@ -674,7 +674,7 @@
     <tr>
       <td>TB026</td>
       <td>稅率</td>
-      <td>稅率</td>
+      <td>Tax Rate</td>
       <td>N</td>
       <td>4.2</td>
       <td>稅率<small>(%)</small></td>
@@ -682,7 +682,7 @@
     <tr>
       <td>TB027</td>
       <td>新單價</td>
-      <td>新單價</td>
+      <td>New U/P</td>
       <td>N</td>
       <td>16.6</td>
       <td>單價</td>
@@ -690,7 +690,7 @@
     <tr>
       <td>TB028</td>
       <td>新價格方式</td>
-      <td>新價格方式</td>
+      <td>New pricing method</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>0</samp>:不含稅單價和金額 <samp>1</samp>:含稅單價和金額</td>
@@ -698,7 +698,7 @@
     <tr>
       <td>TB029</td>
       <td>新稅率</td>
-      <td>新稅率</td>
+      <td>New tax rate</td>
       <td>N</td>
       <td>4.2</td>
       <td></td>
@@ -706,7 +706,7 @@
     <tr>
       <td>TB030</td>
       <td>新稅額</td>
-      <td>新稅額</td>
+      <td>New tax amt</td>
       <td>N</td>
       <td>14.2</td>
       <td></td>
@@ -758,7 +758,7 @@
 
 
    <details>
-   <summary><samp>TISTC</samp> : 銷項作廢發票單頭檔</summary>
+   <summary><samp>TISTC</samp> : 銷項作廢發票單頭檔    <small>(Sales Voiding Invoice-Header)</small></summary>
    <content>
 
       <table class="dataframe">
@@ -792,7 +792,7 @@
     <tr>
       <td>TC001</td>
       <td>來源單號</td>
-      <td>來源單號</td>
+      <td>Source Doc. No.</td>
       <td>C</td>
       <td>20.0</td>
       <td>來源單號<small>(單別<small>(C4)</small>+'-'+單號<small>(C11)</small>)</small></td>
@@ -800,7 +800,7 @@
     <tr>
       <td>TC002</td>
       <td>發票代碼</td>
-      <td>發票代碼</td>
+      <td>Invoice Code</td>
       <td>C</td>
       <td>12.0</td>
       <td></td>
@@ -808,7 +808,7 @@
     <tr>
       <td>TC003</td>
       <td>發票號碼</td>
-      <td>發票號碼</td>
+      <td>Invoice No.</td>
       <td>C</td>
       <td>10.0</td>
       <td></td>
@@ -816,7 +816,7 @@
     <tr>
       <td>TC004</td>
       <td>開票人</td>
-      <td>開票人</td>
+      <td>Writer</td>
       <td>V</td>
       <td>8.0</td>
       <td></td>
@@ -824,7 +824,7 @@
     <tr>
       <td>TC005</td>
       <td>開立日期</td>
-      <td>開立日期</td>
+      <td>Issue Date</td>
       <td>V</td>
       <td>8.0</td>
       <td>開立日期<samp>[FORMATE:YMD]</samp></td>
@@ -832,7 +832,7 @@
     <tr>
       <td>TC006</td>
       <td>商品行數</td>
-      <td>商品行數</td>
+      <td>Lines of goods</td>
       <td>V</td>
       <td>4.0</td>
       <td>商品明細行數</td>
@@ -840,7 +840,7 @@
     <tr>
       <td>TC007</td>
       <td>買方名稱</td>
-      <td>買方名稱</td>
+      <td>Buyer's name</td>
       <td>V</td>
       <td>50.0</td>
       <td>客戶全名</td>
@@ -848,7 +848,7 @@
     <tr>
       <td>TC008</td>
       <td>買方稅號</td>
-      <td>買方稅號</td>
+      <td>Buyer's tax no.</td>
       <td>V</td>
       <td>20.0</td>
       <td>稅號</td>
@@ -856,7 +856,7 @@
     <tr>
       <td>TC009</td>
       <td>買方地址電話</td>
-      <td>買方地址電話</td>
+      <td>Buyer's Addr./Tel</td>
       <td>V</td>
       <td>50.0</td>
       <td>發票地址及電話</td>
@@ -864,7 +864,7 @@
     <tr>
       <td>TC010</td>
       <td>買方銀行帳號</td>
-      <td>買方銀行帳號</td>
+      <td>Buyer's bank a/c No.</td>
       <td>V</td>
       <td>50.0</td>
       <td>開戶銀行及帳號</td>
@@ -872,7 +872,7 @@
     <tr>
       <td>TC011</td>
       <td>備註</td>
-      <td>備註</td>
+      <td>Remark</td>
       <td>V</td>
       <td>70.0</td>
       <td></td>
@@ -880,7 +880,7 @@
     <tr>
       <td>TC012</td>
       <td>復核人</td>
-      <td>復核人</td>
+      <td>2nd approved by</td>
       <td>V</td>
       <td>8.0</td>
       <td>審核者</td>
@@ -888,7 +888,7 @@
     <tr>
       <td>TC013</td>
       <td>收款人</td>
-      <td>收款人</td>
+      <td>Payee</td>
       <td>V</td>
       <td>8.0</td>
       <td>收款業務人員</td>
@@ -896,7 +896,7 @@
     <tr>
       <td>TC014</td>
       <td>銷售金額</td>
-      <td>銷售金額</td>
+      <td>Sales Volume</td>
       <td>N</td>
       <td>14.2</td>
       <td></td>
@@ -904,7 +904,7 @@
     <tr>
       <td>TC015</td>
       <td>稅率</td>
-      <td>稅率</td>
+      <td>Tax Rate</td>
       <td>N</td>
       <td>4.2</td>
       <td>稅率<small>(%)</small></td>
@@ -912,7 +912,7 @@
     <tr>
       <td>TC016</td>
       <td>賣方地址</td>
-      <td>賣方地址</td>
+      <td>Seller address</td>
       <td>V</td>
       <td>50.0</td>
       <td></td>
@@ -920,7 +920,7 @@
     <tr>
       <td>TC017</td>
       <td>賣方銀行帳號</td>
-      <td>賣方銀行帳號</td>
+      <td>Seller bank acct</td>
       <td>V</td>
       <td>50.0</td>
       <td>賣方開戶銀行及帳號</td>
@@ -928,7 +928,7 @@
     <tr>
       <td>TC018</td>
       <td>處理結果</td>
-      <td>處理結果</td>
+      <td>Processing Results</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -936,7 +936,7 @@
     <tr>
       <td>TC019</td>
       <td>發票種類</td>
-      <td>發票種類</td>
+      <td>Invoice Category</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>0</samp>:專用發票 <samp>1</samp>:普通發票</td>
@@ -944,7 +944,7 @@
     <tr>
       <td>TC020</td>
       <td>稅額</td>
-      <td>稅額</td>
+      <td>Tax</td>
       <td>N</td>
       <td>14.2</td>
       <td></td>
@@ -992,7 +992,7 @@
     <tr>
       <td>TC026</td>
       <td>註記號</td>
-      <td>註記號</td>
+      <td>Remark No.</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -1004,7 +1004,7 @@
 
 
    <details>
-   <summary><samp>TISTD</samp> : 銷項作廢發票單身檔</summary>
+   <summary><samp>TISTD</samp> : 銷項作廢發票單身檔    <small>(Sales Voiding Invoice-Detail)</small></summary>
    <content>
 
       <table class="dataframe">
@@ -1038,7 +1038,7 @@
     <tr>
       <td>TD001</td>
       <td>來源單號</td>
-      <td>來源單號</td>
+      <td>Source Doc. No.</td>
       <td>C</td>
       <td>20.0</td>
       <td>來源單號<small>(單別<small>(C4)</small>+'-'+單號<small>(C11)</small>)</small></td>
@@ -1046,7 +1046,7 @@
     <tr>
       <td>TD002</td>
       <td>發票代碼</td>
-      <td>發票代碼</td>
+      <td>Invoice Code</td>
       <td>C</td>
       <td>12.0</td>
       <td></td>
@@ -1054,7 +1054,7 @@
     <tr>
       <td>TD003</td>
       <td>發票號碼</td>
-      <td>發票號碼</td>
+      <td>Invoice No.</td>
       <td>C</td>
       <td>10.0</td>
       <td></td>
@@ -1062,7 +1062,7 @@
     <tr>
       <td>TD004</td>
       <td>序號</td>
-      <td>序號</td>
+      <td>Serial No.</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -1070,7 +1070,7 @@
     <tr>
       <td>TD005</td>
       <td>品名</td>
-      <td>品名</td>
+      <td>Item Name</td>
       <td>V</td>
       <td>120.0</td>
       <td>新品名</td>
@@ -1078,7 +1078,7 @@
     <tr>
       <td>TD006</td>
       <td>規格</td>
-      <td>規格</td>
+      <td>Spec.</td>
       <td>V</td>
       <td>120.0</td>
       <td>新規格</td>
@@ -1086,7 +1086,7 @@
     <tr>
       <td>TD007</td>
       <td>單位</td>
-      <td>單位</td>
+      <td>Unit</td>
       <td>V</td>
       <td>6.0</td>
       <td>新單位</td>
@@ -1094,7 +1094,7 @@
     <tr>
       <td>TD008</td>
       <td>數量</td>
-      <td>數量</td>
+      <td>Quantity</td>
       <td>N</td>
       <td>16.6</td>
       <td>新數量</td>
@@ -1102,7 +1102,7 @@
     <tr>
       <td>TD009</td>
       <td>本幣金額</td>
-      <td>本幣金額</td>
+      <td>Amt (Local Curr.)</td>
       <td>N</td>
       <td>14.2</td>
       <td>新本幣金額</td>
@@ -1110,7 +1110,7 @@
     <tr>
       <td>TD010</td>
       <td>商品類別</td>
-      <td>商品類別</td>
+      <td>Product Category</td>
       <td>V</td>
       <td>5.0</td>
       <td>新商品類別</td>
@@ -1118,7 +1118,7 @@
     <tr>
       <td>TD011</td>
       <td>單價</td>
-      <td>單價</td>
+      <td>Unit Price</td>
       <td>N</td>
       <td>16.6</td>
       <td></td>
@@ -1126,7 +1126,7 @@
     <tr>
       <td>TD012</td>
       <td>價格方式</td>
-      <td>價格方式</td>
+      <td>Pricing method</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>0</samp>:不含稅單價和金額 <samp>1</samp>:含稅單價和金額</td>
@@ -1134,7 +1134,7 @@
     <tr>
       <td>TD013</td>
       <td>稅率</td>
-      <td>稅率</td>
+      <td>Tax Rate</td>
       <td>N</td>
       <td>4.2</td>
       <td>稅率<small>(%)</small></td>
@@ -1142,7 +1142,7 @@
     <tr>
       <td>TD014</td>
       <td>稅額</td>
-      <td>稅額</td>
+      <td>Tax</td>
       <td>N</td>
       <td>14.2</td>
       <td>新稅額</td>
@@ -1190,7 +1190,7 @@
     <tr>
       <td>TD020</td>
       <td>註記號</td>
-      <td>註記號</td>
+      <td>Remark No.</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -1202,7 +1202,7 @@
 
 
    <details>
-   <summary><samp>TISTE</samp> : 進項發票底稿檔</summary>
+   <summary><samp>TISTE</samp> : 進項發票底稿檔    <small>(Purchase Invoice Draft)</small></summary>
    <content>
 
       <table class="dataframe">
@@ -1236,7 +1236,7 @@
     <tr>
       <td>TE001</td>
       <td>來源單號</td>
-      <td>來源單號</td>
+      <td>Source Doc. No.</td>
       <td>C</td>
       <td>20.0</td>
       <td>來源單號<small>(單別<small>(C4)</small>+'-'+單號<small>(C11)</small>)</small></td>
@@ -1244,7 +1244,7 @@
     <tr>
       <td>TE002</td>
       <td>來源日期</td>
-      <td>來源日期</td>
+      <td>Source Date</td>
       <td>V</td>
       <td>8.0</td>
       <td>來源日期<samp>[FORMATE:YMD]</samp></td>
@@ -1252,7 +1252,7 @@
     <tr>
       <td>TE003</td>
       <td>來源方式</td>
-      <td>來源方式</td>
+      <td>source method</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>1</samp>:應付憑單 <samp>2</samp>:人工</td>
@@ -1260,7 +1260,7 @@
     <tr>
       <td>TE004</td>
       <td>銷方編號</td>
-      <td>銷方編號</td>
+      <td>Seller No.</td>
       <td>V</td>
       <td>10.0</td>
       <td>供應商編號</td>
@@ -1268,7 +1268,7 @@
     <tr>
       <td>TE005</td>
       <td>銷方名稱</td>
-      <td>銷方名稱</td>
+      <td>Sales Name</td>
       <td>V</td>
       <td>50.0</td>
       <td>供應商全名</td>
@@ -1276,7 +1276,7 @@
     <tr>
       <td>TE006</td>
       <td>銷方稅號</td>
-      <td>銷方稅號</td>
+      <td>Sales Tax Code</td>
       <td>V</td>
       <td>20.0</td>
       <td>稅號</td>
@@ -1284,7 +1284,7 @@
     <tr>
       <td>TE007</td>
       <td>稅率</td>
-      <td>稅率</td>
+      <td>Tax Rate</td>
       <td>N</td>
       <td>4.2</td>
       <td>稅率<small>(%)</small></td>
@@ -1292,7 +1292,7 @@
     <tr>
       <td>TE008</td>
       <td>狀態碼</td>
-      <td>狀態碼</td>
+      <td>Status Code</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>0</samp>:未匯出 <samp>1</samp>:已匯出<samp>[DE<samp>F</samp>:0]</samp></td>
@@ -1300,7 +1300,7 @@
     <tr>
       <td>TE009</td>
       <td>發票種類</td>
-      <td>發票種類</td>
+      <td>Invoice Category</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>A</samp>:農產品收購憑證、<samp>G</samp>:海關代徵完稅憑證、<samp>N</samp>:不可抵扣專用發票、<samp>S</samp>:可抵扣專用發票、<samp>T</samp>:運輸發票、<samp>W</samp>:廢舊物資收購憑證、<samp>Z</samp>:其他</td>
@@ -1308,7 +1308,7 @@
     <tr>
       <td>TE010</td>
       <td>發票類別</td>
-      <td>發票類別</td>
+      <td>Invoice Type</td>
       <td>V</td>
       <td>12.0</td>
       <td></td>
@@ -1316,7 +1316,7 @@
     <tr>
       <td>TE011</td>
       <td>發票號碼</td>
-      <td>發票號碼</td>
+      <td>Invoice No.</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -1324,7 +1324,7 @@
     <tr>
       <td>TE012</td>
       <td>發票日期</td>
-      <td>發票日期</td>
+      <td>Invoice Date</td>
       <td>V</td>
       <td>8.0</td>
       <td>發票日期<samp>[FORMATE:YMD]</samp></td>
@@ -1332,7 +1332,7 @@
     <tr>
       <td>TE013</td>
       <td>發票金額</td>
-      <td>發票金額</td>
+      <td>Invoice Amt</td>
       <td>N</td>
       <td>14.2</td>
       <td></td>
@@ -1340,7 +1340,7 @@
     <tr>
       <td>TE014</td>
       <td>發票稅額</td>
-      <td>發票稅額</td>
+      <td>Tax in Invoice</td>
       <td>N</td>
       <td>14.2</td>
       <td></td>
@@ -1348,7 +1348,7 @@
     <tr>
       <td>TE015</td>
       <td>付款日期</td>
-      <td>付款日期</td>
+      <td>Payment Date</td>
       <td>V</td>
       <td>8.0</td>
       <td>付款日期<samp>[FORMATE:YMD]</samp></td>
@@ -1356,7 +1356,7 @@
     <tr>
       <td>TE016</td>
       <td>入庫日期</td>
-      <td>入庫日期</td>
+      <td>Stock-in Date</td>
       <td>V</td>
       <td>8.0</td>
       <td>入庫日期<samp>[FORMATE:YMD]</samp></td>
@@ -1364,7 +1364,7 @@
     <tr>
       <td>TE017</td>
       <td>憑證序號</td>
-      <td>憑證序號</td>
+      <td>Doc. S/N</td>
       <td>V</td>
       <td>5.0</td>
       <td></td>
@@ -1372,7 +1372,7 @@
     <tr>
       <td>TE018</td>
       <td>付款金額</td>
-      <td>付款金額</td>
+      <td>Amt paid</td>
       <td>N</td>
       <td>14.2</td>
       <td></td>
@@ -1380,7 +1380,7 @@
     <tr>
       <td>TE019</td>
       <td>貨物名稱</td>
-      <td>貨物名稱</td>
+      <td>Cargo Name</td>
       <td>V</td>
       <td>30.0</td>
       <td></td>
@@ -1388,7 +1388,7 @@
     <tr>
       <td>TE020</td>
       <td>付款單號</td>
-      <td>付款單號</td>
+      <td>Payment Order No.</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -1396,7 +1396,7 @@
     <tr>
       <td>TE021</td>
       <td>數量</td>
-      <td>數量</td>
+      <td>Quantity</td>
       <td>N</td>
       <td>13.3</td>
       <td></td>
@@ -1404,7 +1404,7 @@
     <tr>
       <td>TE022</td>
       <td>計量單位</td>
-      <td>計量單位</td>
+      <td>Qty Unit</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -1412,7 +1412,7 @@
     <tr>
       <td>TE023</td>
       <td>備註</td>
-      <td>備註</td>
+      <td>Remark</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -1460,7 +1460,7 @@
     <tr>
       <td>TE029</td>
       <td>註記號</td>
-      <td>註記號</td>
+      <td>Remark No.</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>

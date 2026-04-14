@@ -11,7 +11,7 @@
   <div class="TableAccordion">
 
    <details>
-   <summary><samp>ASTMA</samp> : 資產類別代號檔</summary>
+   <summary><samp>ASTMA</samp> : 資產類別代號檔    <small>(Assets Category Code Table)</small></summary>
    <content>
 
       <table class="dataframe">
@@ -45,7 +45,7 @@
     <tr>
       <td>MA001</td>
       <td>資產類別代號</td>
-      <td>資產類別代號</td>
+      <td>Assets Category Code</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -53,7 +53,7 @@
     <tr>
       <td>MA002</td>
       <td>資產類別名稱</td>
-      <td>資產類別名稱</td>
+      <td>Assets Category Name</td>
       <td>V</td>
       <td>40.0</td>
       <td></td>
@@ -61,7 +61,7 @@
     <tr>
       <td>MA003</td>
       <td>資產科目</td>
-      <td>資產科目</td>
+      <td>Assets A/C</td>
       <td>V</td>
       <td>20.0</td>
       <td>資產會計科目</td>
@@ -69,7 +69,7 @@
     <tr>
       <td>MA004</td>
       <td>累計折舊科目</td>
-      <td>累計折舊科目</td>
+      <td>Accum. Depreciation A/C</td>
       <td>V</td>
       <td>20.0</td>
       <td>累計折舊會計科目</td>
@@ -77,7 +77,7 @@
     <tr>
       <td>MA005</td>
       <td>折舊科目</td>
-      <td>折舊科目</td>
+      <td>Depreciation A/C</td>
       <td>V</td>
       <td>20.0</td>
       <td>折舊會計科目</td>
@@ -85,7 +85,7 @@
     <tr>
       <td>MA006</td>
       <td>折舊方法</td>
-      <td>折舊方法</td>
+      <td>Depreciation Method</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>0</samp>:不提折舊<samp>1</samp>:平均法<samp>2</samp>:定率遞減法<samp>[DE<samp>F</samp>:1]</samp></td>
@@ -93,7 +93,7 @@
     <tr>
       <td>MA007</td>
       <td>耐用年限</td>
-      <td>耐用年限</td>
+      <td>Duration (Years)</td>
       <td>N</td>
       <td>3.0</td>
       <td>耐用年限_月</td>
@@ -101,7 +101,7 @@
     <tr>
       <td>MA008</td>
       <td>折畢續提</td>
-      <td>折畢續提</td>
+      <td>Re-amortize after Depr.</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y/N<samp>[DEF:N]</samp></td>
@@ -109,7 +109,7 @@
     <tr>
       <td>MA009</td>
       <td>折畢續提耐用年限</td>
-      <td>折畢續提耐用年限</td>
+      <td>Duration (year) after fully depreciated</td>
       <td>N</td>
       <td>3.0</td>
       <td>折畢續提耐用年限_月</td>
@@ -117,7 +117,7 @@
     <tr>
       <td>MA010</td>
       <td>累計減損科目</td>
-      <td>累計減損科目</td>
+      <td>Accum. Impairment A/C</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -181,7 +181,7 @@
     <tr>
       <td>MA018</td>
       <td>評價依據</td>
-      <td>評價依據</td>
+      <td>Valuation Base</td>
       <td>C</td>
       <td>1.0</td>
       <td><samp>1</samp>:成本法 <samp>2</samp>:公平市價法</td>
@@ -193,7 +193,7 @@
 
 
    <details>
-   <summary><samp>ASTMB</samp> : 資產資料單頭檔</summary>
+   <summary><samp>ASTMB</samp> : 資產資料單頭檔    <small>(Asset Data- Header)</small></summary>
    <content>
 
       <table class="dataframe">
@@ -227,7 +227,7 @@
     <tr>
       <td>MB001</td>
       <td>資產編號</td>
-      <td>資產編號</td>
+      <td>Asset No.</td>
       <td>C</td>
       <td>40.0</td>
       <td></td>
@@ -235,7 +235,7 @@
     <tr>
       <td>MB002</td>
       <td>資產名稱</td>
-      <td>資產名稱</td>
+      <td>Asset Name</td>
       <td>V</td>
       <td>120.0</td>
       <td></td>
@@ -243,7 +243,7 @@
     <tr>
       <td>MB003</td>
       <td>資產規格</td>
-      <td>資產規格</td>
+      <td>Assets Spec.</td>
       <td>V</td>
       <td>120.0</td>
       <td></td>
@@ -251,7 +251,7 @@
     <tr>
       <td>MB004</td>
       <td>型態</td>
-      <td>型態</td>
+      <td>Type</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>1</samp>:主件<samp>2</samp>:附件<samp>[DE<samp>F</samp>:1]</samp></td>
@@ -259,7 +259,7 @@
     <tr>
       <td>MB005</td>
       <td>主件編號</td>
-      <td>主件編號</td>
+      <td>Master Item No.</td>
       <td>V</td>
       <td>40.0</td>
       <td></td>
@@ -267,7 +267,7 @@
     <tr>
       <td>MB006</td>
       <td>資產類別</td>
-      <td>資產類別</td>
+      <td>Assets Category</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -275,7 +275,7 @@
     <tr>
       <td>MB007</td>
       <td>供應廠商代號</td>
-      <td>供應廠商代號</td>
+      <td>Vendor Code</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -283,7 +283,7 @@
     <tr>
       <td>MB008</td>
       <td>供應廠商簡稱</td>
-      <td>供應廠商簡稱</td>
+      <td>Vendor Abbr.</td>
       <td>V</td>
       <td>30.0</td>
       <td></td>
@@ -291,7 +291,7 @@
     <tr>
       <td>MB009</td>
       <td>製造廠商代號</td>
-      <td>製造廠商代號</td>
+      <td>Manufacturer Code</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -299,7 +299,7 @@
     <tr>
       <td>MB010</td>
       <td>製造廠商簡稱</td>
-      <td>製造廠商簡稱</td>
+      <td>Manufacturer Abbr.</td>
       <td>V</td>
       <td>30.0</td>
       <td></td>
@@ -307,7 +307,7 @@
     <tr>
       <td>MB011</td>
       <td>單位</td>
-      <td>單位</td>
+      <td>Unit</td>
       <td>V</td>
       <td>6.0</td>
       <td></td>
@@ -315,7 +315,7 @@
     <tr>
       <td>MB012</td>
       <td>數量</td>
-      <td>數量</td>
+      <td>Quantity</td>
       <td>N</td>
       <td>5.0</td>
       <td></td>
@@ -323,7 +323,7 @@
     <tr>
       <td>MB013</td>
       <td>管理區分</td>
-      <td>管理區分</td>
+      <td>Management Section</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -331,7 +331,7 @@
     <tr>
       <td>MB014</td>
       <td>耐用月數</td>
-      <td>耐用月數</td>
+      <td>Duration (Months)</td>
       <td>N</td>
       <td>3.0</td>
       <td></td>
@@ -339,7 +339,7 @@
     <tr>
       <td>MB015</td>
       <td>未攤月數</td>
-      <td>未攤月數</td>
+      <td>Rest Months</td>
       <td>N</td>
       <td>3.0</td>
       <td></td>
@@ -347,7 +347,7 @@
     <tr>
       <td>MB016</td>
       <td>取得日期</td>
-      <td>取得日期</td>
+      <td>Date Acquired</td>
       <td>V</td>
       <td>8.0</td>
       <td>取得日期<samp>[FORMATE:YMD]</samp></td>
@@ -355,7 +355,7 @@
     <tr>
       <td>MB017</td>
       <td>銷帳日期</td>
-      <td>銷帳日期</td>
+      <td>Date written-off</td>
       <td>V</td>
       <td>8.0</td>
       <td>銷帳日期<samp>[FORMATE:YMD]</samp></td>
@@ -363,7 +363,7 @@
     <tr>
       <td>MB018</td>
       <td>幣別</td>
-      <td>幣別</td>
+      <td>Currency</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -371,7 +371,7 @@
     <tr>
       <td>MB019</td>
       <td>原幣取得成本</td>
-      <td>原幣取得成本</td>
+      <td>Acquisition Cost (Trans. Curr.)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -379,7 +379,7 @@
     <tr>
       <td>MB020</td>
       <td>取得成本</td>
-      <td>取得成本</td>
+      <td>Acquire Cost</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -387,7 +387,7 @@
     <tr>
       <td>MB021</td>
       <td>改良成本</td>
-      <td>改良成本</td>
+      <td>Improvement Cost</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -395,7 +395,7 @@
     <tr>
       <td>MB022</td>
       <td>預留殘值</td>
-      <td>預留殘值</td>
+      <td>Reserved Residual Value</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -403,7 +403,7 @@
     <tr>
       <td>MB023</td>
       <td>折舊方法</td>
-      <td>折舊方法</td>
+      <td>Depreciation Method</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>0</samp>:不提折舊<samp>1</samp>:平均法<samp>2</samp>:定率遞減法<samp>[DE<samp>F</samp>:1]</samp></td>
@@ -411,7 +411,7 @@
     <tr>
       <td>MB024</td>
       <td>折舊分攤方式</td>
-      <td>折舊分攤方式</td>
+      <td>Allocation of Depreciation</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>0</samp>:不分攤<samp>1</samp>:依保管部門<samp>2</samp>:依固定比率</td>
@@ -419,7 +419,7 @@
     <tr>
       <td>MB025</td>
       <td>折畢續提</td>
-      <td>折畢續提</td>
+      <td>Re-amortize after Depr.</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y/N<samp>[DEF:N]</samp></td>
@@ -427,7 +427,7 @@
     <tr>
       <td>MB026</td>
       <td>續提耐用月數</td>
-      <td>續提耐用月數</td>
+      <td>Amortize month(s) durable</td>
       <td>N</td>
       <td>3.0</td>
       <td>續提耐用月數  359</td>
@@ -435,7 +435,7 @@
     <tr>
       <td>MB027</td>
       <td>續提殘值</td>
-      <td>續提殘值</td>
+      <td>Amortize Residual Values</td>
       <td>N</td>
       <td>21.6</td>
       <td>續提殘值      359</td>
@@ -443,7 +443,7 @@
     <tr>
       <td>MB028</td>
       <td>開始提列</td>
-      <td>開始提列</td>
+      <td>Start Depr. Period</td>
       <td>V</td>
       <td>8.0</td>
       <td>開始提列折舊日期<samp>[FORMATE:YMD]</samp></td>
@@ -451,7 +451,7 @@
     <tr>
       <td>MB029</td>
       <td>累積折舊</td>
-      <td>累積折舊</td>
+      <td>Accumulated Depreciation</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -459,7 +459,7 @@
     <tr>
       <td>MB030</td>
       <td>資產科目</td>
-      <td>資產科目</td>
+      <td>Assets A/C</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -467,7 +467,7 @@
     <tr>
       <td>MB031</td>
       <td>累計折舊科目</td>
-      <td>累計折舊科目</td>
+      <td>Accum. Depreciation A/C</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -475,7 +475,7 @@
     <tr>
       <td>MB032</td>
       <td>備註</td>
-      <td>備註</td>
+      <td>Remark</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -483,7 +483,7 @@
     <tr>
       <td>MB033</td>
       <td>投資抵減</td>
-      <td>投資抵減</td>
+      <td>Investment Credit</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>1</samp>:未投抵<samp>2</samp>:已投抵<samp>3</samp>:不能投抵<samp>[DE<samp>F</samp>:1]</samp></td>
@@ -491,7 +491,7 @@
     <tr>
       <td>MB034</td>
       <td>抵減率</td>
-      <td>抵減率</td>
+      <td>Credited Ratio</td>
       <td>N</td>
       <td>8.5</td>
       <td></td>
@@ -499,7 +499,7 @@
     <tr>
       <td>MB035</td>
       <td>主管機關核准文號</td>
-      <td>主管機關核准文號</td>
+      <td>Govern Organization Approval Code</td>
       <td>V</td>
       <td>60.0</td>
       <td></td>
@@ -507,7 +507,7 @@
     <tr>
       <td>MB036</td>
       <td>主管機關核准日期</td>
-      <td>主管機關核准日期</td>
+      <td>Govern Organization Approval Date</td>
       <td>V</td>
       <td>8.0</td>
       <td>主管機關核准日期<samp>[FORMATE:YMD]</samp></td>
@@ -515,7 +515,7 @@
     <tr>
       <td>MB037</td>
       <td>國稅局核准文號</td>
-      <td>國稅局核准文號</td>
+      <td>IRS Approval No.</td>
       <td>V</td>
       <td>60.0</td>
       <td></td>
@@ -523,7 +523,7 @@
     <tr>
       <td>MB038</td>
       <td>國稅局核核准日期</td>
-      <td>國稅局核核准日期</td>
+      <td>IRS Approval Date</td>
       <td>V</td>
       <td>8.0</td>
       <td>國稅局核核准日期<samp>[FORMATE:YMD]</samp></td>
@@ -531,7 +531,7 @@
     <tr>
       <td>MB039</td>
       <td>確認碼</td>
-      <td>確認碼</td>
+      <td>Confirmation Code</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y/N/V</td>
@@ -539,7 +539,7 @@
     <tr>
       <td>MB040</td>
       <td>投抵備註</td>
-      <td>投抵備註</td>
+      <td>Credit Remark</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -547,7 +547,7 @@
     <tr>
       <td>MB041</td>
       <td>續提未用月數</td>
-      <td>續提未用月數</td>
+      <td>Amortize month(s) unused</td>
       <td>N</td>
       <td>3.0</td>
       <td></td>
@@ -555,7 +555,7 @@
     <tr>
       <td>MB042</td>
       <td>取得單別</td>
-      <td>取得單別</td>
+      <td>Acquire Order Type</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -563,7 +563,7 @@
     <tr>
       <td>MB043</td>
       <td>取得單號</td>
-      <td>取得單號</td>
+      <td>Acquire Order No.</td>
       <td>V</td>
       <td>11.0</td>
       <td></td>
@@ -571,7 +571,7 @@
     <tr>
       <td>MB044</td>
       <td>應付單別</td>
-      <td>應付單別</td>
+      <td>AP Type</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -579,7 +579,7 @@
     <tr>
       <td>MB045</td>
       <td>應付單號</td>
-      <td>應付單號</td>
+      <td>AP No.</td>
       <td>V</td>
       <td>11.0</td>
       <td></td>
@@ -587,7 +587,7 @@
     <tr>
       <td>MB046</td>
       <td>應付序號</td>
-      <td>應付序號</td>
+      <td>AP S/N</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -595,7 +595,7 @@
     <tr>
       <td>MB047</td>
       <td>確認日</td>
-      <td>確認日</td>
+      <td>Date Confirmed</td>
       <td>V</td>
       <td>8.0</td>
       <td>確認日<samp>[FORMATE:YMD]</samp></td>
@@ -603,7 +603,7 @@
     <tr>
       <td>MB048</td>
       <td>確認者</td>
-      <td>確認者</td>
+      <td>Confirmed by</td>
       <td>V</td>
       <td>10.0</td>
       <td>確認人員</td>
@@ -611,7 +611,7 @@
     <tr>
       <td>MB049</td>
       <td>年折舊額</td>
-      <td>年折舊額</td>
+      <td>Yearly Depreciation Amount</td>
       <td>N</td>
       <td>21.6</td>
       <td>定率遞減法年折舊額<samp>[DEF:0]</samp></td>
@@ -619,7 +619,7 @@
     <tr>
       <td>MB050</td>
       <td>簽核狀態碼</td>
-      <td>簽核狀態碼</td>
+      <td>Approval Status Code</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>0</samp>:待處理、<samp>1</samp>:簽核中、<samp>2</samp>:退件、<samp>3</samp>:已核准、<samp>4</samp>:取消確認中、<samp>5</samp>:作廢中、<samp>6</samp>:取消作廢中、<samp>N</samp>:不執行電子簽核<samp>[DE<samp>F</samp>:'N']</samp></td>
@@ -627,7 +627,7 @@
     <tr>
       <td>MB051</td>
       <td>月折舊額</td>
-      <td>月折舊額</td>
+      <td>Monthly Depreciation Amount</td>
       <td>N</td>
       <td>21.6</td>
       <td>平均法月折舊額<samp>[DEF:0]</samp></td>
@@ -635,7 +635,7 @@
     <tr>
       <td>MB052</td>
       <td>重估差價</td>
-      <td>重估差價</td>
+      <td>Re-evaluate Price Difference</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -643,7 +643,7 @@
     <tr>
       <td>MB053</td>
       <td>匯率</td>
-      <td>匯率</td>
+      <td>Exch. Rate</td>
       <td>N</td>
       <td>20.9</td>
       <td></td>
@@ -651,7 +651,7 @@
     <tr>
       <td>MB054</td>
       <td>再次續提耐用月數</td>
-      <td>再次續提耐用月數</td>
+      <td>Re-Amortized Months Durable</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -691,7 +691,7 @@
     <tr>
       <td>MB059</td>
       <td>折舊方法(稅簽)</td>
-      <td>折舊方法(稅簽)</td>
+      <td>Depreciation Method (Tax Audit)</td>
       <td>V</td>
       <td>1.0</td>
       <td>折舊方法<small>(稅簽)</small> 0.不提折舊1.平均法2.定率遞減法<samp>[DEF:1]</samp></td>
@@ -707,7 +707,7 @@
     <tr>
       <td>MB061</td>
       <td>折畢續提(稅簽)</td>
-      <td>折畢續提(稅簽)</td>
+      <td>Re-amortize after Depr.(Tax Audit)</td>
       <td>V</td>
       <td>1.0</td>
       <td>折畢續提<small>(稅簽)</small> Y/N<samp>[DEF:N]</samp></td>
@@ -715,7 +715,7 @@
     <tr>
       <td>MB062</td>
       <td>續提耐用月數(稅簽)</td>
-      <td>續提耐用月數(稅簽)</td>
+      <td>Re-Amortize Months Durable (Tax Audit)</td>
       <td>N</td>
       <td>3.0</td>
       <td></td>
@@ -723,7 +723,7 @@
     <tr>
       <td>MB063</td>
       <td>續提未用月數(稅簽)</td>
-      <td>續提未用月數(稅簽)</td>
+      <td>Re-Amortize Months not Used (Tax Audit)</td>
       <td>N</td>
       <td>3.0</td>
       <td></td>
@@ -731,7 +731,7 @@
     <tr>
       <td>MB064</td>
       <td>續提殘值(稅簽)</td>
-      <td>續提殘值(稅簽)</td>
+      <td>Re-Amortize Residual Value (Tax Approval)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -739,7 +739,7 @@
     <tr>
       <td>MB065</td>
       <td>年折舊額(稅簽)</td>
-      <td>年折舊額(稅簽)</td>
+      <td>Yearly Depreciation Amount (Tax Audit)</td>
       <td>N</td>
       <td>21.6</td>
       <td>定率遞減法年折舊額<small>(稅簽)</small> <samp>[DEF:0]</samp></td>
@@ -747,7 +747,7 @@
     <tr>
       <td>MB066</td>
       <td>月折舊額(稅簽)</td>
-      <td>月折舊額(稅簽)</td>
+      <td>Monthly Depr. (Tax Audit)</td>
       <td>N</td>
       <td>21.6</td>
       <td>平均法月折舊額<small>(稅簽)</small> <samp>[DEF:0]</samp></td>
@@ -755,7 +755,7 @@
     <tr>
       <td>MB067</td>
       <td>管理區分(稅簽)</td>
-      <td>管理區分(稅簽)</td>
+      <td>Administration Division (Tax Audit)</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -763,7 +763,7 @@
     <tr>
       <td>MB068</td>
       <td>耐用月數(稅簽)</td>
-      <td>耐用月數(稅簽)</td>
+      <td>Durable Months (Tax Audit)</td>
       <td>N</td>
       <td>3.0</td>
       <td></td>
@@ -771,7 +771,7 @@
     <tr>
       <td>MB069</td>
       <td>未攤月數(稅簽)</td>
-      <td>未攤月數(稅簽)</td>
+      <td>Rest Months(Tax Audit)</td>
       <td>N</td>
       <td>3.0</td>
       <td></td>
@@ -779,7 +779,7 @@
     <tr>
       <td>MB070</td>
       <td>開始提列(稅簽)</td>
-      <td>開始提列(稅簽)</td>
+      <td>Start Depr. Period (Tax Audit)</td>
       <td>V</td>
       <td>8.0</td>
       <td>開始提列折舊日期<small>(稅簽)</small> <samp>[FORMATE:YMD]</samp></td>
@@ -787,7 +787,7 @@
     <tr>
       <td>MB071</td>
       <td>銷帳日期(稅簽)</td>
-      <td>銷帳日期(稅簽)</td>
+      <td>Write-Off Date (Tax Audit)</td>
       <td>V</td>
       <td>8.0</td>
       <td>銷帳日期<small>(稅簽)</small> <samp>[FORMATE:YMD]</samp></td>
@@ -795,7 +795,7 @@
     <tr>
       <td>MB072</td>
       <td>原幣取得成本(稅簽)</td>
-      <td>原幣取得成本(稅簽)</td>
+      <td>Acquisition Cost in Trans. Curr. (Tax Audit)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -803,7 +803,7 @@
     <tr>
       <td>MB073</td>
       <td>取得成本(稅簽)</td>
-      <td>取得成本(稅簽)</td>
+      <td>Acquisition Cost (Tax Audit)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -811,7 +811,7 @@
     <tr>
       <td>MB074</td>
       <td>改良成本(稅簽)</td>
-      <td>改良成本(稅簽)</td>
+      <td>Improvement Cost (Tax Audit)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -819,7 +819,7 @@
     <tr>
       <td>MB075</td>
       <td>重估差價(稅簽)</td>
-      <td>重估差價(稅簽)</td>
+      <td>Revaluation Difference (Tax Audit)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -827,7 +827,7 @@
     <tr>
       <td>MB076</td>
       <td>累積折舊(稅簽)</td>
-      <td>累積折舊(稅簽)</td>
+      <td>Accumulated Depreciation (Tax Audit)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -835,7 +835,7 @@
     <tr>
       <td>MB077</td>
       <td>預留殘值(稅簽)</td>
-      <td>預留殘值(稅簽)</td>
+      <td>Reserved Residual Value (Tax Audit)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -843,7 +843,7 @@
     <tr>
       <td>MB078</td>
       <td>減損差價</td>
-      <td>減損差價</td>
+      <td>Impaired Price Difference</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -851,7 +851,7 @@
     <tr>
       <td>MB079</td>
       <td>減損差價(稅簽)</td>
-      <td>減損差價(稅簽)</td>
+      <td>Impairment Difference (Tax Audit)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -863,7 +863,7 @@
 
 
    <details>
-   <summary><samp>ASTMC</samp> : 資產資料單身檔</summary>
+   <summary><samp>ASTMC</samp> : 資產資料單身檔    <small>(Asset Data- Detail)</small></summary>
    <content>
 
       <table class="dataframe">
@@ -897,7 +897,7 @@
     <tr>
       <td>MC001</td>
       <td>資產編號</td>
-      <td>資產編號</td>
+      <td>Asset No.</td>
       <td>C</td>
       <td>40.0</td>
       <td></td>
@@ -905,7 +905,7 @@
     <tr>
       <td>MC002</td>
       <td>部門代號</td>
-      <td>Department Code</td>
+      <td>Department No.</td>
       <td>C</td>
       <td>6.0</td>
       <td></td>
@@ -913,7 +913,7 @@
     <tr>
       <td>MC003</td>
       <td>保管人</td>
-      <td>保管人</td>
+      <td>Keeper</td>
       <td>C</td>
       <td>10.0</td>
       <td></td>
@@ -921,7 +921,7 @@
     <tr>
       <td>MC004</td>
       <td>數量</td>
-      <td>數量</td>
+      <td>Quantity</td>
       <td>N</td>
       <td>5.0</td>
       <td></td>
@@ -929,7 +929,7 @@
     <tr>
       <td>MC005</td>
       <td>備註</td>
-      <td>備註</td>
+      <td>Remark</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -937,7 +937,7 @@
     <tr>
       <td>MC006</td>
       <td>放置地點</td>
-      <td>放置地點</td>
+      <td>Storage Location</td>
       <td>V</td>
       <td>60.0</td>
       <td></td>
@@ -989,7 +989,7 @@
 
 
    <details>
-   <summary><samp>ASTMD</samp> : 資產固定比率分攤檔</summary>
+   <summary><samp>ASTMD</samp> : 資產固定比率分攤檔    <small>(Fixed Assets Ratio Apportionment File)</small></summary>
    <content>
 
       <table class="dataframe">
@@ -1023,7 +1023,7 @@
     <tr>
       <td>MD001</td>
       <td>資產編號</td>
-      <td>資產編號</td>
+      <td>Asset No.</td>
       <td>C</td>
       <td>40.0</td>
       <td></td>
@@ -1031,7 +1031,7 @@
     <tr>
       <td>MD002</td>
       <td>分攤部門</td>
-      <td>分攤部門</td>
+      <td>Allocation Dept</td>
       <td>C</td>
       <td>6.0</td>
       <td></td>
@@ -1039,7 +1039,7 @@
     <tr>
       <td>MD003</td>
       <td>分攤比率</td>
-      <td>分攤比率</td>
+      <td>Allocation Ratio</td>
       <td>N</td>
       <td>8.5</td>
       <td></td>
@@ -1047,7 +1047,7 @@
     <tr>
       <td>MD004</td>
       <td>預留</td>
-      <td>預留</td>
+      <td>Reserve</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -1099,7 +1099,7 @@
 
 
    <details>
-   <summary><samp>ASTME</samp> : 固定資產參數設定檔</summary>
+   <summary><samp>ASTME</samp> : 固定資產參數設定檔    <small>(Fixed Assets Parameter Profile)</small></summary>
    <content>
 
       
@@ -1118,7 +1118,7 @@
     <tr>
       <td>ME001</td>
       <td>取得單別</td>
-      <td>取得單別</td>
+      <td>Acquire Order Type</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -1126,7 +1126,7 @@
     <tr>
       <td>ME002</td>
       <td>折舊單別</td>
-      <td>折舊單別</td>
+      <td>Depreciation Order Type</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -1134,7 +1134,7 @@
     <tr>
       <td>ME003</td>
       <td>出售利得科目</td>
-      <td>出售利得科目</td>
+      <td>A/C- Sales Profit</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -1142,7 +1142,7 @@
     <tr>
       <td>ME004</td>
       <td>出售損失科目</td>
-      <td>出售損失科目</td>
+      <td>A/C- Sales Loss</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -1150,7 +1150,7 @@
     <tr>
       <td>ME005</td>
       <td>年折舊額起算月份</td>
-      <td>年折舊額起算月份</td>
+      <td>Start Month of Yearly Depreciation</td>
       <td>V</td>
       <td>2.0</td>
       <td>年折舊額起算月份<samp>[DEF:01]</samp></td>
@@ -1158,7 +1158,7 @@
     <tr>
       <td>ME006</td>
       <td>拋轉方式</td>
-      <td>拋轉方式</td>
+      <td>Transfer Method</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>1</samp>:拋轉自動分錄底稿 <samp>2</samp>:拋轉自動分錄底稿及會計傳票<samp>[DE<samp>F</samp>:1]</samp></td>
@@ -1166,7 +1166,7 @@
     <tr>
       <td>ME007</td>
       <td>同底稿科目彙總</td>
-      <td>同底稿科目彙總</td>
+      <td>Sum of A/C with Same draft</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y/N<samp>[DEF:N]</samp></td>
@@ -1174,7 +1174,7 @@
     <tr>
       <td>ME008</td>
       <td>底稿記載原幣</td>
-      <td>底稿記載原幣</td>
+      <td>Draft Record (Trans. Curr.)</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y/N<samp>[DEF:N]</samp></td>
@@ -1182,7 +1182,7 @@
     <tr>
       <td>ME009</td>
       <td>拋轉傳票排列方式</td>
-      <td>拋轉傳票排列方式</td>
+      <td>Sorting of Transfer vouchers</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>1</samp>:依借貸方 <samp>2</samp>:依原底稿</td>
@@ -1234,7 +1234,7 @@
 
 
    <details>
-   <summary><samp>ASTMF</samp> : 資產盤點底稿單頭</summary>
+   <summary><samp>ASTMF</samp> : 資產盤點底稿單頭    <small>(Asset Counting Draft- Header)</small></summary>
    <content>
 
       <table class="dataframe">
@@ -1268,7 +1268,7 @@
     <tr>
       <td>MF001</td>
       <td>盤點編號</td>
-      <td>盤點編號</td>
+      <td>Counting No.</td>
       <td>C</td>
       <td>6.0</td>
       <td></td>
@@ -1276,7 +1276,7 @@
     <tr>
       <td>MF002</td>
       <td>盤點日期</td>
-      <td>盤點日期</td>
+      <td>Counted On</td>
       <td>V</td>
       <td>8.0</td>
       <td>盤點日期<samp>[FORMATE:YMD]</samp></td>
@@ -1284,7 +1284,7 @@
     <tr>
       <td>MF003</td>
       <td>備註</td>
-      <td>備註</td>
+      <td>Remark</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -1292,7 +1292,7 @@
     <tr>
       <td>MF004</td>
       <td>更新碼</td>
-      <td>更新碼</td>
+      <td>Update Code</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y/N <samp>[DEF:N]</samp></td>
@@ -1300,7 +1300,7 @@
     <tr>
       <td>MF005</td>
       <td>調整單別</td>
-      <td>調整單別</td>
+      <td>Adjust Doc. Type</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -1308,7 +1308,7 @@
     <tr>
       <td>MF006</td>
       <td>調整單號</td>
-      <td>調整單號</td>
+      <td>Adjustment No.</td>
       <td>V</td>
       <td>11.0</td>
       <td></td>
@@ -1360,7 +1360,7 @@
 
 
    <details>
-   <summary><samp>ASTMG</samp> : 資產盤點底稿單身檔</summary>
+   <summary><samp>ASTMG</samp> : 資產盤點底稿單身檔    <small>(Asset Counting Draft- Detail)</small></summary>
    <content>
 
       <table class="dataframe">
@@ -1394,7 +1394,7 @@
     <tr>
       <td>MG001</td>
       <td>盤點編號</td>
-      <td>盤點編號</td>
+      <td>Counting No.</td>
       <td>C</td>
       <td>6.0</td>
       <td></td>
@@ -1402,7 +1402,7 @@
     <tr>
       <td>MG002</td>
       <td>保管部門</td>
-      <td>保管部門</td>
+      <td>Keeping Dept</td>
       <td>C</td>
       <td>6.0</td>
       <td></td>
@@ -1410,7 +1410,7 @@
     <tr>
       <td>MG003</td>
       <td>保管人</td>
-      <td>保管人</td>
+      <td>Keeper</td>
       <td>C</td>
       <td>10.0</td>
       <td></td>
@@ -1418,7 +1418,7 @@
     <tr>
       <td>MG004</td>
       <td>資產編號</td>
-      <td>資產編號</td>
+      <td>Asset No.</td>
       <td>C</td>
       <td>40.0</td>
       <td></td>
@@ -1426,7 +1426,7 @@
     <tr>
       <td>MG005</td>
       <td>帳面數量</td>
-      <td>帳面數量</td>
+      <td>Book Qty</td>
       <td>N</td>
       <td>5.0</td>
       <td></td>
@@ -1434,7 +1434,7 @@
     <tr>
       <td>MG006</td>
       <td>外送數量</td>
-      <td>外送數量</td>
+      <td>Delivery Qty</td>
       <td>N</td>
       <td>5.0</td>
       <td></td>
@@ -1442,7 +1442,7 @@
     <tr>
       <td>MG007</td>
       <td>盤點數量</td>
-      <td>盤點數量</td>
+      <td>Counting Qty</td>
       <td>N</td>
       <td>5.0</td>
       <td></td>
@@ -1450,7 +1450,7 @@
     <tr>
       <td>MG008</td>
       <td>備註</td>
-      <td>備註</td>
+      <td>Remark</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -1536,7 +1536,7 @@
     <tr>
       <td>MH001</td>
       <td>資產編號</td>
-      <td>資產編號</td>
+      <td>Asset No.</td>
       <td>C</td>
       <td>40.0</td>
       <td></td>
@@ -1544,7 +1544,7 @@
     <tr>
       <td>MH002</td>
       <td>資產名稱</td>
-      <td>資產名稱</td>
+      <td>Asset Name</td>
       <td>C</td>
       <td>120.0</td>
       <td></td>
@@ -1552,7 +1552,7 @@
     <tr>
       <td>MH003</td>
       <td>資產規格</td>
-      <td>資產規格</td>
+      <td>Assets Spec.</td>
       <td>C</td>
       <td>120.0</td>
       <td></td>
@@ -1560,7 +1560,7 @@
     <tr>
       <td>MH004</td>
       <td>型態</td>
-      <td>型態</td>
+      <td>Type</td>
       <td>C</td>
       <td>1.0</td>
       <td><samp>1</samp>:主件<samp>2</samp>:附件<samp>[DE<samp>F</samp>:1]</samp></td>
@@ -1568,7 +1568,7 @@
     <tr>
       <td>MH005</td>
       <td>主件編號</td>
-      <td>主件編號</td>
+      <td>Master Item No.</td>
       <td>C</td>
       <td>40.0</td>
       <td></td>
@@ -1576,7 +1576,7 @@
     <tr>
       <td>MH006</td>
       <td>資產類別</td>
-      <td>資產類別</td>
+      <td>Assets Category</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -1584,7 +1584,7 @@
     <tr>
       <td>MH007</td>
       <td>供應廠商代號</td>
-      <td>供應廠商代號</td>
+      <td>Vendor Code</td>
       <td>C</td>
       <td>10.0</td>
       <td></td>
@@ -1592,7 +1592,7 @@
     <tr>
       <td>MH008</td>
       <td>供應廠商簡稱</td>
-      <td>供應廠商簡稱</td>
+      <td>Vendor Abbr.</td>
       <td>C</td>
       <td>30.0</td>
       <td></td>
@@ -1600,7 +1600,7 @@
     <tr>
       <td>MH009</td>
       <td>製造廠商代號</td>
-      <td>製造廠商代號</td>
+      <td>Manufacturer Code</td>
       <td>C</td>
       <td>10.0</td>
       <td></td>
@@ -1608,7 +1608,7 @@
     <tr>
       <td>MH010</td>
       <td>製造廠商簡稱</td>
-      <td>製造廠商簡稱</td>
+      <td>Manufacturer Abbr.</td>
       <td>C</td>
       <td>30.0</td>
       <td></td>
@@ -1616,7 +1616,7 @@
     <tr>
       <td>MH011</td>
       <td>單位</td>
-      <td>單位</td>
+      <td>Unit</td>
       <td>C</td>
       <td>6.0</td>
       <td></td>
@@ -1624,7 +1624,7 @@
     <tr>
       <td>MH012</td>
       <td>數量</td>
-      <td>數量</td>
+      <td>Quantity</td>
       <td>N</td>
       <td>5.0</td>
       <td></td>
@@ -1632,7 +1632,7 @@
     <tr>
       <td>MH013</td>
       <td>管理區分</td>
-      <td>管理區分</td>
+      <td>Management Section</td>
       <td>C</td>
       <td>1.0</td>
       <td></td>
@@ -1640,7 +1640,7 @@
     <tr>
       <td>MH014</td>
       <td>耐用月數</td>
-      <td>耐用月數</td>
+      <td>Duration (Months)</td>
       <td>N</td>
       <td>3.0</td>
       <td></td>
@@ -1648,7 +1648,7 @@
     <tr>
       <td>MH015</td>
       <td>未攤月數</td>
-      <td>未攤月數</td>
+      <td>Rest Months</td>
       <td>N</td>
       <td>3.0</td>
       <td></td>
@@ -1656,7 +1656,7 @@
     <tr>
       <td>MH016</td>
       <td>取得日期</td>
-      <td>取得日期</td>
+      <td>Date Acquired</td>
       <td>C</td>
       <td>8.0</td>
       <td>取得日期<samp>[FORMATE:YMD]</samp></td>
@@ -1664,7 +1664,7 @@
     <tr>
       <td>MH017</td>
       <td>銷帳日期</td>
-      <td>銷帳日期</td>
+      <td>Date written-off</td>
       <td>C</td>
       <td>8.0</td>
       <td>銷帳日期<samp>[FORMATE:YMD]</samp></td>
@@ -1672,7 +1672,7 @@
     <tr>
       <td>MH018</td>
       <td>幣別</td>
-      <td>幣別</td>
+      <td>Currency</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -1680,7 +1680,7 @@
     <tr>
       <td>MH019</td>
       <td>原幣取得成本</td>
-      <td>原幣取得成本</td>
+      <td>Acquisition Cost (Trans. Curr.)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -1688,7 +1688,7 @@
     <tr>
       <td>MH020</td>
       <td>取得成本</td>
-      <td>取得成本</td>
+      <td>Acquire Cost</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -1696,7 +1696,7 @@
     <tr>
       <td>MH021</td>
       <td>改良成本</td>
-      <td>改良成本</td>
+      <td>Improvement Cost</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -1704,7 +1704,7 @@
     <tr>
       <td>MH022</td>
       <td>預留殘值</td>
-      <td>預留殘值</td>
+      <td>Reserved Residual Value</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -1712,7 +1712,7 @@
     <tr>
       <td>MH023</td>
       <td>折舊方法</td>
-      <td>折舊方法</td>
+      <td>Depreciation Method</td>
       <td>C</td>
       <td>1.0</td>
       <td><samp>0</samp>:不提折舊<samp>1</samp>:平均法<samp>2</samp>:定率遞減法<samp>[DE<samp>F</samp>:1]</samp></td>
@@ -1720,7 +1720,7 @@
     <tr>
       <td>MH024</td>
       <td>折舊分攤方式</td>
-      <td>折舊分攤方式</td>
+      <td>Allocation of Depreciation</td>
       <td>C</td>
       <td>1.0</td>
       <td><samp>0</samp>:不分攤<samp>1</samp>:依保管部門<samp>2</samp>:依固定比率</td>
@@ -1728,7 +1728,7 @@
     <tr>
       <td>MH025</td>
       <td>折畢續提</td>
-      <td>折畢續提</td>
+      <td>Re-amortize after Depr.</td>
       <td>C</td>
       <td>1.0</td>
       <td>Y/N<samp>[DEF:N]</samp></td>
@@ -1736,7 +1736,7 @@
     <tr>
       <td>MH026</td>
       <td>續提耐用月數</td>
-      <td>續提耐用月數</td>
+      <td>Amortize month(s) durable</td>
       <td>N</td>
       <td>3.0</td>
       <td>續提耐用月數  359</td>
@@ -1744,7 +1744,7 @@
     <tr>
       <td>MH027</td>
       <td>續提殘值</td>
-      <td>續提殘值</td>
+      <td>Amortize Residual Values</td>
       <td>N</td>
       <td>21.6</td>
       <td>續提殘值      359</td>
@@ -1752,7 +1752,7 @@
     <tr>
       <td>MH028</td>
       <td>開始提列</td>
-      <td>開始提列</td>
+      <td>Start Depr. Period</td>
       <td>C</td>
       <td>8.0</td>
       <td>開始提列折舊日期<samp>[FORMATE:YMD]</samp></td>
@@ -1760,7 +1760,7 @@
     <tr>
       <td>MH029</td>
       <td>累積折舊</td>
-      <td>累積折舊</td>
+      <td>Accumulated Depreciation</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -1768,7 +1768,7 @@
     <tr>
       <td>MH030</td>
       <td>資產科目</td>
-      <td>資產科目</td>
+      <td>Assets A/C</td>
       <td>C</td>
       <td>20.0</td>
       <td></td>
@@ -1776,7 +1776,7 @@
     <tr>
       <td>MH031</td>
       <td>累計折舊科目</td>
-      <td>累計折舊科目</td>
+      <td>Accum. Depreciation A/C</td>
       <td>C</td>
       <td>20.0</td>
       <td></td>
@@ -1784,7 +1784,7 @@
     <tr>
       <td>MH032</td>
       <td>備註</td>
-      <td>備註</td>
+      <td>Remark</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -1792,7 +1792,7 @@
     <tr>
       <td>MH033</td>
       <td>投資抵減</td>
-      <td>投資抵減</td>
+      <td>Investment Credit</td>
       <td>C</td>
       <td>1.0</td>
       <td><samp>1</samp>:未投抵<samp>2</samp>:已投抵<samp>3</samp>:不能投抵<samp>[DE<samp>F</samp>:1]</samp></td>
@@ -1800,7 +1800,7 @@
     <tr>
       <td>MH034</td>
       <td>抵減率</td>
-      <td>抵減率</td>
+      <td>Credited Ratio</td>
       <td>N</td>
       <td>8.5</td>
       <td></td>
@@ -1808,7 +1808,7 @@
     <tr>
       <td>MH035</td>
       <td>主管機關核准文號</td>
-      <td>主管機關核准文號</td>
+      <td>Govern Organization Approval Code</td>
       <td>C</td>
       <td>60.0</td>
       <td></td>
@@ -1816,7 +1816,7 @@
     <tr>
       <td>MH036</td>
       <td>主管機關核准日期</td>
-      <td>主管機關核准日期</td>
+      <td>Govern Organization Approval Date</td>
       <td>C</td>
       <td>8.0</td>
       <td>主管機關核准日期<samp>[FORMATE:YMD]</samp></td>
@@ -1824,7 +1824,7 @@
     <tr>
       <td>MH037</td>
       <td>國稅局核准文號</td>
-      <td>國稅局核准文號</td>
+      <td>IRS Approval No.</td>
       <td>C</td>
       <td>60.0</td>
       <td></td>
@@ -1832,7 +1832,7 @@
     <tr>
       <td>MH038</td>
       <td>國稅局核核准日期</td>
-      <td>國稅局核核准日期</td>
+      <td>IRS Approval Date</td>
       <td>C</td>
       <td>8.0</td>
       <td>國稅局核核准日期<samp>[FORMATE:YMD]</samp></td>
@@ -1840,7 +1840,7 @@
     <tr>
       <td>MH039</td>
       <td>確認碼</td>
-      <td>確認碼</td>
+      <td>Confirmation Code</td>
       <td>C</td>
       <td>1.0</td>
       <td>Y/N/V</td>
@@ -1848,7 +1848,7 @@
     <tr>
       <td>MH040</td>
       <td>投抵備註</td>
-      <td>投抵備註</td>
+      <td>Credit Remark</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -1856,7 +1856,7 @@
     <tr>
       <td>MH041</td>
       <td>續提未用月數</td>
-      <td>續提未用月數</td>
+      <td>Amortize month(s) unused</td>
       <td>N</td>
       <td>3.0</td>
       <td></td>
@@ -1864,7 +1864,7 @@
     <tr>
       <td>MH042</td>
       <td>取得單別</td>
-      <td>取得單別</td>
+      <td>Acquire Order Type</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -1872,7 +1872,7 @@
     <tr>
       <td>MH043</td>
       <td>取得單號</td>
-      <td>取得單號</td>
+      <td>Acquire Order No.</td>
       <td>C</td>
       <td>11.0</td>
       <td></td>
@@ -1880,7 +1880,7 @@
     <tr>
       <td>MH044</td>
       <td>應付單別</td>
-      <td>應付單別</td>
+      <td>AP Type</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -1888,7 +1888,7 @@
     <tr>
       <td>MH045</td>
       <td>應付單號</td>
-      <td>應付單號</td>
+      <td>AP No.</td>
       <td>C</td>
       <td>11.0</td>
       <td></td>
@@ -1896,7 +1896,7 @@
     <tr>
       <td>MH046</td>
       <td>應付序號</td>
-      <td>應付序號</td>
+      <td>AP S/N</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -1904,7 +1904,7 @@
     <tr>
       <td>MH047</td>
       <td>確認日</td>
-      <td>確認日</td>
+      <td>Date Confirmed</td>
       <td>C</td>
       <td>8.0</td>
       <td>確認日<samp>[FORMATE:YMD]</samp></td>
@@ -1912,7 +1912,7 @@
     <tr>
       <td>MH048</td>
       <td>確認者</td>
-      <td>確認者</td>
+      <td>Confirmed by</td>
       <td>C</td>
       <td>10.0</td>
       <td>確認人員</td>
@@ -1920,7 +1920,7 @@
     <tr>
       <td>MH049</td>
       <td>年折舊額</td>
-      <td>年折舊額</td>
+      <td>Yearly Depreciation Amount</td>
       <td>N</td>
       <td>21.6</td>
       <td>定率遞減法年折舊額<samp>[DEF:0]</samp></td>
@@ -1928,7 +1928,7 @@
     <tr>
       <td>MH050</td>
       <td>簽核狀態碼</td>
-      <td>簽核狀態碼</td>
+      <td>Approval Status Code</td>
       <td>C</td>
       <td>1.0</td>
       <td><samp>0</samp>:待處理、<samp>1</samp>:簽核中、<samp>2</samp>:退件、<samp>3</samp>:已核准、<samp>4</samp>:取消確認中、<samp>5</samp>:作廢中、<samp>6</samp>:取消作廢中、<samp>N</samp>:不執行電子簽核<samp>[DE<samp>F</samp>:'N']</samp></td>
@@ -1936,7 +1936,7 @@
     <tr>
       <td>MH051</td>
       <td>月折舊額</td>
-      <td>月折舊額</td>
+      <td>Monthly Depreciation Amount</td>
       <td>N</td>
       <td>21.6</td>
       <td>平均法月折舊額<samp>[DEF:0]</samp></td>
@@ -1944,7 +1944,7 @@
     <tr>
       <td>MH052</td>
       <td>重估差價</td>
-      <td>重估差價</td>
+      <td>Re-evaluate Price Difference</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -1952,7 +1952,7 @@
     <tr>
       <td>MH053</td>
       <td>匯率</td>
-      <td>匯率</td>
+      <td>Exch. Rate</td>
       <td>N</td>
       <td>20.9</td>
       <td></td>
@@ -1960,7 +1960,7 @@
     <tr>
       <td>MH054</td>
       <td>再次續提耐用月數</td>
-      <td>再次續提耐用月數</td>
+      <td>Re-Amortized Months Durable</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -2000,7 +2000,7 @@
     <tr>
       <td>MH059</td>
       <td>折舊方法(稅簽)</td>
-      <td>折舊方法(稅簽)</td>
+      <td>Depreciation Method (Tax Audit)</td>
       <td>C</td>
       <td>1.0</td>
       <td>折舊方法<small>(稅簽)</small> 0.不提折舊1.平均法2.定率遞減法<samp>[DEF:1]</samp></td>
@@ -2016,7 +2016,7 @@
     <tr>
       <td>MH061</td>
       <td>折畢續提(稅簽)</td>
-      <td>折畢續提(稅簽)</td>
+      <td>Re-amortize after Depr.(Tax Audit)</td>
       <td>C</td>
       <td>1.0</td>
       <td>折畢續提<small>(稅簽)</small> Y/N<samp>[DEF:N]</samp></td>
@@ -2024,7 +2024,7 @@
     <tr>
       <td>MH062</td>
       <td>續提耐用月數(稅簽)</td>
-      <td>續提耐用月數(稅簽)</td>
+      <td>Re-Amortize Months Durable (Tax Audit)</td>
       <td>N</td>
       <td>3.0</td>
       <td></td>
@@ -2032,7 +2032,7 @@
     <tr>
       <td>MH063</td>
       <td>續提未用月數(稅簽)</td>
-      <td>續提未用月數(稅簽)</td>
+      <td>Re-Amortize Months not Used (Tax Audit)</td>
       <td>N</td>
       <td>3.0</td>
       <td></td>
@@ -2040,7 +2040,7 @@
     <tr>
       <td>MH064</td>
       <td>續提殘值(稅簽)</td>
-      <td>續提殘值(稅簽)</td>
+      <td>Re-Amortize Residual Value (Tax Approval)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -2048,7 +2048,7 @@
     <tr>
       <td>MH065</td>
       <td>年折舊額(稅簽)</td>
-      <td>年折舊額(稅簽)</td>
+      <td>Yearly Depreciation Amount (Tax Audit)</td>
       <td>N</td>
       <td>21.6</td>
       <td>定率遞減法年折舊額<small>(稅簽)</small> <samp>[DEF:0]</samp></td>
@@ -2056,7 +2056,7 @@
     <tr>
       <td>MH066</td>
       <td>月折舊額(稅簽)</td>
-      <td>月折舊額(稅簽)</td>
+      <td>Monthly Depr. (Tax Audit)</td>
       <td>N</td>
       <td>21.6</td>
       <td>平均法月折舊額<small>(稅簽)</small> <samp>[DEF:0]</samp></td>
@@ -2064,7 +2064,7 @@
     <tr>
       <td>MH067</td>
       <td>管理區分(稅簽)</td>
-      <td>管理區分(稅簽)</td>
+      <td>Administration Division (Tax Audit)</td>
       <td>C</td>
       <td>1.0</td>
       <td></td>
@@ -2072,7 +2072,7 @@
     <tr>
       <td>MH068</td>
       <td>耐用月數(稅簽)</td>
-      <td>耐用月數(稅簽)</td>
+      <td>Durable Months (Tax Audit)</td>
       <td>N</td>
       <td>3.0</td>
       <td></td>
@@ -2080,7 +2080,7 @@
     <tr>
       <td>MH069</td>
       <td>未攤月數(稅簽)</td>
-      <td>未攤月數(稅簽)</td>
+      <td>Rest Months(Tax Audit)</td>
       <td>N</td>
       <td>3.0</td>
       <td></td>
@@ -2088,7 +2088,7 @@
     <tr>
       <td>MH070</td>
       <td>開始提列(稅簽)</td>
-      <td>開始提列(稅簽)</td>
+      <td>Start Depr. Period (Tax Audit)</td>
       <td>C</td>
       <td>8.0</td>
       <td>開始提列折舊日期<small>(稅簽)</small> <samp>[FORMATE:YMD]</samp></td>
@@ -2096,7 +2096,7 @@
     <tr>
       <td>MH071</td>
       <td>銷帳日期(稅簽)</td>
-      <td>銷帳日期(稅簽)</td>
+      <td>Write-Off Date (Tax Audit)</td>
       <td>C</td>
       <td>8.0</td>
       <td>銷帳日期<small>(稅簽)</small> <samp>[FORMATE:YMD]</samp></td>
@@ -2104,7 +2104,7 @@
     <tr>
       <td>MH072</td>
       <td>原幣取得成本(稅簽)</td>
-      <td>原幣取得成本(稅簽)</td>
+      <td>Acquisition Cost in Trans. Curr. (Tax Audit)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -2112,7 +2112,7 @@
     <tr>
       <td>MH073</td>
       <td>取得成本(稅簽)</td>
-      <td>取得成本(稅簽)</td>
+      <td>Acquisition Cost (Tax Audit)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -2120,7 +2120,7 @@
     <tr>
       <td>MH074</td>
       <td>改良成本(稅簽)</td>
-      <td>改良成本(稅簽)</td>
+      <td>Improvement Cost (Tax Audit)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -2128,7 +2128,7 @@
     <tr>
       <td>MH075</td>
       <td>重估差價(稅簽)</td>
-      <td>重估差價(稅簽)</td>
+      <td>Revaluation Difference (Tax Audit)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -2136,7 +2136,7 @@
     <tr>
       <td>MH076</td>
       <td>累積折舊(稅簽)</td>
-      <td>累積折舊(稅簽)</td>
+      <td>Accumulated Depreciation (Tax Audit)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -2144,7 +2144,7 @@
     <tr>
       <td>MH077</td>
       <td>預留殘值(稅簽)</td>
-      <td>預留殘值(稅簽)</td>
+      <td>Reserved Residual Value (Tax Audit)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -2152,7 +2152,7 @@
     <tr>
       <td>MH078</td>
       <td>減損差價</td>
-      <td>減損差價</td>
+      <td>Impaired Price Difference</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -2160,7 +2160,7 @@
     <tr>
       <td>MH079</td>
       <td>減損差價(稅簽)</td>
-      <td>減損差價(稅簽)</td>
+      <td>Impairment Difference (Tax Audit)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -2168,7 +2168,7 @@
     <tr>
       <td>MH080</td>
       <td>變更版次</td>
-      <td>變更版次</td>
+      <td>Revision</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -2176,7 +2176,7 @@
     <tr>
       <td>MH081</td>
       <td>變更日期</td>
-      <td>變更日期</td>
+      <td>Change Date</td>
       <td>C</td>
       <td>8.0</td>
       <td>變更日期<samp>[FORMATE:YMD]</samp></td>
@@ -2188,7 +2188,7 @@
 
 
    <details>
-   <summary><samp>ASTTA</samp> : 保險資料單頭檔</summary>
+   <summary><samp>ASTTA</samp> : 保險資料單頭檔    <small>(Insurance Data- Header)</small></summary>
    <content>
 
       <table class="dataframe">
@@ -2222,7 +2222,7 @@
     <tr>
       <td>TA001</td>
       <td>保單號碼</td>
-      <td>保單號碼</td>
+      <td>Insurance No.</td>
       <td>C</td>
       <td>30.0</td>
       <td></td>
@@ -2230,7 +2230,7 @@
     <tr>
       <td>TA002</td>
       <td>保險公司</td>
-      <td>保險公司</td>
+      <td>Insurance company</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -2238,7 +2238,7 @@
     <tr>
       <td>TA003</td>
       <td>保險公司簡稱</td>
-      <td>保險公司簡稱</td>
+      <td>Abbreviation</td>
       <td>V</td>
       <td>30.0</td>
       <td></td>
@@ -2246,7 +2246,7 @@
     <tr>
       <td>TA004</td>
       <td>保險生效日</td>
-      <td>保險生效日</td>
+      <td>Insurance Effective on</td>
       <td>V</td>
       <td>8.0</td>
       <td>保險期間<small>(起)</small><samp>[FORMATE:YMD]</samp></td>
@@ -2254,7 +2254,7 @@
     <tr>
       <td>TA005</td>
       <td>保險到期日</td>
-      <td>保險到期日</td>
+      <td>Insurance Expired on</td>
       <td>V</td>
       <td>8.0</td>
       <td>保險期間<small>(迄)</small><samp>[FORMATE:YMD]</samp></td>
@@ -2262,7 +2262,7 @@
     <tr>
       <td>TA006</td>
       <td>投保金額</td>
-      <td>投保金額</td>
+      <td>Insurance Amt</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -2270,7 +2270,7 @@
     <tr>
       <td>TA007</td>
       <td>保險費</td>
-      <td>保險費</td>
+      <td>Premium</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -2278,7 +2278,7 @@
     <tr>
       <td>TA008</td>
       <td>備註</td>
-      <td>備註</td>
+      <td>Remark</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -2330,7 +2330,7 @@
 
 
    <details>
-   <summary><samp>ASTTB</samp> : 保險資料單身檔</summary>
+   <summary><samp>ASTTB</samp> : 保險資料單身檔    <small>(Insurance Data- Detail)</small></summary>
    <content>
 
       <table class="dataframe">
@@ -2364,7 +2364,7 @@
     <tr>
       <td>TB001</td>
       <td>保單號碼</td>
-      <td>保單號碼</td>
+      <td>Insurance No.</td>
       <td>C</td>
       <td>30.0</td>
       <td></td>
@@ -2372,7 +2372,7 @@
     <tr>
       <td>TB002</td>
       <td>資產編號</td>
-      <td>資產編號</td>
+      <td>Asset No.</td>
       <td>C</td>
       <td>40.0</td>
       <td></td>
@@ -2380,7 +2380,7 @@
     <tr>
       <td>TB003</td>
       <td>保險金額</td>
-      <td>保險金額</td>
+      <td>Insured Amt</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -2388,7 +2388,7 @@
     <tr>
       <td>TB004</td>
       <td>保險費</td>
-      <td>保險費</td>
+      <td>Premium</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -2396,7 +2396,7 @@
     <tr>
       <td>TB005</td>
       <td>備註</td>
-      <td>備註</td>
+      <td>Remark</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -2448,7 +2448,7 @@
 
 
    <details>
-   <summary><samp>ASTTC</samp> : 資產異動單頭檔</summary>
+   <summary><samp>ASTTC</samp> : 資產異動單頭檔    <small>(Assets Change- Header)</small></summary>
    <content>
 
       <table class="dataframe">
@@ -2487,7 +2487,7 @@
     <tr>
       <td>TC001</td>
       <td>單別</td>
-      <td>單別</td>
+      <td>Doc. Type</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -2495,7 +2495,7 @@
     <tr>
       <td>TC002</td>
       <td>單號</td>
-      <td>單號</td>
+      <td>Doc. No.</td>
       <td>C</td>
       <td>11.0</td>
       <td></td>
@@ -2511,7 +2511,7 @@
     <tr>
       <td>TC004</td>
       <td>資產編號</td>
-      <td>資產編號</td>
+      <td>Asset No.</td>
       <td>C</td>
       <td>40.0</td>
       <td></td>
@@ -2519,7 +2519,7 @@
     <tr>
       <td>TC005</td>
       <td>數量</td>
-      <td>數量</td>
+      <td>Quantity</td>
       <td>N</td>
       <td>5.0</td>
       <td></td>
@@ -2527,7 +2527,7 @@
     <tr>
       <td>TC006</td>
       <td>取得成本</td>
-      <td>取得成本</td>
+      <td>Acquire Cost</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -2535,7 +2535,7 @@
     <tr>
       <td>TC007</td>
       <td>本幣未稅改良金額</td>
-      <td>本幣未稅改良金額</td>
+      <td>Improvement cost excl. tax (Local Curr.)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -2543,7 +2543,7 @@
     <tr>
       <td>TC008</td>
       <td>累積折舊</td>
-      <td>累積折舊</td>
+      <td>Accumulated Depreciation</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -2551,7 +2551,7 @@
     <tr>
       <td>TC009</td>
       <td>未用月數</td>
-      <td>未用月數</td>
+      <td>Month(s) unused</td>
       <td>N</td>
       <td>3.0</td>
       <td></td>
@@ -2559,7 +2559,7 @@
     <tr>
       <td>TC010</td>
       <td>預留殘值</td>
-      <td>預留殘值</td>
+      <td>Reserved Residual Value</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -2567,7 +2567,7 @@
     <tr>
       <td>TC011</td>
       <td>參考單別</td>
-      <td>參考單別</td>
+      <td>Reference Doc. Type</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -2575,7 +2575,7 @@
     <tr>
       <td>TC012</td>
       <td>參考單號</td>
-      <td>參考單號</td>
+      <td>Reference Doc. No.</td>
       <td>V</td>
       <td>11.0</td>
       <td></td>
@@ -2583,7 +2583,7 @@
     <tr>
       <td>TC013</td>
       <td>備註</td>
-      <td>備註</td>
+      <td>Remark</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -2591,7 +2591,7 @@
     <tr>
       <td>TC014</td>
       <td>單據性質</td>
-      <td>單據性質</td>
+      <td>Doc. Type</td>
       <td>V</td>
       <td>2.0</td>
       <td>C0.取得、C1.改良、C2.重估、C3.報廢、C4.出售、C5.調整、C6.折舊、C7.移轉</td>
@@ -2599,7 +2599,7 @@
     <tr>
       <td>TC015</td>
       <td>確認碼</td>
-      <td>確認碼</td>
+      <td>Confirmation Code</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y/N <samp>[DEF:N]</samp></td>
@@ -2607,7 +2607,7 @@
     <tr>
       <td>TC016</td>
       <td>列印次數</td>
-      <td>列印次數</td>
+      <td>Times printed</td>
       <td>N</td>
       <td>1.0</td>
       <td></td>
@@ -2615,7 +2615,7 @@
     <tr>
       <td>TC017</td>
       <td>客戶代號</td>
-      <td>客戶代號</td>
+      <td>Customer No.</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -2623,7 +2623,7 @@
     <tr>
       <td>TC018</td>
       <td>客戶簡稱</td>
-      <td>客戶簡稱</td>
+      <td>Customer Abbr.</td>
       <td>V</td>
       <td>30.0</td>
       <td></td>
@@ -2631,7 +2631,7 @@
     <tr>
       <td>TC019</td>
       <td>幣別</td>
-      <td>幣別</td>
+      <td>Currency</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -2639,7 +2639,7 @@
     <tr>
       <td>TC020</td>
       <td>匯率</td>
-      <td>匯率</td>
+      <td>Exch. Rate</td>
       <td>N</td>
       <td>20.9</td>
       <td></td>
@@ -2647,7 +2647,7 @@
     <tr>
       <td>TC021</td>
       <td>原幣出售未稅金額</td>
-      <td>原幣出售未稅金額</td>
+      <td>Sales excl. tax (Trans. Curr.)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -2655,7 +2655,7 @@
     <tr>
       <td>TC022</td>
       <td>處分損益</td>
-      <td>處分損益</td>
+      <td>Disposal Profit/Loss</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -2663,7 +2663,7 @@
     <tr>
       <td>TC023</td>
       <td>傳票單別</td>
-      <td>傳票單別</td>
+      <td>Voucher Type</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -2671,7 +2671,7 @@
     <tr>
       <td>TC024</td>
       <td>傳票單號</td>
-      <td>傳票單號</td>
+      <td>Voucher No.</td>
       <td>V</td>
       <td>11.0</td>
       <td></td>
@@ -2679,7 +2679,7 @@
     <tr>
       <td>TC025</td>
       <td>自動銷帳</td>
-      <td>自動銷帳</td>
+      <td>Auto-write off</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y/N <samp>[DEF:Y]</samp></td>
@@ -2687,7 +2687,7 @@
     <tr>
       <td>TC026</td>
       <td>參考序號</td>
-      <td>參考序號</td>
+      <td>Reference S/N</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -2695,7 +2695,7 @@
     <tr>
       <td>TC027</td>
       <td>單據日期</td>
-      <td>單據日期</td>
+      <td>Doc. Date</td>
       <td>V</td>
       <td>8.0</td>
       <td>單據日期<samp>[FORMATE:YMD]</samp></td>
@@ -2703,7 +2703,7 @@
     <tr>
       <td>TC028</td>
       <td>確認者</td>
-      <td>確認者</td>
+      <td>Confirmed by</td>
       <td>V</td>
       <td>10.0</td>
       <td>確認人員</td>
@@ -2711,7 +2711,7 @@
     <tr>
       <td>TC029</td>
       <td>原耐用月數</td>
-      <td>原耐用月數</td>
+      <td>Orig. Duration (Months)</td>
       <td>N</td>
       <td>3.0</td>
       <td>原耐用月數<samp>[DEF:0]</samp></td>
@@ -2719,7 +2719,7 @@
     <tr>
       <td>TC030</td>
       <td>原年折舊額</td>
-      <td>原年折舊額</td>
+      <td>Annual Depreciation Amt</td>
       <td>N</td>
       <td>21.6</td>
       <td>定率遞減法原年折舊額<samp>[DEF:0]</samp></td>
@@ -2727,7 +2727,7 @@
     <tr>
       <td>TC031</td>
       <td>產生分錄碼</td>
-      <td>產生分錄碼</td>
+      <td>Generate Entry Code</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y/N <samp>[DEF:N]</samp></td>
@@ -2735,7 +2735,7 @@
     <tr>
       <td>TC032</td>
       <td>簽核狀態碼</td>
-      <td>簽核狀態碼</td>
+      <td>Approval Status Code</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>0</samp>:待處理、<samp>1</samp>:簽核中、<samp>2</samp>:退件、<samp>3</samp>:已核准、<samp>4</samp>:取消確認中、<samp>5</samp>:作廢中、<samp>6</samp>:取消作廢中、<samp>N</samp>:不執行電子簽核<samp>[DE<samp>F</samp>:'N']</samp></td>
@@ -2743,7 +2743,7 @@
     <tr>
       <td>TC033</td>
       <td>月折舊額</td>
-      <td>月折舊額</td>
+      <td>Monthly Depreciation Amount</td>
       <td>N</td>
       <td>21.6</td>
       <td>平均法月折舊額<samp>[DEF:0]</samp></td>
@@ -2751,7 +2751,7 @@
     <tr>
       <td>TC034</td>
       <td>傳送次數</td>
-      <td>傳送次數</td>
+      <td>Time(s) of sending</td>
       <td>N</td>
       <td>1.0</td>
       <td>傳送次數<samp>[DEF:0]</samp></td>
@@ -2759,7 +2759,7 @@
     <tr>
       <td>TC035</td>
       <td>耐用月數</td>
-      <td>耐用月數</td>
+      <td>Duration (Months)</td>
       <td>N</td>
       <td>3.0</td>
       <td></td>
@@ -2767,7 +2767,7 @@
     <tr>
       <td>TC036</td>
       <td>重估差價</td>
-      <td>重估差價</td>
+      <td>Re-evaluate Price Difference</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -2775,7 +2775,7 @@
     <tr>
       <td>TC037</td>
       <td>續提耐用月數</td>
-      <td>續提耐用月數</td>
+      <td>Amortize month(s) durable</td>
       <td>N</td>
       <td>3.0</td>
       <td></td>
@@ -2783,7 +2783,7 @@
     <tr>
       <td>TC038</td>
       <td>續提未攤月數</td>
-      <td>續提未攤月數</td>
+      <td>Re-Amortize Months not yet allocated</td>
       <td>N</td>
       <td>3.0</td>
       <td></td>
@@ -2791,7 +2791,7 @@
     <tr>
       <td>TC039</td>
       <td>續提預留殘值</td>
-      <td>續提預留殘值</td>
+      <td>Re-Amortize Reserved Residuals</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -2799,7 +2799,7 @@
     <tr>
       <td>TC040</td>
       <td>課稅別</td>
-      <td>課稅別</td>
+      <td>Tax Type</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>1</samp>:應稅內含、<samp>2</samp>:應稅外加、<samp>3</samp>:零稅率、<samp>4</samp>:免稅、<samp>9</samp>:不計稅</td>
@@ -2807,7 +2807,7 @@
     <tr>
       <td>TC041</td>
       <td>營業稅率</td>
-      <td>營業稅率</td>
+      <td>Tax Rate</td>
       <td>N</td>
       <td>8.5</td>
       <td>營業稅率<small>(%)</small></td>
@@ -2815,7 +2815,7 @@
     <tr>
       <td>TC042</td>
       <td>原幣改良未稅金額</td>
-      <td>原幣改良未稅金額</td>
+      <td>Improvement excl. tax (Trans. Curr.)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -2823,7 +2823,7 @@
     <tr>
       <td>TC043</td>
       <td>原幣稅額</td>
-      <td>原幣稅額</td>
+      <td>Tax (Trans. Curr.)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -2831,7 +2831,7 @@
     <tr>
       <td>TC044</td>
       <td>本幣出售未稅金額</td>
-      <td>本幣出售未稅金額</td>
+      <td>Sales excl. tax (Local Curr.)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -2839,7 +2839,7 @@
     <tr>
       <td>TC045</td>
       <td>本幣稅額</td>
-      <td>本幣稅額</td>
+      <td>Tax (Local Curr.)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -2847,7 +2847,7 @@
     <tr>
       <td>TC046</td>
       <td>本幣金額</td>
-      <td>本幣金額</td>
+      <td>Amt (Local Curr.)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -2855,7 +2855,7 @@
     <tr>
       <td>TC047</td>
       <td>原幣金額</td>
-      <td>原幣金額</td>
+      <td>Amt in Trans. Curr.</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -2863,7 +2863,7 @@
     <tr>
       <td>TC048</td>
       <td>發票日期</td>
-      <td>發票日期</td>
+      <td>Invoice Date</td>
       <td>V</td>
       <td>8.0</td>
       <td>發票日期<samp>[FORMATE:YMD]</samp></td>
@@ -2871,7 +2871,7 @@
     <tr>
       <td>TC049</td>
       <td>發票號碼</td>
-      <td>發票號碼</td>
+      <td>Invoice No.</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -2879,7 +2879,7 @@
     <tr>
       <td>TC050</td>
       <td>統一編號</td>
-      <td>統一編號</td>
+      <td>VAT No.</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -2887,7 +2887,7 @@
     <tr>
       <td>TC051</td>
       <td>發票聯數</td>
-      <td>發票聯數</td>
+      <td>Invoice Copy</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>1</samp>:二聯式、<samp>2</samp>:三聯式、<samp>3</samp>:二聯式收銀機發票、<samp>4</samp>:三聯式收銀機發票、<samp>5</samp>:電子計算機發票、<samp>6</samp>:免用統一發票、<samp>A</samp>:增值稅專用發票、<samp>B</samp>:普通發票、<samp>C</samp>:免用發票</td>
@@ -2895,7 +2895,7 @@
     <tr>
       <td>TC052</td>
       <td>開票人</td>
-      <td>開票人</td>
+      <td>Writer</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -2903,7 +2903,7 @@
     <tr>
       <td>TC053</td>
       <td>發票代號</td>
-      <td>發票代號</td>
+      <td>Invoice Code</td>
       <td>V</td>
       <td>8.0</td>
       <td></td>
@@ -2911,7 +2911,7 @@
     <tr>
       <td>TC054</td>
       <td>申報年月</td>
-      <td>申報年月</td>
+      <td>Declaration Month</td>
       <td>V</td>
       <td>6.0</td>
       <td>申報年月<samp>[FORMATE:YM]</samp></td>
@@ -2919,7 +2919,7 @@
     <tr>
       <td>TC055</td>
       <td>客戶全名</td>
-      <td>客戶全名</td>
+      <td>Customer Name</td>
       <td>V</td>
       <td>80.0</td>
       <td></td>
@@ -2927,7 +2927,7 @@
     <tr>
       <td>TC056</td>
       <td>發票地址一</td>
-      <td>發票地址一</td>
+      <td>Invoice Addr. (1)</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -2935,7 +2935,7 @@
     <tr>
       <td>TC057</td>
       <td>發票地址二</td>
-      <td>發票地址二</td>
+      <td>Invoice Addr. (2)</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -2943,7 +2943,7 @@
     <tr>
       <td>TC058</td>
       <td>首次折畢續提</td>
-      <td>首次折畢續提</td>
+      <td>First Re-Amortize</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -2951,7 +2951,7 @@
     <tr>
       <td>TC059</td>
       <td>更新折畢續提</td>
-      <td>更新折畢續提</td>
+      <td>Update Re-Amortized</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -2959,7 +2959,7 @@
     <tr>
       <td>TC060</td>
       <td>取消折畢續提</td>
-      <td>取消折畢續提</td>
+      <td>Cancel Re-amortization</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -2967,7 +2967,7 @@
     <tr>
       <td>TC061</td>
       <td>原再次續提耐用月數</td>
-      <td>原再次續提耐用月數</td>
+      <td>Old Re-Amortized Months Durable</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -3007,7 +3007,7 @@
     <tr>
       <td>TC066</td>
       <td>稅別碼</td>
-      <td>稅別碼</td>
+      <td>Tax Code</td>
       <td>V</td>
       <td>3.0</td>
       <td></td>
@@ -3015,7 +3015,7 @@
     <tr>
       <td>TC067</td>
       <td>註記號</td>
-      <td>註記號</td>
+      <td>Remark No.</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -3023,7 +3023,7 @@
     <tr>
       <td>TC068</td>
       <td>累積折舊(稅簽)</td>
-      <td>累積折舊(稅簽)</td>
+      <td>Accumulated Depreciation (Tax Audit)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -3031,7 +3031,7 @@
     <tr>
       <td>TC069</td>
       <td>自動銷帳(稅簽)</td>
-      <td>自動銷帳(稅簽)</td>
+      <td>Auto-write off(Tax Audit)</td>
       <td>V</td>
       <td>1.0</td>
       <td>自動銷帳<small>(稅簽)</small> Y/N <samp>[DEF:Y]</samp></td>
@@ -3039,7 +3039,7 @@
     <tr>
       <td>TC070</td>
       <td>銷帳(稅簽)</td>
-      <td>銷帳(稅簽)</td>
+      <td>Write-Off (Tax Audit)</td>
       <td>V</td>
       <td>1.0</td>
       <td>銷帳<small>(稅簽)</small> Y/N <samp>[DEF:N]</samp></td>
@@ -3047,7 +3047,7 @@
     <tr>
       <td>TC071</td>
       <td>首次折畢續提(稅簽)</td>
-      <td>首次折畢續提(稅簽)</td>
+      <td>Re-Amortization after 1st Depreciation (Tax Audit)</td>
       <td>V</td>
       <td>1.0</td>
       <td>首次折畢續提<small>(稅簽)</small> Y/N <samp>[DEF:N]</samp></td>
@@ -3063,7 +3063,7 @@
     <tr>
       <td>TC073</td>
       <td>未用月數(稅簽)</td>
-      <td>未用月數(稅簽)</td>
+      <td>Month(s) unused(Tax Audit)</td>
       <td>N</td>
       <td>3.0</td>
       <td></td>
@@ -3071,7 +3071,7 @@
     <tr>
       <td>TC074</td>
       <td>耐用月數(稅簽)</td>
-      <td>耐用月數(稅簽)</td>
+      <td>Durable Months (Tax Audit)</td>
       <td>N</td>
       <td>3.0</td>
       <td></td>
@@ -3079,7 +3079,7 @@
     <tr>
       <td>TC075</td>
       <td>取得成本(稅簽)</td>
-      <td>取得成本(稅簽)</td>
+      <td>Acquisition Cost (Tax Audit)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -3087,7 +3087,7 @@
     <tr>
       <td>TC076</td>
       <td>本幣未稅改良金額(稅簽)</td>
-      <td>本幣未稅改良金額(稅簽)</td>
+      <td>Improvement cost excl. tax in Local Curr. (Tax Audit)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -3095,7 +3095,7 @@
     <tr>
       <td>TC077</td>
       <td>重估差價(稅簽)</td>
-      <td>重估差價(稅簽)</td>
+      <td>Revaluation Difference (Tax Audit)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -3103,7 +3103,7 @@
     <tr>
       <td>TC078</td>
       <td>預留殘值(稅簽)</td>
-      <td>預留殘值(稅簽)</td>
+      <td>Reserved Residual Value (Tax Audit)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -3111,7 +3111,7 @@
     <tr>
       <td>TC079</td>
       <td>月折舊額(稅簽)</td>
-      <td>月折舊額(稅簽)</td>
+      <td>Monthly Depr. (Tax Audit)</td>
       <td>N</td>
       <td>21.6</td>
       <td>平均法月折舊額<small>(稅簽)</small> <samp>[DEF:0]</samp></td>
@@ -3119,7 +3119,7 @@
     <tr>
       <td>TC080</td>
       <td>備註(稅簽)</td>
-      <td>備註(稅簽)</td>
+      <td>Remark (Tax Audit)</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -3127,7 +3127,7 @@
     <tr>
       <td>TC081</td>
       <td>原幣金額(稅簽)</td>
-      <td>原幣金額(稅簽)</td>
+      <td>Amt in Trans. Curr. (Tax Audit)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -3135,7 +3135,7 @@
     <tr>
       <td>TC082</td>
       <td>原幣改良未稅金額(稅簽)</td>
-      <td>原幣改良未稅金額(稅簽)</td>
+      <td>Improvement excl. Tax in Trans. Curr. (Tax Audit)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -3143,7 +3143,7 @@
     <tr>
       <td>TC083</td>
       <td>原幣稅額(稅簽)</td>
-      <td>原幣稅額(稅簽)</td>
+      <td>Tax in Trans. Curr. (Tax Audit)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -3151,7 +3151,7 @@
     <tr>
       <td>TC084</td>
       <td>本幣金額(稅簽)</td>
-      <td>本幣金額(稅簽)</td>
+      <td>Amt in Local Curr. (Tax Audit)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -3159,7 +3159,7 @@
     <tr>
       <td>TC085</td>
       <td>本幣稅額(稅簽)</td>
-      <td>本幣稅額(稅簽)</td>
+      <td>Tax in Local Curr. (Tax Audit)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -3167,7 +3167,7 @@
     <tr>
       <td>TC086</td>
       <td>原幣出售未稅金額(稅簽)</td>
-      <td>原幣出售未稅金額(稅簽)</td>
+      <td>Price Sold excl. Tax in Trans. Curr. (Tax Audit)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -3175,7 +3175,7 @@
     <tr>
       <td>TC087</td>
       <td>本幣出售未稅金額(稅簽)</td>
-      <td>本幣出售未稅金額(稅簽)</td>
+      <td>Sales excl. tax in Local Curr. (Tax Audit)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -3183,7 +3183,7 @@
     <tr>
       <td>TC088</td>
       <td>處分損益(稅簽)</td>
-      <td>處分損益(稅簽)</td>
+      <td>Gain/Loss from Disposal (Tax Audit)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -3199,7 +3199,7 @@
     <tr>
       <td>TC090</td>
       <td>稅幣匯率</td>
-      <td>稅幣匯率</td>
+      <td>Tax Currency Exch. Rate</td>
       <td>N</td>
       <td>20.9</td>
       <td></td>
@@ -3207,7 +3207,7 @@
     <tr>
       <td>TC091</td>
       <td>專案代號</td>
-      <td>專案代號</td>
+      <td>Project Code</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -3215,7 +3215,7 @@
     <tr>
       <td>TC092</td>
       <td>減損差價</td>
-      <td>減損差價</td>
+      <td>Impaired Price Difference</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -3223,7 +3223,7 @@
     <tr>
       <td>TC093</td>
       <td>減損差價(稅簽)</td>
-      <td>減損差價(稅簽)</td>
+      <td>Impairment Difference (Tax Audit)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -3255,7 +3255,7 @@
     <tr>
       <td>TC097</td>
       <td>折舊方法</td>
-      <td>折舊方法</td>
+      <td>Depreciation Method</td>
       <td>C</td>
       <td>1.0</td>
       <td><samp>0</samp>:不提折舊 <samp>1</samp>:平均法 <samp>2</samp>:定率遞減法</td>
@@ -3263,7 +3263,7 @@
     <tr>
       <td>TC098</td>
       <td>原折舊方法</td>
-      <td>原折舊方法</td>
+      <td>Old Depr. Method</td>
       <td>C</td>
       <td>1.0</td>
       <td><samp>0</samp>:不提折舊 <samp>1</samp>:平均法 <samp>2</samp>:定率遞減法</td>
@@ -3271,7 +3271,7 @@
     <tr>
       <td>TC099</td>
       <td>折舊方法(稅簽)</td>
-      <td>折舊方法(稅簽)</td>
+      <td>Depreciation Method (Tax Audit)</td>
       <td>C</td>
       <td>1.0</td>
       <td><samp>0</samp>:不提折舊 <samp>1</samp>:平均法 <samp>2</samp>:定率遞減法</td>
@@ -3279,7 +3279,7 @@
     <tr>
       <td>TC100</td>
       <td>原折舊方法(稅簽)</td>
-      <td>原折舊方法(稅簽)</td>
+      <td>Old Depr. Method (Tax Audit)</td>
       <td>C</td>
       <td>1.0</td>
       <td><samp>0</samp>:不提折舊 <samp>1</samp>:平均法 <samp>2</samp>:定率遞減法</td>
@@ -3287,7 +3287,7 @@
     <tr>
       <td>TC101</td>
       <td>原年折舊額(稅簽)</td>
-      <td>原年折舊額(稅簽)</td>
+      <td>Annual Depreciation Amt (Tax Audit)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -3299,7 +3299,7 @@
 
 
    <details>
-   <summary><samp>ASTTD</samp> : 資產異動單身檔</summary>
+   <summary><samp>ASTTD</samp> : 資產異動單身檔    <small>(Assets Change- Detail)</small></summary>
    <content>
 
       <table class="dataframe">
@@ -3333,7 +3333,7 @@
     <tr>
       <td>TD001</td>
       <td>單別</td>
-      <td>單別</td>
+      <td>Doc. Type</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -3341,7 +3341,7 @@
     <tr>
       <td>TD002</td>
       <td>單號</td>
-      <td>單號</td>
+      <td>Doc. No.</td>
       <td>C</td>
       <td>11.0</td>
       <td></td>
@@ -3349,7 +3349,7 @@
     <tr>
       <td>TD003</td>
       <td>部門代號</td>
-      <td>Department Code</td>
+      <td>Department No.</td>
       <td>C</td>
       <td>6.0</td>
       <td></td>
@@ -3357,7 +3357,7 @@
     <tr>
       <td>TD004</td>
       <td>保管人</td>
-      <td>保管人</td>
+      <td>Keeper</td>
       <td>C</td>
       <td>10.0</td>
       <td></td>
@@ -3365,7 +3365,7 @@
     <tr>
       <td>TD005</td>
       <td>數量</td>
-      <td>數量</td>
+      <td>Quantity</td>
       <td>N</td>
       <td>5.0</td>
       <td></td>
@@ -3373,7 +3373,7 @@
     <tr>
       <td>TD006</td>
       <td>折舊科目</td>
-      <td>折舊科目</td>
+      <td>Depreciation A/C</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -3381,7 +3381,7 @@
     <tr>
       <td>TD007</td>
       <td>折舊費用</td>
-      <td>折舊費用</td>
+      <td>Depreciation Expense</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -3389,7 +3389,7 @@
     <tr>
       <td>TD008</td>
       <td>備註</td>
-      <td>備註</td>
+      <td>Remark</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -3397,7 +3397,7 @@
     <tr>
       <td>TD009</td>
       <td>確認碼</td>
-      <td>確認碼</td>
+      <td>Confirmation Code</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y/N</td>
@@ -3405,7 +3405,7 @@
     <tr>
       <td>TD010</td>
       <td>資產編號</td>
-      <td>資產編號</td>
+      <td>Asset No.</td>
       <td>C</td>
       <td>40.0</td>
       <td></td>
@@ -3445,7 +3445,7 @@
     <tr>
       <td>TD015</td>
       <td>放置地點</td>
-      <td>放置地點</td>
+      <td>Storage Location</td>
       <td>V</td>
       <td>60.0</td>
       <td></td>
@@ -3453,7 +3453,7 @@
     <tr>
       <td>TD016</td>
       <td>折舊費用(稅簽)</td>
-      <td>折舊費用(稅簽)</td>
+      <td>Depr. Expenses (Tax Audit)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -3461,7 +3461,7 @@
     <tr>
       <td>TD017</td>
       <td>備註(稅簽)</td>
-      <td>備註(稅簽)</td>
+      <td>Remark (Tax Audit)</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -3513,7 +3513,7 @@
 
 
    <details>
-   <summary><samp>ASTTE</samp> : 資產移轉外送收回單頭檔</summary>
+   <summary><samp>ASTTE</samp> : 資產移轉外送收回單頭檔    <small>(Recall of Assets Transferred- Header)</small></summary>
    <content>
 
       <table class="dataframe">
@@ -3547,7 +3547,7 @@
     <tr>
       <td>TE001</td>
       <td>單別</td>
-      <td>單別</td>
+      <td>Doc. Type</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -3555,7 +3555,7 @@
     <tr>
       <td>TE002</td>
       <td>單號</td>
-      <td>單號</td>
+      <td>Doc. No.</td>
       <td>C</td>
       <td>11.0</td>
       <td></td>
@@ -3571,7 +3571,7 @@
     <tr>
       <td>TE004</td>
       <td>備註</td>
-      <td>備註</td>
+      <td>Remark</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -3579,7 +3579,7 @@
     <tr>
       <td>TE005</td>
       <td>單據性質</td>
-      <td>單據性質</td>
+      <td>Doc. Type</td>
       <td>V</td>
       <td>2.0</td>
       <td>C7.移轉、C8.外送、C9.收回</td>
@@ -3587,7 +3587,7 @@
     <tr>
       <td>TE006</td>
       <td>確認碼</td>
-      <td>確認碼</td>
+      <td>Confirmation Code</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y/N</td>
@@ -3595,7 +3595,7 @@
     <tr>
       <td>TE007</td>
       <td>列印次數</td>
-      <td>列印次數</td>
+      <td>Times printed</td>
       <td>N</td>
       <td>1.0</td>
       <td></td>
@@ -3603,7 +3603,7 @@
     <tr>
       <td>TE008</td>
       <td>單據日期</td>
-      <td>單據日期</td>
+      <td>Doc. Date</td>
       <td>V</td>
       <td>8.0</td>
       <td>單據日期<samp>[FORMATE:YMD]</samp></td>
@@ -3611,7 +3611,7 @@
     <tr>
       <td>TE009</td>
       <td>確認者</td>
-      <td>確認者</td>
+      <td>Confirmed by</td>
       <td>V</td>
       <td>10.0</td>
       <td>確認人員</td>
@@ -3619,7 +3619,7 @@
     <tr>
       <td>TE010</td>
       <td>簽核狀態碼</td>
-      <td>簽核狀態碼</td>
+      <td>Approval Status Code</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>0</samp>:待處理、<samp>1</samp>:簽核中、<samp>2</samp>:退件、<samp>3</samp>:已核准、<samp>4</samp>:取消確認中、<samp>5</samp>:作廢中、<samp>6</samp>:取消作廢中、<samp>N</samp>:不執行電子簽核<samp>[DE<samp>F</samp>:'N']</samp></td>
@@ -3627,7 +3627,7 @@
     <tr>
       <td>TE011</td>
       <td>傳送次數</td>
-      <td>傳送次數</td>
+      <td>Time(s) of sending</td>
       <td>N</td>
       <td>1.0</td>
       <td>傳送次數<samp>[DEF:0]</samp></td>
@@ -3679,7 +3679,7 @@
 
 
    <details>
-   <summary><samp>ASTTF</samp> : 資產移轉單身檔</summary>
+   <summary><samp>ASTTF</samp> : 資產移轉單身檔    <small>(Assets Transfer- Detail)</small></summary>
    <content>
 
       <table class="dataframe">
@@ -3713,7 +3713,7 @@
     <tr>
       <td>TF001</td>
       <td>單別</td>
-      <td>單別</td>
+      <td>Doc. Type</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -3721,7 +3721,7 @@
     <tr>
       <td>TF002</td>
       <td>單號</td>
-      <td>單號</td>
+      <td>Doc. No.</td>
       <td>C</td>
       <td>11.0</td>
       <td></td>
@@ -3729,7 +3729,7 @@
     <tr>
       <td>TF003</td>
       <td>資產編號</td>
-      <td>資產編號</td>
+      <td>Asset No.</td>
       <td>C</td>
       <td>40.0</td>
       <td></td>
@@ -3737,7 +3737,7 @@
     <tr>
       <td>TF004</td>
       <td>部門代號</td>
-      <td>Department Code</td>
+      <td>Department No.</td>
       <td>C</td>
       <td>6.0</td>
       <td></td>
@@ -3745,7 +3745,7 @@
     <tr>
       <td>TF005</td>
       <td>保管人</td>
-      <td>保管人</td>
+      <td>Keeper</td>
       <td>C</td>
       <td>10.0</td>
       <td></td>
@@ -3753,7 +3753,7 @@
     <tr>
       <td>TF006</td>
       <td>數量</td>
-      <td>數量</td>
+      <td>Quantity</td>
       <td>N</td>
       <td>5.0</td>
       <td></td>
@@ -3761,7 +3761,7 @@
     <tr>
       <td>TF007</td>
       <td>放置地點</td>
-      <td>放置地點</td>
+      <td>Storage Location</td>
       <td>V</td>
       <td>60.0</td>
       <td></td>
@@ -3769,7 +3769,7 @@
     <tr>
       <td>TF008</td>
       <td>備註</td>
-      <td>備註</td>
+      <td>Remark</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -3777,7 +3777,7 @@
     <tr>
       <td>TF009</td>
       <td>確認碼</td>
-      <td>確認碼</td>
+      <td>Confirmation Code</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y/N</td>
@@ -3785,7 +3785,7 @@
     <tr>
       <td>TF010</td>
       <td>結案碼</td>
-      <td>結案碼</td>
+      <td>Closing Code</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y/N</td>
@@ -3833,7 +3833,7 @@
     <tr>
       <td>TF104</td>
       <td>新部門代號</td>
-      <td>新部門代號</td>
+      <td>New Dept. No.</td>
       <td>C</td>
       <td>6.0</td>
       <td></td>
@@ -3841,7 +3841,7 @@
     <tr>
       <td>TF105</td>
       <td>新保管人</td>
-      <td>新保管人</td>
+      <td>New Keeper</td>
       <td>C</td>
       <td>10.0</td>
       <td></td>
@@ -3849,7 +3849,7 @@
     <tr>
       <td>TF107</td>
       <td>放置地點</td>
-      <td>放置地點</td>
+      <td>Storage Location</td>
       <td>V</td>
       <td>60.0</td>
       <td></td>
@@ -3901,7 +3901,7 @@
 
 
    <details>
-   <summary><samp>ASTTG</samp> : 資產外送單身檔</summary>
+   <summary><samp>ASTTG</samp> : 資產外送單身檔    <small>(Assets Delivery- Detail)</small></summary>
    <content>
 
       <table class="dataframe">
@@ -3935,7 +3935,7 @@
     <tr>
       <td>TG001</td>
       <td>單別</td>
-      <td>單別</td>
+      <td>Doc. Type</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -3943,7 +3943,7 @@
     <tr>
       <td>TG002</td>
       <td>單號</td>
-      <td>單號</td>
+      <td>Doc. No.</td>
       <td>C</td>
       <td>11.0</td>
       <td></td>
@@ -3951,7 +3951,7 @@
     <tr>
       <td>TG003</td>
       <td>資產編號</td>
-      <td>資產編號</td>
+      <td>Asset No.</td>
       <td>C</td>
       <td>40.0</td>
       <td></td>
@@ -3959,7 +3959,7 @@
     <tr>
       <td>TG004</td>
       <td>部門代號</td>
-      <td>Department Code</td>
+      <td>Department No.</td>
       <td>C</td>
       <td>6.0</td>
       <td></td>
@@ -3967,7 +3967,7 @@
     <tr>
       <td>TG005</td>
       <td>保管人</td>
-      <td>保管人</td>
+      <td>Keeper</td>
       <td>C</td>
       <td>10.0</td>
       <td></td>
@@ -3975,7 +3975,7 @@
     <tr>
       <td>TG006</td>
       <td>外送數量</td>
-      <td>外送數量</td>
+      <td>Delivery Qty</td>
       <td>N</td>
       <td>5.0</td>
       <td></td>
@@ -3983,7 +3983,7 @@
     <tr>
       <td>TG007</td>
       <td>外送地點</td>
-      <td>外送地點</td>
+      <td>Delivery Address</td>
       <td>V</td>
       <td>60.0</td>
       <td></td>
@@ -3991,7 +3991,7 @@
     <tr>
       <td>TG008</td>
       <td>收回數量</td>
-      <td>收回數量</td>
+      <td>Recalled Qty</td>
       <td>N</td>
       <td>5.0</td>
       <td></td>
@@ -3999,7 +3999,7 @@
     <tr>
       <td>TG009</td>
       <td>備註</td>
-      <td>備註</td>
+      <td>Remark</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -4007,7 +4007,7 @@
     <tr>
       <td>TG010</td>
       <td>確認碼</td>
-      <td>確認碼</td>
+      <td>Confirmation Code</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y/N</td>
@@ -4015,7 +4015,7 @@
     <tr>
       <td>TG011</td>
       <td>結案碼</td>
-      <td>結案碼</td>
+      <td>Closing Code</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y/N</td>
@@ -4023,7 +4023,7 @@
     <tr>
       <td>TG012</td>
       <td>預計收回日</td>
-      <td>預計收回日</td>
+      <td>Exp. Recall Date</td>
       <td>V</td>
       <td>8.0</td>
       <td>預計收回日<samp>[FORMATE:YMD]</samp></td>
@@ -4075,7 +4075,7 @@
 
 
    <details>
-   <summary><samp>ASTTH</samp> : 資產收回單身檔</summary>
+   <summary><samp>ASTTH</samp> : 資產收回單身檔    <small>(Assets Recall Slip- Detail)</small></summary>
    <content>
 
       <table class="dataframe">
@@ -4109,7 +4109,7 @@
     <tr>
       <td>TH001</td>
       <td>單別</td>
-      <td>單別</td>
+      <td>Doc. Type</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -4117,7 +4117,7 @@
     <tr>
       <td>TH002</td>
       <td>單號</td>
-      <td>單號</td>
+      <td>Doc. No.</td>
       <td>C</td>
       <td>11.0</td>
       <td></td>
@@ -4125,7 +4125,7 @@
     <tr>
       <td>TH003</td>
       <td>外送單別</td>
-      <td>外送單別</td>
+      <td>Delivery Order Type</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -4133,7 +4133,7 @@
     <tr>
       <td>TH004</td>
       <td>外送單號</td>
-      <td>外送單號</td>
+      <td>Delivery No.</td>
       <td>C</td>
       <td>11.0</td>
       <td></td>
@@ -4141,7 +4141,7 @@
     <tr>
       <td>TH005</td>
       <td>資產編號</td>
-      <td>資產編號</td>
+      <td>Asset No.</td>
       <td>C</td>
       <td>40.0</td>
       <td></td>
@@ -4149,7 +4149,7 @@
     <tr>
       <td>TH006</td>
       <td>部門代號</td>
-      <td>Department Code</td>
+      <td>Department No.</td>
       <td>C</td>
       <td>6.0</td>
       <td></td>
@@ -4157,7 +4157,7 @@
     <tr>
       <td>TH007</td>
       <td>保管人</td>
-      <td>保管人</td>
+      <td>Keeper</td>
       <td>C</td>
       <td>10.0</td>
       <td></td>
@@ -4165,7 +4165,7 @@
     <tr>
       <td>TH008</td>
       <td>未收回量</td>
-      <td>未收回量</td>
+      <td>Unrecalled Qty</td>
       <td>N</td>
       <td>5.0</td>
       <td></td>
@@ -4173,7 +4173,7 @@
     <tr>
       <td>TH009</td>
       <td>收回數量</td>
-      <td>收回數量</td>
+      <td>Recalled Qty</td>
       <td>N</td>
       <td>5.0</td>
       <td></td>
@@ -4181,7 +4181,7 @@
     <tr>
       <td>TH010</td>
       <td>備註</td>
-      <td>備註</td>
+      <td>Remark</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -4189,7 +4189,7 @@
     <tr>
       <td>TH011</td>
       <td>確認碼</td>
-      <td>確認碼</td>
+      <td>Confirmation Code</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y/N</td>
@@ -4241,7 +4241,7 @@
 
 
    <details>
-   <summary><samp>ASTTI</samp> : 資產請購單單頭檔</summary>
+   <summary><samp>ASTTI</samp> : 資產請購單單頭檔    <small>(Assets PR- Header)</small></summary>
    <content>
 
       <table class="dataframe">
@@ -4280,7 +4280,7 @@
     <tr>
       <td>TI001</td>
       <td>請購單別</td>
-      <td>請購單別</td>
+      <td>P/R Type</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -4288,7 +4288,7 @@
     <tr>
       <td>TI002</td>
       <td>請購單號</td>
-      <td>請購單號</td>
+      <td>P/R No.</td>
       <td>C</td>
       <td>11.0</td>
       <td></td>
@@ -4296,7 +4296,7 @@
     <tr>
       <td>TI003</td>
       <td>請購日期</td>
-      <td>請購日期</td>
+      <td>Requisition Date</td>
       <td>V</td>
       <td>8.0</td>
       <td>請購日期<samp>[FORMATE:YMD]</samp></td>
@@ -4304,7 +4304,7 @@
     <tr>
       <td>TI004</td>
       <td>單據日期</td>
-      <td>單據日期</td>
+      <td>Doc. Date</td>
       <td>V</td>
       <td>8.0</td>
       <td>單據日期<samp>[FORMATE:YMD]</samp></td>
@@ -4312,7 +4312,7 @@
     <tr>
       <td>TI005</td>
       <td>廠別</td>
-      <td>廠別</td>
+      <td>Plant</td>
       <td>V</td>
       <td>6.0</td>
       <td></td>
@@ -4320,7 +4320,7 @@
     <tr>
       <td>TI006</td>
       <td>請購部門</td>
-      <td>請購部門</td>
+      <td>Requisition Dept.</td>
       <td>V</td>
       <td>6.0</td>
       <td></td>
@@ -4328,7 +4328,7 @@
     <tr>
       <td>TI007</td>
       <td>請購人員</td>
-      <td>請購人員</td>
+      <td>Requisition Person</td>
       <td>V</td>
       <td>10.0</td>
       <td>採購人員</td>
@@ -4336,7 +4336,7 @@
     <tr>
       <td>TI008</td>
       <td>備註</td>
-      <td>備註</td>
+      <td>Remark</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -4344,7 +4344,7 @@
     <tr>
       <td>TI009</td>
       <td>列印次數</td>
-      <td>列印次數</td>
+      <td>Times printed</td>
       <td>N</td>
       <td>1.0</td>
       <td></td>
@@ -4352,7 +4352,7 @@
     <tr>
       <td>TI010</td>
       <td>確認碼</td>
-      <td>確認碼</td>
+      <td>Confirmation Code</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y/N/V</td>
@@ -4360,7 +4360,7 @@
     <tr>
       <td>TI011</td>
       <td>確認者</td>
-      <td>確認者</td>
+      <td>Confirmed by</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -4368,7 +4368,7 @@
     <tr>
       <td>TI012</td>
       <td>數量合計</td>
-      <td>數量合計</td>
+      <td>Total Qty</td>
       <td>N</td>
       <td>16.3</td>
       <td>單身之總數量</td>
@@ -4376,7 +4376,7 @@
     <tr>
       <td>TI013</td>
       <td>簽核狀態碼</td>
-      <td>簽核狀態碼</td>
+      <td>Approval Status Code</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>0</samp>:待處理、<samp>1</samp>:簽核中、<samp>2</samp>:退件、<samp>3</samp>:已核准、<samp>4</samp>:取消確認中、<samp>5</samp>:作廢中、<samp>6</samp>:取消作廢中、<samp>N</samp>:不執行電子簽核<samp>[DE<samp>F</samp>:'N']</samp></td>
@@ -4384,7 +4384,7 @@
     <tr>
       <td>TI014</td>
       <td>傳送次數</td>
-      <td>傳送次數</td>
+      <td>Time(s) of sending</td>
       <td>N</td>
       <td>1.0</td>
       <td>傳送次數<samp>[DEF:0]</samp></td>
@@ -4392,7 +4392,7 @@
     <tr>
       <td>TI015</td>
       <td>本幣採購總金額</td>
-      <td>本幣採購總金額</td>
+      <td>Total Purchase Amt (Local Curr.)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -4400,7 +4400,7 @@
     <tr>
       <td>TI016</td>
       <td>預算部門</td>
-      <td>預算部門</td>
+      <td>Budget Dept.</td>
       <td>V</td>
       <td>6.0</td>
       <td></td>
@@ -4460,7 +4460,7 @@
 
 
    <details>
-   <summary><samp>ASTTJ</samp> : 資產請購單單身檔</summary>
+   <summary><samp>ASTTJ</samp> : 資產請購單單身檔    <small>(Assets PR- Detail)</small></summary>
    <content>
 
       <table class="dataframe">
@@ -4504,7 +4504,7 @@
     <tr>
       <td>TJ001</td>
       <td>單別</td>
-      <td>單別</td>
+      <td>Doc. Type</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -4512,7 +4512,7 @@
     <tr>
       <td>TJ002</td>
       <td>單號</td>
-      <td>單號</td>
+      <td>Doc. No.</td>
       <td>C</td>
       <td>11.0</td>
       <td></td>
@@ -4520,7 +4520,7 @@
     <tr>
       <td>TJ003</td>
       <td>序號</td>
-      <td>序號</td>
+      <td>Serial No.</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -4528,7 +4528,7 @@
     <tr>
       <td>TJ004</td>
       <td>品名</td>
-      <td>品名</td>
+      <td>Item Name</td>
       <td>V</td>
       <td>120.0</td>
       <td></td>
@@ -4536,7 +4536,7 @@
     <tr>
       <td>TJ005</td>
       <td>規格</td>
-      <td>規格</td>
+      <td>Spec.</td>
       <td>V</td>
       <td>120.0</td>
       <td></td>
@@ -4544,7 +4544,7 @@
     <tr>
       <td>TJ006</td>
       <td>請購單位</td>
-      <td>請購單位</td>
+      <td>PR Unit</td>
       <td>V</td>
       <td>6.0</td>
       <td></td>
@@ -4552,7 +4552,7 @@
     <tr>
       <td>TJ007</td>
       <td>請購數量</td>
-      <td>請購數量</td>
+      <td>PR Qty</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -4560,7 +4560,7 @@
     <tr>
       <td>TJ008</td>
       <td>供應廠商</td>
-      <td>供應廠商</td>
+      <td>Vendor</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -4568,7 +4568,7 @@
     <tr>
       <td>TJ009</td>
       <td>需求日期</td>
-      <td>需求日期</td>
+      <td>Requirement Date</td>
       <td>V</td>
       <td>8.0</td>
       <td>需求日期<samp>[FORMATE:YMD]</samp></td>
@@ -4576,7 +4576,7 @@
     <tr>
       <td>TJ010</td>
       <td>採購人員</td>
-      <td>採購人員</td>
+      <td>Buyer</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -4584,7 +4584,7 @@
     <tr>
       <td>TJ011</td>
       <td>採購數量</td>
-      <td>採購數量</td>
+      <td>Purchase Qty</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -4592,7 +4592,7 @@
     <tr>
       <td>TJ012</td>
       <td>採購單位</td>
-      <td>採購單位</td>
+      <td>Purchase Unit</td>
       <td>V</td>
       <td>6.0</td>
       <td></td>
@@ -4600,7 +4600,7 @@
     <tr>
       <td>TJ013</td>
       <td>採購幣別</td>
-      <td>採購幣別</td>
+      <td>PO Currency</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -4608,7 +4608,7 @@
     <tr>
       <td>TJ014</td>
       <td>採購單價</td>
-      <td>採購單價</td>
+      <td>Purchase U/P</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -4616,7 +4616,7 @@
     <tr>
       <td>TJ015</td>
       <td>採購金額</td>
-      <td>採購金額</td>
+      <td>Purchase Amt</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -4624,7 +4624,7 @@
     <tr>
       <td>TJ016</td>
       <td>採購碼</td>
-      <td>採購碼</td>
+      <td>Purchase Code</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y/N</td>
@@ -4632,7 +4632,7 @@
     <tr>
       <td>TJ017</td>
       <td>採購單號</td>
-      <td>採購單號</td>
+      <td>PO No.</td>
       <td>V</td>
       <td>21.0</td>
       <td></td>
@@ -4640,7 +4640,7 @@
     <tr>
       <td>TJ018</td>
       <td>備註</td>
-      <td>備註</td>
+      <td>Remark</td>
       <td>V</td>
       <td>255.0</td>
       <td>請購備註</td>
@@ -4648,7 +4648,7 @@
     <tr>
       <td>TJ019</td>
       <td>確認碼</td>
-      <td>確認碼</td>
+      <td>Confirmation Code</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y/N/V</td>
@@ -4656,7 +4656,7 @@
     <tr>
       <td>TJ020</td>
       <td>課稅別</td>
-      <td>課稅別</td>
+      <td>Tax Type</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>1</samp>:應稅內含、<samp>2</samp>:應稅外加、<samp>3</samp>:零稅率、<samp>4</samp>:免稅、<samp>9</samp>:不計稅</td>
@@ -4664,7 +4664,7 @@
     <tr>
       <td>TJ021</td>
       <td>結案碼</td>
-      <td>結案碼</td>
+      <td>Closing Code</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -4672,7 +4672,7 @@
     <tr>
       <td>TJ022</td>
       <td>交貨日</td>
-      <td>交貨日</td>
+      <td>Delivery Date</td>
       <td>V</td>
       <td>8.0</td>
       <td>交貨日<samp>[FORMATE:YMD]</samp></td>
@@ -4680,7 +4680,7 @@
     <tr>
       <td>TJ023</td>
       <td>鎖定碼</td>
-      <td>鎖定碼</td>
+      <td>Lock Code</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y/N</td>
@@ -4688,7 +4688,7 @@
     <tr>
       <td>TJ024</td>
       <td>備註</td>
-      <td>備註</td>
+      <td>Remark</td>
       <td>V</td>
       <td>255.0</td>
       <td>採購備註</td>
@@ -4696,7 +4696,7 @@
     <tr>
       <td>TJ025</td>
       <td>匯率</td>
-      <td>匯率</td>
+      <td>Exch. Rate</td>
       <td>N</td>
       <td>20.9</td>
       <td></td>
@@ -4704,7 +4704,7 @@
     <tr>
       <td>TJ026</td>
       <td>本幣採購金額</td>
-      <td>本幣採購金額</td>
+      <td>Purchase Amt (Local Curr.)</td>
       <td>N</td>
       <td>21.6</td>
       <td>本幣請購總金額</td>
@@ -4712,7 +4712,7 @@
     <tr>
       <td>TJ027</td>
       <td>專案代號</td>
-      <td>專案代號</td>
+      <td>Project Code</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -4720,7 +4720,7 @@
     <tr>
       <td>TJ028</td>
       <td>預算編號</td>
-      <td>預算編號</td>
+      <td>Budget No.</td>
       <td>V</td>
       <td>6.0</td>
       <td></td>
@@ -4728,7 +4728,7 @@
     <tr>
       <td>TJ029</td>
       <td>預算科目</td>
-      <td>預算科目</td>
+      <td>Budget A/C</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -4736,7 +4736,7 @@
     <tr>
       <td>TJ030</td>
       <td>本幣金額</td>
-      <td>本幣金額</td>
+      <td>Amt (Local Curr.)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -4808,7 +4808,7 @@
     <tr>
       <td>TJ039</td>
       <td>稅別碼</td>
-      <td>稅別碼</td>
+      <td>Tax Code</td>
       <td>V</td>
       <td>3.0</td>
       <td></td>
@@ -4820,7 +4820,7 @@
 
 
    <details>
-   <summary><samp>ASTTK</samp> : 資產詢價單單頭檔</summary>
+   <summary><samp>ASTTK</samp> : 資產詢價單單頭檔    <small>(Assets Inquiry Form- Header)</small></summary>
    <content>
 
       <table class="dataframe">
@@ -4854,7 +4854,7 @@
     <tr>
       <td>TK001</td>
       <td>請購單別</td>
-      <td>請購單別</td>
+      <td>P/R Type</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -4862,7 +4862,7 @@
     <tr>
       <td>TK002</td>
       <td>請購單號</td>
-      <td>請購單號</td>
+      <td>P/R No.</td>
       <td>C</td>
       <td>11.0</td>
       <td></td>
@@ -4870,7 +4870,7 @@
     <tr>
       <td>TK003</td>
       <td>供應廠商</td>
-      <td>供應廠商</td>
+      <td>Vendor</td>
       <td>C</td>
       <td>10.0</td>
       <td></td>
@@ -4878,7 +4878,7 @@
     <tr>
       <td>TK004</td>
       <td>備註</td>
-      <td>備註</td>
+      <td>Remark</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -4926,7 +4926,7 @@
     <tr>
       <td>TK200</td>
       <td>確認者</td>
-      <td>確認者</td>
+      <td>Confirmed by</td>
       <td>C</td>
       <td>10.0</td>
       <td></td>
@@ -4934,7 +4934,7 @@
     <tr>
       <td>TK201</td>
       <td>確認日期</td>
-      <td>確認日期</td>
+      <td>Date confirmed</td>
       <td>C</td>
       <td>8.0</td>
       <td>單據日期<samp>[FORMATE:YMD]</samp></td>
@@ -4942,7 +4942,7 @@
     <tr>
       <td>TK202</td>
       <td>確認碼</td>
-      <td>確認碼</td>
+      <td>Confirmation Code</td>
       <td>C</td>
       <td>1.0</td>
       <td>Y/N<samp>[DEF:N]</samp></td>
@@ -4950,7 +4950,7 @@
     <tr>
       <td>TK203</td>
       <td>簽核狀態碼</td>
-      <td>簽核狀態碼</td>
+      <td>Approval Status Code</td>
       <td>C</td>
       <td>1.0</td>
       <td><samp>0</samp>:待處理、<samp>1</samp>:簽核中、<samp>2</samp>:退件、<samp>3</samp>:已核准、<samp>4</samp>:取消確認中、<samp>N</samp>:不執行電子簽核</td>
@@ -4962,7 +4962,7 @@
 
 
    <details>
-   <summary><samp>ASTTL</samp> : 資產詢價單單身檔</summary>
+   <summary><samp>ASTTL</samp> : 資產詢價單單身檔    <small>(Assets Inquiry Form- Detail)</small></summary>
    <content>
 
       <table class="dataframe">
@@ -4996,7 +4996,7 @@
     <tr>
       <td>TL001</td>
       <td>請購單別</td>
-      <td>請購單別</td>
+      <td>P/R Type</td>
       <td>C</td>
       <td>4.0</td>
       <td>單別</td>
@@ -5004,7 +5004,7 @@
     <tr>
       <td>TL002</td>
       <td>請購單號</td>
-      <td>請購單號</td>
+      <td>P/R No.</td>
       <td>C</td>
       <td>11.0</td>
       <td>單號</td>
@@ -5012,7 +5012,7 @@
     <tr>
       <td>TL003</td>
       <td>供應廠商</td>
-      <td>供應廠商</td>
+      <td>Vendor</td>
       <td>C</td>
       <td>10.0</td>
       <td></td>
@@ -5020,7 +5020,7 @@
     <tr>
       <td>TL004</td>
       <td>序號</td>
-      <td>序號</td>
+      <td>Serial No.</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -5028,7 +5028,7 @@
     <tr>
       <td>TL005</td>
       <td>品名</td>
-      <td>品名</td>
+      <td>Item Name</td>
       <td>V</td>
       <td>120.0</td>
       <td></td>
@@ -5036,7 +5036,7 @@
     <tr>
       <td>TL006</td>
       <td>規格</td>
-      <td>規格</td>
+      <td>Spec.</td>
       <td>V</td>
       <td>120.0</td>
       <td></td>
@@ -5044,7 +5044,7 @@
     <tr>
       <td>TL007</td>
       <td>請購數量</td>
-      <td>請購數量</td>
+      <td>PR Qty</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -5052,7 +5052,7 @@
     <tr>
       <td>TL008</td>
       <td>請購單位</td>
-      <td>請購單位</td>
+      <td>PR Unit</td>
       <td>V</td>
       <td>6.0</td>
       <td></td>
@@ -5060,7 +5060,7 @@
     <tr>
       <td>TL009</td>
       <td>採購幣別</td>
-      <td>採購幣別</td>
+      <td>PO Currency</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -5068,7 +5068,7 @@
     <tr>
       <td>TL010</td>
       <td>採購單價</td>
-      <td>採購單價</td>
+      <td>Purchase U/P</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -5076,7 +5076,7 @@
     <tr>
       <td>TL011</td>
       <td>採購金額</td>
-      <td>採購金額</td>
+      <td>Purchase Amt</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -5084,7 +5084,7 @@
     <tr>
       <td>TL012</td>
       <td>備註</td>
-      <td>備註</td>
+      <td>Remark</td>
       <td>V</td>
       <td>255.0</td>
       <td>採購備註</td>
@@ -5092,7 +5092,7 @@
     <tr>
       <td>TL013</td>
       <td>請購單序號</td>
-      <td>請購單序號</td>
+      <td>PR Line No</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -5140,7 +5140,7 @@
     <tr>
       <td>TL200</td>
       <td>確認碼</td>
-      <td>確認碼</td>
+      <td>Confirmation Code</td>
       <td>C</td>
       <td>1.0</td>
       <td>Y/N<samp>[DEF:N]</samp></td>
@@ -5152,7 +5152,7 @@
 
 
    <details>
-   <summary><samp>ASTTM</samp> : 資產採購單單頭檔</summary>
+   <summary><samp>ASTTM</samp> : 資產採購單單頭檔    <small>(Assets Purchase Order- Header)</small></summary>
    <content>
 
       <table class="dataframe">
@@ -5191,7 +5191,7 @@
     <tr>
       <td>TM001</td>
       <td>採購單別</td>
-      <td>採購單別</td>
+      <td>PO Type</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -5199,7 +5199,7 @@
     <tr>
       <td>TM002</td>
       <td>採購單號</td>
-      <td>採購單號</td>
+      <td>PO No.</td>
       <td>C</td>
       <td>11.0</td>
       <td></td>
@@ -5207,7 +5207,7 @@
     <tr>
       <td>TM003</td>
       <td>採購日期</td>
-      <td>採購日期</td>
+      <td>Purchase Date</td>
       <td>V</td>
       <td>8.0</td>
       <td>採購日期<samp>[FORMATE:YMD]</samp></td>
@@ -5215,7 +5215,7 @@
     <tr>
       <td>TM004</td>
       <td>單據日期</td>
-      <td>單據日期</td>
+      <td>Doc. Date</td>
       <td>V</td>
       <td>8.0</td>
       <td>單據日期<samp>[FORMATE:YMD]</samp></td>
@@ -5223,7 +5223,7 @@
     <tr>
       <td>TM005</td>
       <td>供應廠商</td>
-      <td>供應廠商</td>
+      <td>Vendor</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -5231,7 +5231,7 @@
     <tr>
       <td>TM006</td>
       <td>交易幣別</td>
-      <td>交易幣別</td>
+      <td>Currency</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -5239,7 +5239,7 @@
     <tr>
       <td>TM007</td>
       <td>匯率</td>
-      <td>匯率</td>
+      <td>Exch. Rate</td>
       <td>N</td>
       <td>20.9</td>
       <td></td>
@@ -5247,7 +5247,7 @@
     <tr>
       <td>TM008</td>
       <td>價格條件</td>
-      <td>價格條件</td>
+      <td>Trade Term</td>
       <td>V</td>
       <td>40.0</td>
       <td></td>
@@ -5255,7 +5255,7 @@
     <tr>
       <td>TM009</td>
       <td>付款條件代號</td>
-      <td>付款條件代號</td>
+      <td>Payment Term Code</td>
       <td>V</td>
       <td>6.0</td>
       <td></td>
@@ -5263,7 +5263,7 @@
     <tr>
       <td>TM010</td>
       <td>備註</td>
-      <td>備註</td>
+      <td>Remark</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -5271,7 +5271,7 @@
     <tr>
       <td>TM011</td>
       <td>廠別</td>
-      <td>廠別</td>
+      <td>Plant</td>
       <td>V</td>
       <td>6.0</td>
       <td></td>
@@ -5279,7 +5279,7 @@
     <tr>
       <td>TM012</td>
       <td>採購人員</td>
-      <td>採購人員</td>
+      <td>Buyer</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -5287,7 +5287,7 @@
     <tr>
       <td>TM013</td>
       <td>列印格式</td>
-      <td>列印格式</td>
+      <td>Print Format</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -5295,7 +5295,7 @@
     <tr>
       <td>TM014</td>
       <td>列印次數</td>
-      <td>列印次數</td>
+      <td>Times printed</td>
       <td>N</td>
       <td>1.0</td>
       <td></td>
@@ -5303,7 +5303,7 @@
     <tr>
       <td>TM015</td>
       <td>確認碼</td>
-      <td>確認碼</td>
+      <td>Confirmation Code</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y/N/V</td>
@@ -5311,7 +5311,7 @@
     <tr>
       <td>TM016</td>
       <td>課稅別</td>
-      <td>課稅別</td>
+      <td>Tax Type</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>1</samp>:應稅內含、<samp>2</samp>:應稅外加、<samp>3</samp>:零稅率、<samp>4</samp>:免稅、<samp>9</samp>:不計稅</td>
@@ -5319,7 +5319,7 @@
     <tr>
       <td>TM017</td>
       <td>營業稅率</td>
-      <td>營業稅率</td>
+      <td>Tax Rate</td>
       <td>N</td>
       <td>8.5</td>
       <td>營業稅率<small>(%)</small></td>
@@ -5327,7 +5327,7 @@
     <tr>
       <td>TM018</td>
       <td>採購金額</td>
-      <td>採購金額</td>
+      <td>Purchase Amt</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -5335,7 +5335,7 @@
     <tr>
       <td>TM019</td>
       <td>稅額</td>
-      <td>稅額</td>
+      <td>Tax</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -5343,7 +5343,7 @@
     <tr>
       <td>TM020</td>
       <td>送貨地址(一)</td>
-      <td>送貨地址(一)</td>
+      <td>Delivery Addr.(1)</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -5351,7 +5351,7 @@
     <tr>
       <td>TM021</td>
       <td>送貨地址(二)</td>
-      <td>送貨地址(二)</td>
+      <td>Delivery Addr.(2)</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -5359,7 +5359,7 @@
     <tr>
       <td>TM022</td>
       <td>數量合計</td>
-      <td>數量合計</td>
+      <td>Total Qty</td>
       <td>N</td>
       <td>16.3</td>
       <td>單身之總數量</td>
@@ -5367,7 +5367,7 @@
     <tr>
       <td>TM023</td>
       <td>確認者</td>
-      <td>確認者</td>
+      <td>Confirmed by</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -5375,7 +5375,7 @@
     <tr>
       <td>TM024</td>
       <td>簽核狀態碼</td>
-      <td>簽核狀態碼</td>
+      <td>Approval Status Code</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>0</samp>:待處理、<samp>1</samp>:簽核中、<samp>2</samp>:退件、<samp>3</samp>:已核准、<samp>4</samp>:取消確認中、<samp>5</samp>:作廢中、<samp>6</samp>:取消作廢中、<samp>N</samp>:不執行電子簽核</td>
@@ -5383,7 +5383,7 @@
     <tr>
       <td>TM025</td>
       <td>訂金比率</td>
-      <td>訂金比率</td>
+      <td>Deposit Ratio</td>
       <td>N</td>
       <td>8.5</td>
       <td>訂金比率<small>(%)</small></td>
@@ -5391,7 +5391,7 @@
     <tr>
       <td>TM026</td>
       <td>傳送次數</td>
-      <td>傳送次數</td>
+      <td>Time(s) of sending</td>
       <td>N</td>
       <td>1.0</td>
       <td>傳送次數<samp>[DEF:0]</samp></td>
@@ -5399,7 +5399,7 @@
     <tr>
       <td>TM027</td>
       <td>版次</td>
-      <td>版次</td>
+      <td>Version</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -5447,7 +5447,7 @@
     <tr>
       <td>TM033</td>
       <td>稅別碼</td>
-      <td>稅別碼</td>
+      <td>Tax Code</td>
       <td>V</td>
       <td>3.0</td>
       <td></td>
@@ -5455,7 +5455,7 @@
     <tr>
       <td>TM034</td>
       <td>聯絡人</td>
-      <td>聯絡人</td>
+      <td>Contact</td>
       <td>C</td>
       <td>30.0</td>
       <td></td>
@@ -5467,7 +5467,7 @@
 
 
    <details>
-   <summary><samp>ASTTN</samp> : 資產採購單單身檔</summary>
+   <summary><samp>ASTTN</samp> : 資產採購單單身檔    <small>(Assets Purchase Order- Detail)</small></summary>
    <content>
 
       <table class="dataframe">
@@ -5506,7 +5506,7 @@
     <tr>
       <td>TN001</td>
       <td>採購單別</td>
-      <td>採購單別</td>
+      <td>PO Type</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -5514,7 +5514,7 @@
     <tr>
       <td>TN002</td>
       <td>採購單號</td>
-      <td>採購單號</td>
+      <td>PO No.</td>
       <td>C</td>
       <td>11.0</td>
       <td></td>
@@ -5522,7 +5522,7 @@
     <tr>
       <td>TN003</td>
       <td>序號</td>
-      <td>序號</td>
+      <td>Serial No.</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -5530,7 +5530,7 @@
     <tr>
       <td>TN004</td>
       <td>品名</td>
-      <td>品名</td>
+      <td>Item Name</td>
       <td>V</td>
       <td>120.0</td>
       <td></td>
@@ -5538,7 +5538,7 @@
     <tr>
       <td>TN005</td>
       <td>規格</td>
-      <td>規格</td>
+      <td>Spec.</td>
       <td>V</td>
       <td>120.0</td>
       <td></td>
@@ -5546,7 +5546,7 @@
     <tr>
       <td>TN006</td>
       <td>採購數量</td>
-      <td>採購數量</td>
+      <td>Purchase Qty</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -5554,7 +5554,7 @@
     <tr>
       <td>TN007</td>
       <td>單位</td>
-      <td>單位</td>
+      <td>Unit</td>
       <td>V</td>
       <td>6.0</td>
       <td></td>
@@ -5562,7 +5562,7 @@
     <tr>
       <td>TN008</td>
       <td>採購單價</td>
-      <td>採購單價</td>
+      <td>Purchase U/P</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -5570,7 +5570,7 @@
     <tr>
       <td>TN009</td>
       <td>採購金額</td>
-      <td>採購金額</td>
+      <td>Purchase Amt</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -5578,7 +5578,7 @@
     <tr>
       <td>TN010</td>
       <td>備註</td>
-      <td>備註</td>
+      <td>Remark</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -5586,7 +5586,7 @@
     <tr>
       <td>TN011</td>
       <td>已交數量</td>
-      <td>已交數量</td>
+      <td>Delivered Qty</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -5594,7 +5594,7 @@
     <tr>
       <td>TN012</td>
       <td>結案碼</td>
-      <td>結案碼</td>
+      <td>Closing Code</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>N</samp>:未結案、<samp>Y</samp>:自動結案、<samp>y</samp>:指定結案</td>
@@ -5602,7 +5602,7 @@
     <tr>
       <td>TN013</td>
       <td>確認碼</td>
-      <td>確認碼</td>
+      <td>Confirmation Code</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y/N/V</td>
@@ -5610,7 +5610,7 @@
     <tr>
       <td>TN014</td>
       <td>參考單號</td>
-      <td>參考單號</td>
+      <td>Reference Doc. No.</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -5618,7 +5618,7 @@
     <tr>
       <td>TN015</td>
       <td>預交日</td>
-      <td>預交日</td>
+      <td>Exp. Delivery Date</td>
       <td>V</td>
       <td>8.0</td>
       <td>預交日<samp>[FORMATE:YMD]</samp></td>
@@ -5626,7 +5626,7 @@
     <tr>
       <td>TN016</td>
       <td>請購單別</td>
-      <td>請購單別</td>
+      <td>P/R Type</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -5634,7 +5634,7 @@
     <tr>
       <td>TN017</td>
       <td>請購單號</td>
-      <td>請購單號</td>
+      <td>P/R No.</td>
       <td>V</td>
       <td>11.0</td>
       <td></td>
@@ -5642,7 +5642,7 @@
     <tr>
       <td>TN018</td>
       <td>請購序號</td>
-      <td>請購序號</td>
+      <td>Purchase S/N</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -5650,7 +5650,7 @@
     <tr>
       <td>TN019</td>
       <td>請購部門</td>
-      <td>請購部門</td>
+      <td>Requisition Dept.</td>
       <td>V</td>
       <td>6.0</td>
       <td></td>
@@ -5658,7 +5658,7 @@
     <tr>
       <td>TN020</td>
       <td>專案代號</td>
-      <td>專案代號</td>
+      <td>Project Code</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -5666,7 +5666,7 @@
     <tr>
       <td>TN021</td>
       <td>預算編號</td>
-      <td>預算編號</td>
+      <td>Budget No.</td>
       <td>V</td>
       <td>6.0</td>
       <td></td>
@@ -5674,7 +5674,7 @@
     <tr>
       <td>TN022</td>
       <td>預算科目</td>
-      <td>預算科目</td>
+      <td>Budget A/C</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -5682,7 +5682,7 @@
     <tr>
       <td>TN023</td>
       <td>預算部門</td>
-      <td>預算部門</td>
+      <td>Budget Dept.</td>
       <td>V</td>
       <td>6.0</td>
       <td></td>
@@ -5734,7 +5734,7 @@
 
 
    <details>
-   <summary><samp>ASTTO</samp> : 資產進貨單單頭檔</summary>
+   <summary><samp>ASTTO</samp> : 資產進貨單單頭檔    <small>(Assets Purchase Order- Header)</small></summary>
    <content>
 
       <table class="dataframe">
@@ -5778,7 +5778,7 @@
     <tr>
       <td>TO001</td>
       <td>單別</td>
-      <td>單別</td>
+      <td>Doc. Type</td>
       <td>C</td>
       <td>4.0</td>
       <td>進貨單別</td>
@@ -5786,7 +5786,7 @@
     <tr>
       <td>TO002</td>
       <td>單號</td>
-      <td>單號</td>
+      <td>Doc. No.</td>
       <td>C</td>
       <td>11.0</td>
       <td>進貨單號</td>
@@ -5794,7 +5794,7 @@
     <tr>
       <td>TO003</td>
       <td>進貨日期</td>
-      <td>進貨日期</td>
+      <td>Incoming Date</td>
       <td>V</td>
       <td>8.0</td>
       <td>進貨日期<samp>[FORMATE:YMD]</samp></td>
@@ -5802,7 +5802,7 @@
     <tr>
       <td>TO004</td>
       <td>單據日期</td>
-      <td>單據日期</td>
+      <td>Doc. Date</td>
       <td>V</td>
       <td>8.0</td>
       <td>單據日期<samp>[FORMATE:YMD]</samp></td>
@@ -5810,7 +5810,7 @@
     <tr>
       <td>TO005</td>
       <td>供應廠商</td>
-      <td>供應廠商</td>
+      <td>Vendor</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -5818,7 +5818,7 @@
     <tr>
       <td>TO006</td>
       <td>廠別</td>
-      <td>廠別</td>
+      <td>Plant</td>
       <td>V</td>
       <td>6.0</td>
       <td>進貨廠別</td>
@@ -5826,7 +5826,7 @@
     <tr>
       <td>TO007</td>
       <td>廠商單號</td>
-      <td>廠商單號</td>
+      <td>Vendor No.</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -5834,7 +5834,7 @@
     <tr>
       <td>TO008</td>
       <td>幣別</td>
-      <td>幣別</td>
+      <td>Currency</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -5842,7 +5842,7 @@
     <tr>
       <td>TO009</td>
       <td>匯率</td>
-      <td>匯率</td>
+      <td>Exch. Rate</td>
       <td>N</td>
       <td>20.9</td>
       <td></td>
@@ -5850,7 +5850,7 @@
     <tr>
       <td>TO010</td>
       <td>備註</td>
-      <td>備註</td>
+      <td>Remark</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -5858,7 +5858,7 @@
     <tr>
       <td>TO011</td>
       <td>列印次數</td>
-      <td>列印次數</td>
+      <td>Times printed</td>
       <td>N</td>
       <td>1.0</td>
       <td></td>
@@ -5866,7 +5866,7 @@
     <tr>
       <td>TO012</td>
       <td>付款條件代號</td>
-      <td>付款條件代號</td>
+      <td>Payment Term Code</td>
       <td>V</td>
       <td>6.0</td>
       <td></td>
@@ -5874,7 +5874,7 @@
     <tr>
       <td>TO013</td>
       <td>確認碼</td>
-      <td>確認碼</td>
+      <td>Confirmation Code</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>Y</samp>:已確認、<samp>N</samp>:未確認、<samp>V</samp>:作廢</td>
@@ -5882,7 +5882,7 @@
     <tr>
       <td>TO014</td>
       <td>更新碼</td>
-      <td>更新碼</td>
+      <td>Update Code</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y/N</td>
@@ -5890,7 +5890,7 @@
     <tr>
       <td>TO015</td>
       <td>簽核狀態碼</td>
-      <td>簽核狀態碼</td>
+      <td>Approval Status Code</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>0</samp>:待處理、<samp>1</samp>:簽核中、<samp>2</samp>:退件、<samp>3</samp>:已核准、<samp>4</samp>:取消確認中、<samp>5</samp>:作廢中、<samp>6</samp>:取消作廢中、<samp>N</samp>:不執行電子簽核</td>
@@ -5898,7 +5898,7 @@
     <tr>
       <td>TO016</td>
       <td>件數</td>
-      <td>件數</td>
+      <td>Piece(s)</td>
       <td>N</td>
       <td>5.0</td>
       <td></td>
@@ -5906,7 +5906,7 @@
     <tr>
       <td>TO017</td>
       <td>統一編號</td>
-      <td>統一編號</td>
+      <td>VAT No.</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -5914,7 +5914,7 @@
     <tr>
       <td>TO018</td>
       <td>發票聯數</td>
-      <td>發票聯數</td>
+      <td>Invoice Copy</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>1</samp>:二聯式、<samp>2</samp>:三聯式、<samp>3</samp>:二聯式收銀機發票、<samp>4</samp>:三聯式收銀機發票、<samp>5</samp>:電子計算機發票、<samp>6</samp>:免用統一發票、<samp>A</samp>:農產品收購憑證、<samp>G</samp>:海關代徵完稅憑證、<samp>N</samp>:不可抵扣專用發票、<samp>S</samp>:可抵扣專用發票、<samp>T</samp>:運輸發票、<samp>W</samp>:廢舊物資收購憑證、<samp>Z</samp>:其他</td>
@@ -5922,7 +5922,7 @@
     <tr>
       <td>TO019</td>
       <td>營業稅率</td>
-      <td>營業稅率</td>
+      <td>Tax Rate</td>
       <td>N</td>
       <td>8.5</td>
       <td>營業稅率<small>(%)</small></td>
@@ -5930,7 +5930,7 @@
     <tr>
       <td>TO020</td>
       <td>課稅別</td>
-      <td>課稅別</td>
+      <td>Tax Type</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>1</samp>:應稅內含、<samp>2</samp>:應稅外加、<samp>3</samp>:零稅率、<samp>4</samp>:免稅、<samp>9</samp>:不計稅</td>
@@ -5938,7 +5938,7 @@
     <tr>
       <td>TO021</td>
       <td>發票號碼</td>
-      <td>發票號碼</td>
+      <td>Invoice No.</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -5946,7 +5946,7 @@
     <tr>
       <td>TO022</td>
       <td>扣抵區分</td>
-      <td>扣抵區分</td>
+      <td>Division of Credit</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>1</samp>:可扣抵進貨及費用、<samp>2</samp>:可扣抵固定資產、<samp>3</samp>:不可扣抵進貨及費用、<samp>4</samp>:不可扣抵固定資產</td>
@@ -5954,7 +5954,7 @@
     <tr>
       <td>TO023</td>
       <td>發票日期</td>
-      <td>發票日期</td>
+      <td>Invoice Date</td>
       <td>V</td>
       <td>8.0</td>
       <td>發票日期<samp>[FORMATE:YMD]</samp></td>
@@ -5962,7 +5962,7 @@
     <tr>
       <td>TO024</td>
       <td>申報年月</td>
-      <td>申報年月</td>
+      <td>Declaration Month</td>
       <td>V</td>
       <td>6.0</td>
       <td>申報年月<samp>[FORMATE:YM]</samp></td>
@@ -5970,7 +5970,7 @@
     <tr>
       <td>TO025</td>
       <td>採購單別</td>
-      <td>採購單別</td>
+      <td>PO Type</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -5978,7 +5978,7 @@
     <tr>
       <td>TO026</td>
       <td>採購單號</td>
-      <td>採購單號</td>
+      <td>PO No.</td>
       <td>V</td>
       <td>11.0</td>
       <td></td>
@@ -5986,7 +5986,7 @@
     <tr>
       <td>TO027</td>
       <td>進貨金額</td>
-      <td>進貨金額</td>
+      <td>Incoming Amt</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -5994,7 +5994,7 @@
     <tr>
       <td>TO028</td>
       <td>扣款金額</td>
-      <td>扣款金額</td>
+      <td>Deduction Amt</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -6002,7 +6002,7 @@
     <tr>
       <td>TO029</td>
       <td>原幣貨款金額</td>
-      <td>原幣貨款金額</td>
+      <td>Loans in Trans. Curr.</td>
       <td>N</td>
       <td>21.6</td>
       <td>原幣未稅貨款金額</td>
@@ -6010,7 +6010,7 @@
     <tr>
       <td>TO030</td>
       <td>原幣稅額</td>
-      <td>原幣稅額</td>
+      <td>Tax (Trans. Curr.)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -6018,7 +6018,7 @@
     <tr>
       <td>TO031</td>
       <td>本幣貨款金額</td>
-      <td>本幣貨款金額</td>
+      <td>Loans (Local Curr.)</td>
       <td>N</td>
       <td>21.6</td>
       <td>本幣未稅貨款金額</td>
@@ -6026,7 +6026,7 @@
     <tr>
       <td>TO032</td>
       <td>本幣稅額</td>
-      <td>本幣稅額</td>
+      <td>Tax (Local Curr.)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -6034,7 +6034,7 @@
     <tr>
       <td>TO033</td>
       <td>進貨費用</td>
-      <td>進貨費用</td>
+      <td>Purchase expenses</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -6042,7 +6042,7 @@
     <tr>
       <td>TO034</td>
       <td>數量合計</td>
-      <td>數量合計</td>
+      <td>Total Qty</td>
       <td>N</td>
       <td>16.3</td>
       <td>單身之總數量</td>
@@ -6050,7 +6050,7 @@
     <tr>
       <td>TO035</td>
       <td>預付待抵單別</td>
-      <td>預付待抵單別</td>
+      <td>Prepayment expect offset type</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -6058,7 +6058,7 @@
     <tr>
       <td>TO036</td>
       <td>預付待抵單號</td>
-      <td>預付待抵單號</td>
+      <td>Prepayment expect offset No.</td>
       <td>V</td>
       <td>11.0</td>
       <td></td>
@@ -6066,7 +6066,7 @@
     <tr>
       <td>TO037</td>
       <td>沖抵金額</td>
-      <td>沖抵金額</td>
+      <td>Offset AMT</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -6074,7 +6074,7 @@
     <tr>
       <td>TO038</td>
       <td>沖抵稅額</td>
-      <td>沖抵稅額</td>
+      <td>Offset Tax</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -6082,7 +6082,7 @@
     <tr>
       <td>TO039</td>
       <td>傳送次數</td>
-      <td>傳送次數</td>
+      <td>Time(s) of sending</td>
       <td>N</td>
       <td>1.0</td>
       <td>傳送次數<samp>[DEF:0]</samp></td>
@@ -6130,7 +6130,7 @@
     <tr>
       <td>TO045</td>
       <td>稅別碼</td>
-      <td>稅別碼</td>
+      <td>Tax Code</td>
       <td>V</td>
       <td>3.0</td>
       <td></td>
@@ -6138,7 +6138,7 @@
     <tr>
       <td>TO046</td>
       <td>註記號</td>
-      <td>註記號</td>
+      <td>Remark No.</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -6146,7 +6146,7 @@
     <tr>
       <td>TO047</td>
       <td>稅幣匯率</td>
-      <td>稅幣匯率</td>
+      <td>Tax Currency Exch. Rate</td>
       <td>N</td>
       <td>20.9</td>
       <td></td>
@@ -6154,7 +6154,7 @@
     <tr>
       <td>TO048</td>
       <td>發票註記碼長度</td>
-      <td>發票註記碼長度</td>
+      <td>Length of Invoice Note Code</td>
       <td>N</td>
       <td>2.0</td>
       <td></td>
@@ -6162,7 +6162,7 @@
     <tr>
       <td>TO049</td>
       <td>發票流水碼長度</td>
-      <td>發票流水碼長度</td>
+      <td>Length of Invoice Serial No.</td>
       <td>N</td>
       <td>2.0</td>
       <td></td>
@@ -6170,7 +6170,7 @@
     <tr>
       <td>TO050</td>
       <td>聯絡人</td>
-      <td>聯絡人</td>
+      <td>Contact</td>
       <td>C</td>
       <td>30.0</td>
       <td></td>
@@ -6178,7 +6178,7 @@
     <tr>
       <td>TO200</td>
       <td>供應商全名</td>
-      <td>供應商全名</td>
+      <td></td>
       <td>C</td>
       <td>80.0</td>
       <td></td>
@@ -6190,7 +6190,7 @@
 
 
    <details>
-   <summary><samp>ASTTP</samp> : 資產進貨單單身檔</summary>
+   <summary><samp>ASTTP</samp> : 資產進貨單單身檔    <small>(Assets Purchase Order- Detail)</small></summary>
    <content>
 
       <table class="dataframe">
@@ -6239,7 +6239,7 @@
     <tr>
       <td>TP001</td>
       <td>單別</td>
-      <td>單別</td>
+      <td>Doc. Type</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -6247,7 +6247,7 @@
     <tr>
       <td>TP002</td>
       <td>單號</td>
-      <td>單號</td>
+      <td>Doc. No.</td>
       <td>C</td>
       <td>11.0</td>
       <td></td>
@@ -6255,7 +6255,7 @@
     <tr>
       <td>TP003</td>
       <td>序號</td>
-      <td>序號</td>
+      <td>Serial No.</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -6271,7 +6271,7 @@
     <tr>
       <td>TP005</td>
       <td>品名</td>
-      <td>品名</td>
+      <td>Item Name</td>
       <td>V</td>
       <td>120.0</td>
       <td></td>
@@ -6279,7 +6279,7 @@
     <tr>
       <td>TP006</td>
       <td>規格</td>
-      <td>規格</td>
+      <td>Spec.</td>
       <td>V</td>
       <td>120.0</td>
       <td></td>
@@ -6287,7 +6287,7 @@
     <tr>
       <td>TP007</td>
       <td>進貨數量</td>
-      <td>進貨數量</td>
+      <td>Pur. Receipt Qty</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -6295,7 +6295,7 @@
     <tr>
       <td>TP008</td>
       <td>單位</td>
-      <td>單位</td>
+      <td>Unit</td>
       <td>V</td>
       <td>6.0</td>
       <td></td>
@@ -6303,7 +6303,7 @@
     <tr>
       <td>TP009</td>
       <td>採購單別</td>
-      <td>採購單別</td>
+      <td>PO Type</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -6311,7 +6311,7 @@
     <tr>
       <td>TP010</td>
       <td>採購單號</td>
-      <td>採購單號</td>
+      <td>PO No.</td>
       <td>V</td>
       <td>11.0</td>
       <td></td>
@@ -6319,7 +6319,7 @@
     <tr>
       <td>TP011</td>
       <td>採購序號</td>
-      <td>採購序號</td>
+      <td>PO S/N</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -6327,7 +6327,7 @@
     <tr>
       <td>TP012</td>
       <td>驗收日期</td>
-      <td>驗收日期</td>
+      <td>Accepted Date</td>
       <td>V</td>
       <td>8.0</td>
       <td>驗收日期<samp>[FORMATE:YMD]</samp></td>
@@ -6335,7 +6335,7 @@
     <tr>
       <td>TP013</td>
       <td>驗收數量</td>
-      <td>驗收數量</td>
+      <td>Accepted Qty</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -6343,7 +6343,7 @@
     <tr>
       <td>TP014</td>
       <td>計價數量</td>
-      <td>計價數量</td>
+      <td>Pricing Qty</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -6351,7 +6351,7 @@
     <tr>
       <td>TP015</td>
       <td>驗退數量</td>
-      <td>驗退數量</td>
+      <td>Rejected Qty</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -6359,7 +6359,7 @@
     <tr>
       <td>TP016</td>
       <td>原幣單位進價</td>
-      <td>原幣單位進價</td>
+      <td>Purchase U/P in Trans. Curr.</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -6367,7 +6367,7 @@
     <tr>
       <td>TP017</td>
       <td>原幣進貨金額</td>
-      <td>原幣進貨金額</td>
+      <td>Receipt Amt (Trans. Curr.)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -6375,7 +6375,7 @@
     <tr>
       <td>TP018</td>
       <td>原幣扣款金額</td>
-      <td>原幣扣款金額</td>
+      <td>Deduction (Trans. Curr.)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -6383,7 +6383,7 @@
     <tr>
       <td>TP019</td>
       <td>進貨費用</td>
-      <td>進貨費用</td>
+      <td>Purchase expenses</td>
       <td>N</td>
       <td>21.6</td>
       <td>進貨費用-本國幣別</td>
@@ -6391,7 +6391,7 @@
     <tr>
       <td>TP020</td>
       <td>扣款說明</td>
-      <td>扣款說明</td>
+      <td>Deduction Desc.</td>
       <td>V</td>
       <td>40.0</td>
       <td></td>
@@ -6399,7 +6399,7 @@
     <tr>
       <td>TP021</td>
       <td>暫不付款</td>
-      <td>暫不付款</td>
+      <td>Hold Payment</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y/N</td>
@@ -6407,7 +6407,7 @@
     <tr>
       <td>TP022</td>
       <td>確認碼</td>
-      <td>確認碼</td>
+      <td>Confirmation Code</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y/N/V</td>
@@ -6415,7 +6415,7 @@
     <tr>
       <td>TP023</td>
       <td>檢驗狀態</td>
-      <td>檢驗狀態</td>
+      <td>Inspection Status</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>0</samp>:免檢、<samp>1</samp>:待驗、<samp>2</samp>:合格、<samp>3</samp>:不良、<samp>4</samp>:特採</td>
@@ -6423,7 +6423,7 @@
     <tr>
       <td>TP024</td>
       <td>驗退碼</td>
-      <td>驗退碼</td>
+      <td>Reject Code</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y/N</td>
@@ -6431,7 +6431,7 @@
     <tr>
       <td>TP025</td>
       <td>逾期碼</td>
-      <td>逾期碼</td>
+      <td>Overdue Code</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y/N</td>
@@ -6439,7 +6439,7 @@
     <tr>
       <td>TP026</td>
       <td>結帳碼</td>
-      <td>結帳碼</td>
+      <td>Settling Code</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y/N</td>
@@ -6447,7 +6447,7 @@
     <tr>
       <td>TP027</td>
       <td>更新碼</td>
-      <td>更新碼</td>
+      <td>Update Code</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y/N</td>
@@ -6455,7 +6455,7 @@
     <tr>
       <td>TP028</td>
       <td>備註</td>
-      <td>備註</td>
+      <td>Remark</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -6463,7 +6463,7 @@
     <tr>
       <td>TP029</td>
       <td>確認者</td>
-      <td>確認者</td>
+      <td>Confirmed by</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -6471,7 +6471,7 @@
     <tr>
       <td>TP030</td>
       <td>應付憑單別</td>
-      <td>應付憑單別</td>
+      <td>AP Voucher Type</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -6479,7 +6479,7 @@
     <tr>
       <td>TP031</td>
       <td>應付憑單號</td>
-      <td>應付憑單號</td>
+      <td>AP Voucher No.</td>
       <td>V</td>
       <td>11.0</td>
       <td></td>
@@ -6487,7 +6487,7 @@
     <tr>
       <td>TP032</td>
       <td>應付憑單序號</td>
-      <td>應付憑單序號</td>
+      <td>AP Voucher S/N</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -6495,7 +6495,7 @@
     <tr>
       <td>TP033</td>
       <td>專案代號</td>
-      <td>專案代號</td>
+      <td>Project Code</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -6503,7 +6503,7 @@
     <tr>
       <td>TP034</td>
       <td>產生分錄碼</td>
-      <td>產生分錄碼</td>
+      <td>Generate Entry Code</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -6511,7 +6511,7 @@
     <tr>
       <td>TP035</td>
       <td>原幣未稅金額</td>
-      <td>原幣未稅金額</td>
+      <td>Amt excl. tax (Trans. Curr.)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -6519,7 +6519,7 @@
     <tr>
       <td>TP036</td>
       <td>原幣稅額</td>
-      <td>原幣稅額</td>
+      <td>Tax (Trans. Curr.)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -6527,7 +6527,7 @@
     <tr>
       <td>TP037</td>
       <td>本幣未稅金額</td>
-      <td>本幣未稅金額</td>
+      <td>Amt excl. tax (Local Curr.)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -6535,7 +6535,7 @@
     <tr>
       <td>TP038</td>
       <td>本幣稅額</td>
-      <td>本幣稅額</td>
+      <td>Tax (Local Curr.)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -6543,7 +6543,7 @@
     <tr>
       <td>TP039</td>
       <td>資產編號</td>
-      <td>資產編號</td>
+      <td>Asset No.</td>
       <td>V</td>
       <td>40.0</td>
       <td></td>
@@ -6551,7 +6551,7 @@
     <tr>
       <td>TP040</td>
       <td>預算編號</td>
-      <td>預算編號</td>
+      <td>Budget No.</td>
       <td>V</td>
       <td>6.0</td>
       <td></td>
@@ -6559,7 +6559,7 @@
     <tr>
       <td>TP041</td>
       <td>預算科目</td>
-      <td>預算科目</td>
+      <td>Budget A/C</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -6567,7 +6567,7 @@
     <tr>
       <td>TP042</td>
       <td>預算部門</td>
-      <td>預算部門</td>
+      <td>Budget Dept.</td>
       <td>V</td>
       <td>6.0</td>
       <td></td>
@@ -6615,7 +6615,7 @@
     <tr>
       <td>TP048</td>
       <td>性質</td>
-      <td>性質</td>
+      <td>Property</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>1</samp>:資產<samp>2</samp>:費用 <samp>[DE<samp>F</samp>:1]</samp></td>
@@ -6627,7 +6627,7 @@
 
 
    <details>
-   <summary><samp>ASTTQ</samp> : 資產採購變更單頭資料檔</summary>
+   <summary><samp>ASTTQ</samp> : 資產採購變更單頭資料檔    <small>(Assets Purchase Change Note- Header)</small></summary>
    <content>
 
       <table class="dataframe">
@@ -6666,7 +6666,7 @@
     <tr>
       <td>TQ001</td>
       <td>採購變更單別</td>
-      <td>採購變更單別</td>
+      <td>PO Change Type</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -6674,7 +6674,7 @@
     <tr>
       <td>TQ002</td>
       <td>採購變更單號</td>
-      <td>採購變更單號</td>
+      <td>PO Change No.</td>
       <td>C</td>
       <td>11.0</td>
       <td></td>
@@ -6682,7 +6682,7 @@
     <tr>
       <td>TQ003</td>
       <td>版次</td>
-      <td>版次</td>
+      <td>Version</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -6690,7 +6690,7 @@
     <tr>
       <td>TQ004</td>
       <td>變更日期</td>
-      <td>變更日期</td>
+      <td>Change Date</td>
       <td>V</td>
       <td>8.0</td>
       <td>變更日期<samp>[FORMAT:YMD]</samp></td>
@@ -6698,7 +6698,7 @@
     <tr>
       <td>TQ005</td>
       <td>變更原因</td>
-      <td>變更原因</td>
+      <td>Change Reason</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -6706,7 +6706,7 @@
     <tr>
       <td>TQ006</td>
       <td>供應廠商</td>
-      <td>供應廠商</td>
+      <td>Vendor</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -6714,7 +6714,7 @@
     <tr>
       <td>TQ007</td>
       <td>交易幣別</td>
-      <td>交易幣別</td>
+      <td>Currency</td>
       <td>V</td>
       <td>4.0</td>
       <td>新交易幣別</td>
@@ -6722,7 +6722,7 @@
     <tr>
       <td>TQ008</td>
       <td>匯率</td>
-      <td>匯率</td>
+      <td>Exch. Rate</td>
       <td>N</td>
       <td>20.9</td>
       <td></td>
@@ -6730,7 +6730,7 @@
     <tr>
       <td>TQ009</td>
       <td>價格條件</td>
-      <td>價格條件</td>
+      <td>Trade Term</td>
       <td>V</td>
       <td>40.0</td>
       <td>新價格條件</td>
@@ -6738,7 +6738,7 @@
     <tr>
       <td>TQ010</td>
       <td>付款條件</td>
-      <td>付款條件</td>
+      <td>Payment Term</td>
       <td>V</td>
       <td>6.0</td>
       <td>新付款條件</td>
@@ -6746,7 +6746,7 @@
     <tr>
       <td>TQ011</td>
       <td>新廠別</td>
-      <td>新廠別</td>
+      <td>New Plant</td>
       <td>V</td>
       <td>6.0</td>
       <td></td>
@@ -6754,7 +6754,7 @@
     <tr>
       <td>TQ012</td>
       <td>新採購人員</td>
-      <td>新採購人員</td>
+      <td>New Buyer</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -6762,7 +6762,7 @@
     <tr>
       <td>TQ013</td>
       <td>新送貨地址(一)</td>
-      <td>新送貨地址(一)</td>
+      <td>New Deli. Addr.(1)</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -6770,7 +6770,7 @@
     <tr>
       <td>TQ014</td>
       <td>新送貨地址(二)</td>
-      <td>新送貨地址(二)</td>
+      <td>New Deli. Addr.(2)</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -6778,7 +6778,7 @@
     <tr>
       <td>TQ015</td>
       <td>新訂金比率</td>
-      <td>新訂金比率</td>
+      <td>New Commission Ratio</td>
       <td>N</td>
       <td>8.5</td>
       <td>訂金比率<small>(%)</small></td>
@@ -6786,7 +6786,7 @@
     <tr>
       <td>TQ016</td>
       <td>新營業稅率</td>
-      <td>新營業稅率</td>
+      <td>New Business Tax Rate</td>
       <td>N</td>
       <td>8.5</td>
       <td>新營業稅率<small>(%)</small><samp>[DEF:9.9999]</samp></td>
@@ -6794,7 +6794,7 @@
     <tr>
       <td>TQ017</td>
       <td>新課稅別</td>
-      <td>新課稅別</td>
+      <td>New Tax Type</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>1</samp>:應稅內含、<samp>2</samp>:應稅外加、<samp>3</samp>:零稅率、<samp>4</samp>:免稅、<samp>9</samp>:不計稅</td>
@@ -6802,7 +6802,7 @@
     <tr>
       <td>TQ018</td>
       <td>列印格式</td>
-      <td>列印格式</td>
+      <td>Print Format</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>1</samp>:中文 <samp>2</samp>:英文</td>
@@ -6810,7 +6810,7 @@
     <tr>
       <td>TQ019</td>
       <td>單據日期</td>
-      <td>單據日期</td>
+      <td>Doc. Date</td>
       <td>V</td>
       <td>8.0</td>
       <td>單據日期<samp>[FORMAT:YMD]</samp></td>
@@ -6818,7 +6818,7 @@
     <tr>
       <td>TQ020</td>
       <td>整張結案</td>
-      <td>整張結案</td>
+      <td>Closing whole form</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -6826,7 +6826,7 @@
     <tr>
       <td>TQ021</td>
       <td>確認者</td>
-      <td>確認者</td>
+      <td>Confirmed by</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -6834,7 +6834,7 @@
     <tr>
       <td>TQ022</td>
       <td>確認碼</td>
-      <td>確認碼</td>
+      <td>Confirmation Code</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -6842,7 +6842,7 @@
     <tr>
       <td>TQ023</td>
       <td>列印次數</td>
-      <td>列印次數</td>
+      <td>Times printed</td>
       <td>N</td>
       <td>1.0</td>
       <td>列印次數<samp>[DEF:0]</samp></td>
@@ -6850,7 +6850,7 @@
     <tr>
       <td>TQ024</td>
       <td>傳送次數</td>
-      <td>傳送次數</td>
+      <td>Time(s) of sending</td>
       <td>N</td>
       <td>1.0</td>
       <td>傳送次數<samp>[DEF:0]</samp></td>
@@ -6858,7 +6858,7 @@
     <tr>
       <td>TQ025</td>
       <td>簽核狀態碼</td>
-      <td>簽核狀態碼</td>
+      <td>Approval Status Code</td>
       <td>V</td>
       <td>1.0</td>
       <td><samp>0</samp>:待處理、<samp>1</samp>:簽核中、<samp>2</samp>:退件、<samp>3</samp>:已核准、<samp>4</samp>:取消確認中、<samp>5</samp>:作廢中、<samp>6</samp>:取消作廢中、<samp>N</samp>:不執行電子簽核<samp>[DE<samp>F</samp>:N]</samp></td>
@@ -6866,7 +6866,7 @@
     <tr>
       <td>TQ026</td>
       <td>新備註</td>
-      <td>新備註</td>
+      <td>New Remark</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -6914,7 +6914,7 @@
     <tr>
       <td>TQ032</td>
       <td>稅別碼</td>
-      <td>稅別碼</td>
+      <td>Tax Code</td>
       <td>V</td>
       <td>3.0</td>
       <td></td>
@@ -6922,7 +6922,7 @@
     <tr>
       <td>TQ103</td>
       <td>原版次</td>
-      <td>原版次</td>
+      <td>Orig. Version</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -6930,7 +6930,7 @@
     <tr>
       <td>TQ106</td>
       <td>原供應廠商</td>
-      <td>原供應廠商</td>
+      <td>Orig. Vendor</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -6938,7 +6938,7 @@
     <tr>
       <td>TQ107</td>
       <td>原交易幣別</td>
-      <td>原交易幣別</td>
+      <td>Orig. Currency</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -6946,7 +6946,7 @@
     <tr>
       <td>TQ108</td>
       <td>原匯率</td>
-      <td>原匯率</td>
+      <td>Orig. Exch. Rate</td>
       <td>N</td>
       <td>20.9</td>
       <td></td>
@@ -6954,7 +6954,7 @@
     <tr>
       <td>TQ109</td>
       <td>原價格條件</td>
-      <td>原價格條件</td>
+      <td>Orig. Price Term</td>
       <td>V</td>
       <td>40.0</td>
       <td></td>
@@ -6962,7 +6962,7 @@
     <tr>
       <td>TQ110</td>
       <td>原付款條件</td>
-      <td>原付款條件</td>
+      <td>Orig. Payment Term</td>
       <td>V</td>
       <td>6.0</td>
       <td></td>
@@ -6970,7 +6970,7 @@
     <tr>
       <td>TQ111</td>
       <td>原廠別</td>
-      <td>原廠別</td>
+      <td>Orig. Plant</td>
       <td>V</td>
       <td>6.0</td>
       <td></td>
@@ -6978,7 +6978,7 @@
     <tr>
       <td>TQ112</td>
       <td>原採購人員</td>
-      <td>原採購人員</td>
+      <td>Orig. Buyer</td>
       <td>V</td>
       <td>10.0</td>
       <td></td>
@@ -6986,7 +6986,7 @@
     <tr>
       <td>TQ113</td>
       <td>原送貨地址(一)</td>
-      <td>原送貨地址(一)</td>
+      <td>Orig. Deli. Addr.(1)</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -6994,7 +6994,7 @@
     <tr>
       <td>TQ114</td>
       <td>原送貨地址(二)</td>
-      <td>原送貨地址(二)</td>
+      <td>Orig. Deli. Addr.(2)</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -7002,7 +7002,7 @@
     <tr>
       <td>TQ115</td>
       <td>原訂金比率</td>
-      <td>原訂金比率</td>
+      <td>Orig. Deposit Rate</td>
       <td>N</td>
       <td>8.5</td>
       <td></td>
@@ -7010,7 +7010,7 @@
     <tr>
       <td>TQ116</td>
       <td>原營業稅率</td>
-      <td>原營業稅率</td>
+      <td>Orig. Tax Rate</td>
       <td>N</td>
       <td>8.5</td>
       <td></td>
@@ -7018,7 +7018,7 @@
     <tr>
       <td>TQ117</td>
       <td>原課稅別</td>
-      <td>原課稅別</td>
+      <td>Orig. Tax Type</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -7026,7 +7026,7 @@
     <tr>
       <td>TQ118</td>
       <td>原列印格式</td>
-      <td>原列印格式</td>
+      <td>Orig. Print Format</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -7034,7 +7034,7 @@
     <tr>
       <td>TQ119</td>
       <td>原備註</td>
-      <td>原備註</td>
+      <td>Orig. Memo</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -7082,7 +7082,7 @@
     <tr>
       <td>TQ132</td>
       <td>原稅別碼</td>
-      <td>原稅別碼</td>
+      <td>Orig. Tax Code</td>
       <td>V</td>
       <td>3.0</td>
       <td></td>
@@ -7094,7 +7094,7 @@
 
 
    <details>
-   <summary><samp>ASTTR</samp> : 採購變更單身資料檔</summary>
+   <summary><samp>ASTTR</samp> : 採購變更單身資料檔    <small>(Detail of Purchase Change Order)</small></summary>
    <content>
 
       <table class="dataframe">
@@ -7128,7 +7128,7 @@
     <tr>
       <td>TR001</td>
       <td>採購變更單別</td>
-      <td>採購變更單別</td>
+      <td>PO Change Type</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -7136,7 +7136,7 @@
     <tr>
       <td>TR002</td>
       <td>採購變更單號</td>
-      <td>採購變更單號</td>
+      <td>PO Change No.</td>
       <td>C</td>
       <td>11.0</td>
       <td></td>
@@ -7144,7 +7144,7 @@
     <tr>
       <td>TR003</td>
       <td>版次</td>
-      <td>版次</td>
+      <td>Version</td>
       <td>C</td>
       <td>4.0</td>
       <td>變更單之版次</td>
@@ -7152,7 +7152,7 @@
     <tr>
       <td>TR004</td>
       <td>序號</td>
-      <td>序號</td>
+      <td>Serial No.</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -7160,7 +7160,7 @@
     <tr>
       <td>TR005</td>
       <td>新品名</td>
-      <td>新品名</td>
+      <td>New Item Desc.</td>
       <td>V</td>
       <td>120.0</td>
       <td>品名</td>
@@ -7168,7 +7168,7 @@
     <tr>
       <td>TR006</td>
       <td>新規格</td>
-      <td>新規格</td>
+      <td>New Spec.</td>
       <td>V</td>
       <td>120.0</td>
       <td>規格</td>
@@ -7176,7 +7176,7 @@
     <tr>
       <td>TR007</td>
       <td>新採購數量</td>
-      <td>新採購數量</td>
+      <td>New Purchase Qty</td>
       <td>N</td>
       <td>16.3</td>
       <td>採購數量</td>
@@ -7184,7 +7184,7 @@
     <tr>
       <td>TR008</td>
       <td>新單位</td>
-      <td>新單位</td>
+      <td>New Unit</td>
       <td>V</td>
       <td>6.0</td>
       <td>單位</td>
@@ -7192,7 +7192,7 @@
     <tr>
       <td>TR009</td>
       <td>新採購單價</td>
-      <td>新採購單價</td>
+      <td>New Purchase U/P</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -7200,7 +7200,7 @@
     <tr>
       <td>TR010</td>
       <td>新採購金額</td>
-      <td>新採購金額</td>
+      <td>New Purchase Amt</td>
       <td>N</td>
       <td>21.6</td>
       <td>採購金額</td>
@@ -7208,7 +7208,7 @@
     <tr>
       <td>TR011</td>
       <td>新預交日</td>
-      <td>新預交日</td>
+      <td>New ETD</td>
       <td>V</td>
       <td>8.0</td>
       <td>預交日<samp>[FORMAT:YMD]</samp></td>
@@ -7216,7 +7216,7 @@
     <tr>
       <td>TR012</td>
       <td>新結案碼</td>
-      <td>新結案碼</td>
+      <td>New Closing Code</td>
       <td>V</td>
       <td>1.0</td>
       <td>結案碼</td>
@@ -7224,7 +7224,7 @@
     <tr>
       <td>TR013</td>
       <td>新已交量</td>
-      <td>新已交量</td>
+      <td>New Delivered Qty</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -7232,7 +7232,7 @@
     <tr>
       <td>TR014</td>
       <td>新確認碼</td>
-      <td>新確認碼</td>
+      <td>New Confirmation Code</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y/N/V</td>
@@ -7240,7 +7240,7 @@
     <tr>
       <td>TR015</td>
       <td>新變更原因</td>
-      <td>新變更原因</td>
+      <td>New Reason of Change</td>
       <td>V</td>
       <td>255.0</td>
       <td>變更原因</td>
@@ -7248,7 +7248,7 @@
     <tr>
       <td>TR016</td>
       <td>新備註</td>
-      <td>新備註</td>
+      <td>New Remark</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -7256,7 +7256,7 @@
     <tr>
       <td>TR017</td>
       <td>新預算編號</td>
-      <td>新預算編號</td>
+      <td>New Budget No.</td>
       <td>V</td>
       <td>6.0</td>
       <td>預算編號</td>
@@ -7264,7 +7264,7 @@
     <tr>
       <td>TR018</td>
       <td>新預算科目</td>
-      <td>新預算科目</td>
+      <td>New Budget A/C</td>
       <td>V</td>
       <td>20.0</td>
       <td>預算科目</td>
@@ -7272,7 +7272,7 @@
     <tr>
       <td>TR019</td>
       <td>新預算部門</td>
-      <td>新預算部門</td>
+      <td>New Budget Dept.</td>
       <td>V</td>
       <td>6.0</td>
       <td>預算部門</td>
@@ -7320,7 +7320,7 @@
     <tr>
       <td>TR104</td>
       <td>原序號</td>
-      <td>原序號</td>
+      <td>Orig. S/N</td>
       <td>V</td>
       <td>4.0</td>
       <td></td>
@@ -7328,7 +7328,7 @@
     <tr>
       <td>TR105</td>
       <td>品名</td>
-      <td>品名</td>
+      <td>Item Name</td>
       <td>V</td>
       <td>120.0</td>
       <td></td>
@@ -7336,7 +7336,7 @@
     <tr>
       <td>TR106</td>
       <td>規格</td>
-      <td>規格</td>
+      <td>Spec.</td>
       <td>V</td>
       <td>120.0</td>
       <td></td>
@@ -7344,7 +7344,7 @@
     <tr>
       <td>TR107</td>
       <td>採購數量</td>
-      <td>採購數量</td>
+      <td>Purchase Qty</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -7352,7 +7352,7 @@
     <tr>
       <td>TR108</td>
       <td>單位</td>
-      <td>單位</td>
+      <td>Unit</td>
       <td>V</td>
       <td>6.0</td>
       <td></td>
@@ -7360,7 +7360,7 @@
     <tr>
       <td>TR109</td>
       <td>採購單價</td>
-      <td>採購單價</td>
+      <td>Purchase U/P</td>
       <td>N</td>
       <td>21.6</td>
       <td>新採購單價</td>
@@ -7368,7 +7368,7 @@
     <tr>
       <td>TR110</td>
       <td>採購金額</td>
-      <td>採購金額</td>
+      <td>Purchase Amt</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -7376,7 +7376,7 @@
     <tr>
       <td>TR111</td>
       <td>預交日</td>
-      <td>預交日</td>
+      <td>Exp. Delivery Date</td>
       <td>V</td>
       <td>8.0</td>
       <td>預交日<samp>[FORMAT:YMD]</samp></td>
@@ -7384,7 +7384,7 @@
     <tr>
       <td>TR112</td>
       <td>結案碼</td>
-      <td>結案碼</td>
+      <td>Closing Code</td>
       <td>V</td>
       <td>1.0</td>
       <td></td>
@@ -7392,7 +7392,7 @@
     <tr>
       <td>TR113</td>
       <td>已交量</td>
-      <td>已交量</td>
+      <td>Delivered Qty</td>
       <td>N</td>
       <td>16.3</td>
       <td>新已交量</td>
@@ -7400,7 +7400,7 @@
     <tr>
       <td>TR114</td>
       <td>確認碼</td>
-      <td>確認碼</td>
+      <td>Confirmation Code</td>
       <td>V</td>
       <td>1.0</td>
       <td>Y/N/V</td>
@@ -7408,7 +7408,7 @@
     <tr>
       <td>TR115</td>
       <td>變更原因</td>
-      <td>變更原因</td>
+      <td>Change Reason</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -7416,7 +7416,7 @@
     <tr>
       <td>TR116</td>
       <td>原備註</td>
-      <td>原備註</td>
+      <td>Orig. Memo</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -7424,7 +7424,7 @@
     <tr>
       <td>TR117</td>
       <td>預算編號</td>
-      <td>預算編號</td>
+      <td>Budget No.</td>
       <td>V</td>
       <td>6.0</td>
       <td></td>
@@ -7432,7 +7432,7 @@
     <tr>
       <td>TR118</td>
       <td>預算科目</td>
-      <td>預算科目</td>
+      <td>Budget A/C</td>
       <td>V</td>
       <td>20.0</td>
       <td></td>
@@ -7440,7 +7440,7 @@
     <tr>
       <td>TR119</td>
       <td>預算部門</td>
-      <td>預算部門</td>
+      <td>Budget Dept.</td>
       <td>V</td>
       <td>6.0</td>
       <td></td>
@@ -7526,7 +7526,7 @@
     <tr>
       <td>TS001</td>
       <td>單別</td>
-      <td>單別</td>
+      <td>Doc. Type</td>
       <td>C</td>
       <td>4.0</td>
       <td>退貨單別</td>
@@ -7534,7 +7534,7 @@
     <tr>
       <td>TS002</td>
       <td>單號</td>
-      <td>單號</td>
+      <td>Doc. No.</td>
       <td>C</td>
       <td>11.0</td>
       <td>退貨單號</td>
@@ -7542,7 +7542,7 @@
     <tr>
       <td>TS003</td>
       <td>退貨日期</td>
-      <td>退貨日期</td>
+      <td>Return Date</td>
       <td>C</td>
       <td>8.0</td>
       <td>退貨日期<samp>[FORMATE:YMD]</samp></td>
@@ -7550,7 +7550,7 @@
     <tr>
       <td>TS004</td>
       <td>單據日期</td>
-      <td>單據日期</td>
+      <td>Doc. Date</td>
       <td>C</td>
       <td>8.0</td>
       <td>單據日期<samp>[FORMATE:YMD]</samp></td>
@@ -7558,7 +7558,7 @@
     <tr>
       <td>TS005</td>
       <td>供應廠商</td>
-      <td>供應廠商</td>
+      <td>Vendor</td>
       <td>C</td>
       <td>10.0</td>
       <td></td>
@@ -7566,7 +7566,7 @@
     <tr>
       <td>TS006</td>
       <td>廠別</td>
-      <td>廠別</td>
+      <td>Plant</td>
       <td>C</td>
       <td>6.0</td>
       <td>退貨廠別</td>
@@ -7574,7 +7574,7 @@
     <tr>
       <td>TS007</td>
       <td>幣別</td>
-      <td>幣別</td>
+      <td>Currency</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -7582,7 +7582,7 @@
     <tr>
       <td>TS008</td>
       <td>匯率</td>
-      <td>匯率</td>
+      <td>Exch. Rate</td>
       <td>N</td>
       <td>20.9</td>
       <td></td>
@@ -7590,7 +7590,7 @@
     <tr>
       <td>TS009</td>
       <td>備註</td>
-      <td>備註</td>
+      <td>Remark</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -7598,7 +7598,7 @@
     <tr>
       <td>TS010</td>
       <td>列印次數</td>
-      <td>列印次數</td>
+      <td>Times printed</td>
       <td>N</td>
       <td>1.0</td>
       <td></td>
@@ -7606,7 +7606,7 @@
     <tr>
       <td>TS011</td>
       <td>付款條件代號</td>
-      <td>付款條件代號</td>
+      <td>Payment Term Code</td>
       <td>C</td>
       <td>6.0</td>
       <td></td>
@@ -7614,7 +7614,7 @@
     <tr>
       <td>TS012</td>
       <td>確認碼</td>
-      <td>確認碼</td>
+      <td>Confirmation Code</td>
       <td>C</td>
       <td>1.0</td>
       <td><samp>Y</samp>:已確認、<samp>N</samp>:未確認、<samp>V</samp>:作廢</td>
@@ -7622,7 +7622,7 @@
     <tr>
       <td>TS013</td>
       <td>簽核狀態碼</td>
-      <td>簽核狀態碼</td>
+      <td>Approval Status Code</td>
       <td>C</td>
       <td>1.0</td>
       <td><samp>0</samp>:待處理、<samp>1</samp>:簽核中、<samp>2</samp>:退件、<samp>3</samp>:已核准、<samp>4</samp>:取消確認中、<samp>5</samp>:作廢中、<samp>6</samp>:取消作廢中、<samp>N</samp>:不執行電子簽核</td>
@@ -7630,7 +7630,7 @@
     <tr>
       <td>TS014</td>
       <td>件數</td>
-      <td>件數</td>
+      <td>Piece(s)</td>
       <td>N</td>
       <td>5.0</td>
       <td></td>
@@ -7638,7 +7638,7 @@
     <tr>
       <td>TS015</td>
       <td>統一編號</td>
-      <td>統一編號</td>
+      <td>VAT No.</td>
       <td>C</td>
       <td>20.0</td>
       <td></td>
@@ -7646,7 +7646,7 @@
     <tr>
       <td>TS016</td>
       <td>發票聯數</td>
-      <td>發票聯數</td>
+      <td>Invoice Copy</td>
       <td>C</td>
       <td>1.0</td>
       <td><samp>1</samp>:二聯式、<samp>2</samp>:三聯式、<samp>3</samp>:二聯式收銀機發票、<samp>4</samp>:三聯式收銀機發票、<samp>5</samp>:電子計算機發票、<samp>6</samp>:免用統一發票、<samp>A</samp>:農產品收購憑證、<samp>G</samp>:海關代徵完稅憑證、<samp>N</samp>:不可抵扣專用發票、<samp>S</samp>:可抵扣專用發票、<samp>T</samp>:運輸發票、<samp>W</samp>:廢舊物資收購憑證、<samp>Z</samp>:其他</td>
@@ -7654,7 +7654,7 @@
     <tr>
       <td>TS017</td>
       <td>營業稅率</td>
-      <td>營業稅率</td>
+      <td>Tax Rate</td>
       <td>N</td>
       <td>8.5</td>
       <td>營業稅率<small>(%)</small></td>
@@ -7662,7 +7662,7 @@
     <tr>
       <td>TS018</td>
       <td>課稅別</td>
-      <td>課稅別</td>
+      <td>Tax Type</td>
       <td>C</td>
       <td>1.0</td>
       <td><samp>1</samp>:應稅內含、<samp>2</samp>:應稅外加、<samp>3</samp>:零稅率、<samp>4</samp>:免稅、<samp>9</samp>:不計稅</td>
@@ -7670,7 +7670,7 @@
     <tr>
       <td>TS019</td>
       <td>發票號碼</td>
-      <td>發票號碼</td>
+      <td>Invoice No.</td>
       <td>C</td>
       <td>20.0</td>
       <td></td>
@@ -7678,7 +7678,7 @@
     <tr>
       <td>TS020</td>
       <td>扣抵區分</td>
-      <td>扣抵區分</td>
+      <td>Division of Credit</td>
       <td>C</td>
       <td>1.0</td>
       <td><samp>1</samp>:可扣抵進貨及費用、<samp>2</samp>:可扣抵固定資產、<samp>3</samp>:不可扣抵進貨及費用、<samp>4</samp>:不可扣抵固定資產</td>
@@ -7686,7 +7686,7 @@
     <tr>
       <td>TS021</td>
       <td>發票日期</td>
-      <td>發票日期</td>
+      <td>Invoice Date</td>
       <td>C</td>
       <td>8.0</td>
       <td>發票日期<samp>[FORMATE:YMD]</samp></td>
@@ -7694,7 +7694,7 @@
     <tr>
       <td>TS022</td>
       <td>申報年月</td>
-      <td>申報年月</td>
+      <td>Declaration Month</td>
       <td>C</td>
       <td>6.0</td>
       <td>申報年月<samp>[FORMATE:YM]</samp></td>
@@ -7702,7 +7702,7 @@
     <tr>
       <td>TS023</td>
       <td>退貨金額</td>
-      <td>退貨金額</td>
+      <td>Returned Amt</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -7710,7 +7710,7 @@
     <tr>
       <td>TS024</td>
       <td>原幣退貨金額</td>
-      <td>原幣退貨金額</td>
+      <td>Amt returned (Trans. Curr)</td>
       <td>N</td>
       <td>21.6</td>
       <td>原幣未稅退貨金額</td>
@@ -7718,7 +7718,7 @@
     <tr>
       <td>TS025</td>
       <td>原幣稅額</td>
-      <td>原幣稅額</td>
+      <td>Tax (Trans. Curr.)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -7726,7 +7726,7 @@
     <tr>
       <td>TS026</td>
       <td>本幣退貨金額</td>
-      <td>本幣退貨金額</td>
+      <td>Amt of goods returned (Local Curr.)</td>
       <td>N</td>
       <td>21.6</td>
       <td>本幣未稅退貨金額</td>
@@ -7734,7 +7734,7 @@
     <tr>
       <td>TS027</td>
       <td>本幣稅額</td>
-      <td>本幣稅額</td>
+      <td>Tax (Local Curr.)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -7742,7 +7742,7 @@
     <tr>
       <td>TS028</td>
       <td>數量合計</td>
-      <td>數量合計</td>
+      <td>Total Qty</td>
       <td>N</td>
       <td>16.3</td>
       <td>單身之總數量</td>
@@ -7750,7 +7750,7 @@
     <tr>
       <td>TS029</td>
       <td>傳送次數</td>
-      <td>傳送次數</td>
+      <td>Time(s) of sending</td>
       <td>N</td>
       <td>1.0</td>
       <td>傳送次數<samp>[DEF:0]</samp></td>
@@ -7758,7 +7758,7 @@
     <tr>
       <td>TS030</td>
       <td>產生分錄碼</td>
-      <td>產生分錄碼</td>
+      <td>Generate Entry Code</td>
       <td>C</td>
       <td>1.0</td>
       <td></td>
@@ -7766,7 +7766,7 @@
     <tr>
       <td>TS031</td>
       <td>稅別碼</td>
-      <td>稅別碼</td>
+      <td>Tax Code</td>
       <td>C</td>
       <td>3.0</td>
       <td></td>
@@ -7774,7 +7774,7 @@
     <tr>
       <td>TS032</td>
       <td>註記號</td>
-      <td>註記號</td>
+      <td>Remark No.</td>
       <td>C</td>
       <td>20.0</td>
       <td></td>
@@ -7782,7 +7782,7 @@
     <tr>
       <td>TS033</td>
       <td>稅幣匯率</td>
-      <td>稅幣匯率</td>
+      <td>Tax Currency Exch. Rate</td>
       <td>N</td>
       <td>20.9</td>
       <td></td>
@@ -7814,7 +7814,7 @@
     <tr>
       <td>TS037</td>
       <td>確認者</td>
-      <td>確認者</td>
+      <td>Confirmed by</td>
       <td>C</td>
       <td>30.0</td>
       <td></td>
@@ -7868,7 +7868,7 @@
     <tr>
       <td>TT001</td>
       <td>單別</td>
-      <td>單別</td>
+      <td>Doc. Type</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -7876,7 +7876,7 @@
     <tr>
       <td>TT002</td>
       <td>單號</td>
-      <td>單號</td>
+      <td>Doc. No.</td>
       <td>C</td>
       <td>11.0</td>
       <td></td>
@@ -7884,7 +7884,7 @@
     <tr>
       <td>TT003</td>
       <td>序號</td>
-      <td>序號</td>
+      <td>Serial No.</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -7900,7 +7900,7 @@
     <tr>
       <td>TT005</td>
       <td>品名</td>
-      <td>品名</td>
+      <td>Item Name</td>
       <td>C</td>
       <td>120.0</td>
       <td></td>
@@ -7908,7 +7908,7 @@
     <tr>
       <td>TT006</td>
       <td>規格</td>
-      <td>規格</td>
+      <td>Spec.</td>
       <td>C</td>
       <td>120.0</td>
       <td></td>
@@ -7916,7 +7916,7 @@
     <tr>
       <td>TT007</td>
       <td>退貨數量</td>
-      <td>退貨數量</td>
+      <td>Returned Qty</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -7924,7 +7924,7 @@
     <tr>
       <td>TT008</td>
       <td>單位</td>
-      <td>單位</td>
+      <td>Unit</td>
       <td>C</td>
       <td>6.0</td>
       <td></td>
@@ -7932,7 +7932,7 @@
     <tr>
       <td>TT009</td>
       <td>進貨單別</td>
-      <td>進貨單別</td>
+      <td>Pur. Receipt Type</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -7940,7 +7940,7 @@
     <tr>
       <td>TT010</td>
       <td>進貨單號</td>
-      <td>進貨單號</td>
+      <td>Purchase Receipt No.</td>
       <td>C</td>
       <td>11.0</td>
       <td></td>
@@ -7948,7 +7948,7 @@
     <tr>
       <td>TT011</td>
       <td>進貨序號</td>
-      <td>進貨序號</td>
+      <td>Purchase Receipt S/N</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -7956,7 +7956,7 @@
     <tr>
       <td>TT012</td>
       <td>採購單別</td>
-      <td>採購單別</td>
+      <td>PO Type</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -7964,7 +7964,7 @@
     <tr>
       <td>TT013</td>
       <td>採購單號</td>
-      <td>採購單號</td>
+      <td>PO No.</td>
       <td>C</td>
       <td>11.0</td>
       <td></td>
@@ -7972,7 +7972,7 @@
     <tr>
       <td>TT014</td>
       <td>採購序號</td>
-      <td>採購序號</td>
+      <td>PO S/N</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -7980,7 +7980,7 @@
     <tr>
       <td>TT015</td>
       <td>性質</td>
-      <td>性質</td>
+      <td>Property</td>
       <td>C</td>
       <td>1.0</td>
       <td><samp>1</samp>:資產<samp>2</samp>:費用 <samp>[DE<samp>F</samp>:1]</samp></td>
@@ -7988,7 +7988,7 @@
     <tr>
       <td>TT016</td>
       <td>類型</td>
-      <td>類型</td>
+      <td>Type</td>
       <td>C</td>
       <td>1.0</td>
       <td><samp>1</samp>:退貨<samp>2</samp>:折讓 <samp>[DE<samp>F</samp>:1]</samp></td>
@@ -7996,7 +7996,7 @@
     <tr>
       <td>TT017</td>
       <td>計價數量</td>
-      <td>計價數量</td>
+      <td>Pricing Qty</td>
       <td>N</td>
       <td>16.3</td>
       <td></td>
@@ -8004,7 +8004,7 @@
     <tr>
       <td>TT018</td>
       <td>原幣單位進價</td>
-      <td>原幣單位進價</td>
+      <td>Purchase U/P in Trans. Curr.</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -8012,7 +8012,7 @@
     <tr>
       <td>TT019</td>
       <td>原幣退貨金額</td>
-      <td>原幣退貨金額</td>
+      <td>Amt returned (Trans. Curr)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -8020,7 +8020,7 @@
     <tr>
       <td>TT020</td>
       <td>原幣未稅金額</td>
-      <td>原幣未稅金額</td>
+      <td>Amt excl. tax (Trans. Curr.)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -8028,7 +8028,7 @@
     <tr>
       <td>TT021</td>
       <td>原幣稅額</td>
-      <td>原幣稅額</td>
+      <td>Tax (Trans. Curr.)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -8036,7 +8036,7 @@
     <tr>
       <td>TT022</td>
       <td>本幣未稅金額</td>
-      <td>本幣未稅金額</td>
+      <td>Amt excl. tax (Local Curr.)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -8044,7 +8044,7 @@
     <tr>
       <td>TT023</td>
       <td>本幣稅額</td>
-      <td>本幣稅額</td>
+      <td>Tax (Local Curr.)</td>
       <td>N</td>
       <td>21.6</td>
       <td></td>
@@ -8052,7 +8052,7 @@
     <tr>
       <td>TT024</td>
       <td>確認碼</td>
-      <td>確認碼</td>
+      <td>Confirmation Code</td>
       <td>C</td>
       <td>1.0</td>
       <td>Y/N/V</td>
@@ -8060,7 +8060,7 @@
     <tr>
       <td>TT025</td>
       <td>結帳碼</td>
-      <td>結帳碼</td>
+      <td>Settling Code</td>
       <td>C</td>
       <td>1.0</td>
       <td>Y/N</td>
@@ -8068,7 +8068,7 @@
     <tr>
       <td>TT026</td>
       <td>備註</td>
-      <td>備註</td>
+      <td>Remark</td>
       <td>V</td>
       <td>255.0</td>
       <td></td>
@@ -8084,7 +8084,7 @@
     <tr>
       <td>TT028</td>
       <td>應付憑單別</td>
-      <td>應付憑單別</td>
+      <td>AP Voucher Type</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -8092,7 +8092,7 @@
     <tr>
       <td>TT029</td>
       <td>應付憑單號</td>
-      <td>應付憑單號</td>
+      <td>AP Voucher No.</td>
       <td>C</td>
       <td>11.0</td>
       <td></td>
@@ -8100,7 +8100,7 @@
     <tr>
       <td>TT030</td>
       <td>應付憑單序號</td>
-      <td>應付憑單序號</td>
+      <td>AP Voucher S/N</td>
       <td>C</td>
       <td>4.0</td>
       <td></td>
@@ -8108,7 +8108,7 @@
     <tr>
       <td>TT031</td>
       <td>預算編號</td>
-      <td>預算編號</td>
+      <td>Budget No.</td>
       <td>C</td>
       <td>6.0</td>
       <td></td>
@@ -8116,7 +8116,7 @@
     <tr>
       <td>TT032</td>
       <td>預算科目</td>
-      <td>預算科目</td>
+      <td>Budget A/C</td>
       <td>C</td>
       <td>20.0</td>
       <td></td>
@@ -8124,7 +8124,7 @@
     <tr>
       <td>TT033</td>
       <td>預算部門</td>
-      <td>預算部門</td>
+      <td>Budget Dept.</td>
       <td>C</td>
       <td>6.0</td>
       <td></td>

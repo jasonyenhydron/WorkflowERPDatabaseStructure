@@ -1,11 +1,11 @@
 import json
-from pandas.io.json import json_normalize
-def jsonToDataFrame(jsonStr):    
-     return pd.json_normalize(jsonStr)
 import pandas as pd
 
-# -- HTML Strings for index.html
-index_string = '''
+def jsonToDataFrame(jsonStr):
+    return pd.json_normalize(jsonStr)
+
+# -- HTML Strings for index.html（iframe src 由程式動態填入第一個模組，避免寫死中文字串）
+index_string = '''\
 <HTML xmlns="http://www.w3.org/1999/xhtml">
 <HEAD>
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
@@ -31,7 +31,7 @@ index_string = '''
     </div>
   </div>
   <div class="FrameBlock">
-    <iframe name="myiframe" src="HTML\ADM_管理維護系統.html"></iframe>
+    <iframe name="myiframe" src="{DefaultSrc}"></iframe>
   </div>
 </div>
 <footer>Copyright &copy;2022 VPIC1. All Rights Reserved.  <i>(Japlin Chen)</i></footer>
@@ -40,9 +40,8 @@ index_string = '''
 '''
 
 # -- Begin of Main
-index_file = 'index.html'
-#MoudleName_Columns = ['ModuleID', 'ModuleName', 'ModuleNameViet', 'ModuleType', 'ModuleClass']
-#TableName_Columns = ['TableID', 'TableName', 'TableNameViet', 'ModuleID', 'ModuleName', 'ModuleNameViet', 'ModuleType']
+# index.html 輸出到專案根目錄（相對於 _Source 的上一層）
+index_file = '../index.html'
 
 # -- load json file : ModuleName.json
 _MoudleName = ''
@@ -68,9 +67,11 @@ _TableName_df = jsonToDataFrame(_TableName)
 # -- 建立 Menu List
 MenuList_string = '\n'
 unuseList_string = '\n'
+default_src = 'HTML/ADM_管理維護系統.html'  # 預設 iframe src（fallback）
 
 # -- 依照 MoudleName.json 排序 --> {MenuList}
 last_Module_Class = ''
+first_module_file = None  # 記錄第一個模組的 HTML 檔名，用於 iframe 預設頁
 for x in _ModuleName_df.index:
     # -- 增加 <hr>
     if (_ModuleName_df.loc[x,'ModuleClass'] != last_Module_Class) and (last_Module_Class > ''):
@@ -80,18 +81,22 @@ for x in _ModuleName_df.index:
     if (_ModuleName_df.loc[x,'ModuleClass'] != last_Module_Class) or (last_Module_Class == ''):
         last_Module_Class = _ModuleName_df.loc[x,'ModuleClass']
     # -- 取得內容
-    Module_ID = _ModuleName_df.loc[x,'ModuleID']
-    Module_Name = _ModuleName_df.loc[x,'ModuleName']
-    Module_Name_Viet = _ModuleName_df.loc[x,'ModuleNameViet']
-    Module_Type = _ModuleName_df.loc[x,'ModuleType']
+    Module_ID    = _ModuleName_df.loc[x,'ModuleID']
+    Module_Name  = _ModuleName_df.loc[x,'ModuleName']
+    Module_Type  = _ModuleName_df.loc[x,'ModuleType']
     Module_Class = _ModuleName_df.loc[x,'ModuleClass']
 
-    HTML_file = Module_ID + '_' + Module_Name +'.html'
-    # -- 判斷 ModuleClass 是否有 '_'
+    HTML_file = Module_ID + '_' + Module_Name + '.html'
+
+    # -- 記錄第一個有效模組的路徑作為 iframe 預設頁
+    if first_module_file is None and '_' not in Module_Class:
+        first_module_file = 'HTML/' + HTML_file
+
+    # -- 判斷 ModuleClass 是否有 '_'（表示停用模組，顯示灰色）
     if '_' in (_ModuleName_df.loc[x,'ModuleClass']):
-        unuseList_string = unuseList_string + '<a href="HTML\\' + HTML_file + '" target="myiframe" style="color:gray; background-color: #ddd;"><b><small>'+Module_Class.replace('_','')+' <samp>' + Module_ID+ '</samp> ' + Module_Name.replace('系統','')  + '</small></b></a>\n'
+        unuseList_string = unuseList_string + '<a href="HTML/' + HTML_file + '" target="myiframe" style="color:gray; background-color: #ddd;"><b><small>'+Module_Class.replace('_','')+' <samp>' + Module_ID+ '</samp> ' + Module_Name.replace('系統','')  + '</small></b></a>\n'
     else:
-        MenuList_string = MenuList_string + '<a href="HTML\\' + HTML_file + '" target="myiframe"><b><small>'+Module_Class+' <samp>' + Module_ID + '</samp> ' + Module_Name.replace('系統','') + '</small></b></a>\n'
+        MenuList_string = MenuList_string + '<a href="HTML/' + HTML_file + '" target="myiframe"><b><small>'+Module_Class+' <samp>' + Module_ID + '</samp> ' + Module_Name.replace('系統','') + '</small></b></a>\n'
 
 # -- 找出不在 MoudleName.json 的 TableName.json MoudleID 資料 --> {MenuList}
 last_Module_ID = ''
@@ -99,24 +104,31 @@ for x in _TableName_df.index:
 
     if (_TableName_df.loc[x,'ModuleID'] != last_Module_ID) or (last_Module_ID == ''):
         # -- 取得內容
-        Module_ID = _TableName_df.loc[x,'ModuleID']
+        Module_ID   = _TableName_df.loc[x,'ModuleID']
         Module_Name = _TableName_df.loc[x,'ModuleName']
         Module_Type = _TableName_df.loc[x,'ModuleType']
         last_Module_ID = Module_ID
 
-        if Module_Name == None:
+        if Module_Name is None:
             Module_Name = ''
         else:
             Module_Name = Module_Name.replace('系統','').strip()
-    
-        HTML_file = Module_ID + '_' + Module_Name +'.html'
+
+        HTML_file = Module_ID + '_' + Module_Name + '.html'
         # -- 判斷 TableName.json 的 MoudleID 是否不在 MoudleName.json 的 MoudleID
         # -- 不存在的話，就加入 unuseList_string
         if (_TableName_df.loc[x,'ModuleID'] not in _ModuleID):
-            unuseList_string = unuseList_string + '<a href="HTML\\' + HTML_file + '" target="myiframe" style="color:gray; background-color: #ddd;"><samp>' + Module_ID+ '</samp> ' + Module_Name  + '</a>\n'
+            unuseList_string = unuseList_string + '<a href="HTML/' + HTML_file + '" target="myiframe" style="color:gray; background-color: #ddd;"><samp>' + Module_ID+ '</samp> ' + Module_Name  + '</a>\n'
+
+# -- 決定 iframe 預設頁
+if first_module_file:
+    default_src = first_module_file
 
 # -- Write to the index.html
-with open(index_file, 'w', encoding="utf-8", errors='ignore') as m:
-    index_data = index_string.format(MenuList=MenuList_string+unuseList_string+'\n')
+with open(index_file, 'w', encoding="utf-8") as m:
+    index_data = index_string.format(
+        MenuList=MenuList_string + unuseList_string + '\n',
+        DefaultSrc=default_src
+    )
     m.write(index_data)
-    m.close()
+    print(f"產生 {index_file} 完成，預設頁：{default_src}")
